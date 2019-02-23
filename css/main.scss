@@ -9,7 +9,8 @@ $primary: darken(#69D1B6, 20%) !default; // Override
 @import "syntax-highlighting";
 
 body {
-  font-size: 1.15em;
+  font-size: 1.05em;
+  color: #111;
 }
 
 .container {
