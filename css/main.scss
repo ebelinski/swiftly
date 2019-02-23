@@ -102,10 +102,8 @@ table {
 }
 
 ul {
-  list-style-type: none;
-  padding: 0rem;
-
-  li:before { content: "— " };
+  list-style-type: "– ";
+  padding-left: 1.1em;
 }
 
 .with-placeholders {
