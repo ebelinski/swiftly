@@ -5,10 +5,9 @@ layout: default
 
 {% include opencol.html size=4 newrow=true %}
 
-* [Swift 4 cheatsheet]({{ "/cheatsheet" | relative_url }})
-
 ### Basics
 
+* [Cheatsheet]({{ "/cheatsheet" | relative_url }})
 * [Control flow]({{ "/control-flow" | relative_url }})
 * [Closures]({{ "/closures" | relative_url }}) ([mini]({{ "/closures-mini" | relative_url }}))
 * [Functions]({{ "/functions" | relative_url }})
