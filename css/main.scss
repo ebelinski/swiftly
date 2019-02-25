@@ -97,7 +97,8 @@ ul {
 }
 
 pre {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
+  line-height: 1.5em;
   padding: 9.5px;
   background-color: #f5f5f5;
   border: 1px solid #ccc;
@@ -114,7 +115,7 @@ pre {
   background: #fafafa;
   list-style-type: none;
   color: #999;
-  margin: 0.5em 0em;
+  margin: 0.5em 0em 1em;
 
   code {
     color: inherit;
