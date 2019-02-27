@@ -7,8 +7,6 @@ redirect_from:
   - /guard/
   - /guard-let/
   - /switch/
-  - /for/
-  - /for-in/
   - /while/
   - /switch/
   - /case/
