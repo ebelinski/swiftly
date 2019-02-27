@@ -35,9 +35,18 @@ layout: default
 
 #### Collection types
 
-* [Arrays](/arrays)
-* [Sets](/sets)
-* [Dictionaries](/dictionaries)
+* [Comparison](/collection-types-comparison)
+* [Arrays](/arrays) `[1, 2, 3]`
+* [Sets](/sets) `Set<int>()`
+* [Dictionaries](/dictionaries) `[:]`
+
+#### Functional
+
+* [map](/map)
+* [flatMap](/flatmap)
+* [reduce](/reduce)
+* [sorted](/sorted)
+* [forEach](/foreach)
 
 {% include closecol.html %}{% include opencol.html size=3 %}
 
