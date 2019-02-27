@@ -13,6 +13,12 @@ layout: default
 
 {% include closecol.html %}{% include opencol.html size=4 %}
 
+### Collections
+
+* [Arrays]({{ "/arrays" | relative_url }})
+* [Sets]({{ "/sets" | relative_url }})
+* [Dictionaries]({{ "/dictionaries" | relative_url }})
+
 ### Misc
 
 * [Dispatch]({{ "/dispatch" | relative_url }})
