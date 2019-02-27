@@ -13,7 +13,7 @@ redirect_from:
 
 **Variables and constants** are used to hold pieces of data. Variables can change over time (mutable), while constants must stay the same (immutable). Sometimes, the word "variables" is used to describe both variables and constants.
 
-# Variables
+### Variables
 
 Variables are declared with `var`:
 
@@ -39,7 +39,7 @@ numberOfToys += 1
 print(numberOfToys) // Prints "9"
 ```
 
-# Constants
+### Constants
 
 Constants are declared with `let`:
 

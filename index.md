@@ -14,7 +14,7 @@ layout: default
 * [Closures]({{ "/closures" | relative_url }})
 * [Functions]({{ "/functions" | relative_url }})
 
-### Control flow
+#### Control flow
 
 * [If]({{ "/if" | relative_url }}) `if, if let`
 * [Guard]({{ "/guard" | relative_url }})
