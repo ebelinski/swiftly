@@ -7,7 +7,6 @@ layout: default
 
 ### Basics
 
-* [Cheatsheet]({{ "/cheatsheet" | relative_url }})
 * [Control flow]({{ "/control-flow" | relative_url }})
 * [Closures]({{ "/closures" | relative_url }}) ([mini]({{ "/closures-mini" | relative_url }}))
 * [Functions]({{ "/functions" | relative_url }})
