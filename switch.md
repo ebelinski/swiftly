@@ -9,7 +9,7 @@ redirect_from:
 
 {% include opencol.html size=6 newrow=true %}
 
-#### Switch with equality
+### Switch with equality
 
 A `default` case is necessary when not all cases are covered.
 
@@ -31,7 +31,7 @@ describe(animal: "Giraffe")
 
 {% include closecol.html %}{% include opencol.html size=6 %}
 
-#### Switch with tuples
+### Switch with tuples
 
 Here, all cases are covered, so a `default` case is unnecessary.
 

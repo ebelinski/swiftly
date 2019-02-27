@@ -11,7 +11,7 @@ Guard statements can be used to reduce indentation on the happy path. In a guard
 
 {% include opencol.html size=6 newrow=true %}
 
-#### Simple guard
+### Simple guard
 
 ```swift
 func divide(x: Int, y: Int) -> Int? {
@@ -30,7 +30,7 @@ print(divide(x: 5, y: 0))
 
 {% include closecol.html %}{% include opencol.html size=6 %}
 
-#### Guard let
+### Guard let
 
 ```swift
 func greet(name: String?) {

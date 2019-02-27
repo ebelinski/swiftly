@@ -11,7 +11,7 @@ The common for loop `for (i = a; i < b; i++)` does not exist in Swift. Instead, 
 
 {% include opencol.html size=6 newrow=true %}
 
-#### Simple for-in
+### Simple for-in
 
 ```swift
 let birds = ["Owl", "Crane"]
@@ -25,7 +25,7 @@ for bird in birds {
 
 {% include closecol.html %}{% include opencol.html size=6 %}
 
-#### For-in with index
+### For-in with index
 
 ```swift
 let birds = ["Owl", "Crane"]

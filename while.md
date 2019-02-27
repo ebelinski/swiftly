@@ -9,7 +9,7 @@ A while loop will run the code block each time the conditional is true. A repeat
 
 {% include opencol.html size=6 newrow=true %}
 
-#### Simple while
+### Simple while
 
 ```swift
 var steps = 2
@@ -32,7 +32,7 @@ while steps > 0 {
 
 {% include closecol.html %}{% include opencol.html size=6 %}
 
-#### Repeat-while
+### Repeat-while
 
 ```swift
 var steps = 2
