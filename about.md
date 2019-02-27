@@ -4,7 +4,7 @@ title: About
 description: 
 ---
 
-swiftly.dev is a one-stop quick reference spot for Swift developers.
+Swiftly is a one-stop quick reference spot for Swift developers.
 
 Got any feedback? I can be reached a number of ways:
 
