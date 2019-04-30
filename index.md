@@ -40,14 +40,6 @@ layout: default
 * [Sets](/sets) `Set<int>()`
 * [Dictionaries](/dictionaries) `[:]`
 
-#### Functional
-
-* [map](/map)
-* [flatMap](/flatmap)
-* [reduce](/reduce)
-* [sorted](/sorted)
-* [forEach](/foreach)
-
 {% include closecol.html %}{% include opencol.html size=3 %}
 
 #### Structs & classes
@@ -71,6 +63,14 @@ layout: default
 * [Identity](/) `===, !==`
 
 {% include closecol.html %}{% include opencol.html size=3 %}
+
+#### Functional
+
+* [map](/map)
+* [flatMap](/flatmap)
+* [reduce](/reduce)
+* [sorted](/sorted)
+* [forEach](/foreach)
 
 #### Advanced
 
