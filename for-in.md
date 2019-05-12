@@ -38,3 +38,7 @@ for (i, bird) in birds.enumerated() {
 ```
 
 {% include closecol.html closerow=true %}
+
+### See also
+
+* [forEach](/foreach)
