@@ -81,10 +81,4 @@ layout: default
 * [Generics](/generics)
 * [Access control](/access-control)
 
-#### External
-
-* [Swift versions](https://iosref.com/swift/)
-* [All docs](https://swift.org/documentation/)
-* [Swift Book](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
-
 {% include closecol.html closerow=true %}
