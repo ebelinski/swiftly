@@ -36,9 +36,9 @@ layout: default
 #### Collection types
 
 * [Comparison](/collection-types-comparison)
-* [Arrays](/arrays) `[1, 2, 3]`
-* [Sets](/sets) `Set<int>()`
-* [Dictionaries](/dictionaries) `[:]`
+* [Arrays `[1, 2, 3]`](/arrays)
+* [Sets `Set<int>()`](/sets)
+* [Dictionaries `[:]`](/dictionaries)
 
 {% include closecol.html %}{% include opencol.html size=3 %}
 
@@ -54,13 +54,13 @@ layout: default
 
 #### Operators
 
-* [Math](/) `+, -, *, /`
-* [Comparison](/comparison) `==, >`
-* [Ternary](/ternary) `_ ? _ : _`
-* [Nil-coalescing](/nil-coalescing) `??`
-* [Range](/) `1...5`
-* [Logical](/) `!, &&, !!`
-* [Identity](/) `===, !==`
+* [Math `+, -, *, /`](/)
+* [Comparison `==, >`](/comparison)
+* [Ternary `_ ? _ : _`](/ternary)
+* [Nil-coalescing `??`](/nil-coalescing)
+* [Range `1...5`](/)
+* [Logical `!, &&, !!`](/)
+* [Identity `===, !==`](/)
 
 {% include closecol.html %}{% include opencol.html size=3 %}
 
