@@ -10,7 +10,7 @@ layout: default
 * [Variables](/variables)
 * [Print](/print)
 * [Comments](/comments)
-* [Optionals](/optionals)
+* [Optionals](/optionals) *
 * [Closures](/closures)
 * [Functions](/functions)
 
@@ -26,59 +26,59 @@ layout: default
 
 #### Basic types
 
-* [Numbers](/numbers)
-* [Types](/types)
-* [Booleans](/booleans)
-* [Tuples](/tuples)
-* [Strings](/strings)
-* [Enums](/enums)
+* [Numbers](/numbers) *
+* [Types](/types) *
+* [Booleans](/booleans) *
+* [Tuples](/tuples) *
+* [Strings](/strings) *
+* [Enums](/enums) *
 
 #### Collection types
 
-* [Comparison](/collection-types-comparison)
+* [Comparison](/collection-types-comparison)  *
 * [Arrays `[1, 2, 3]`](/arrays)
-* [Sets `Set<int>()`](/sets)
-* [Dictionaries `[:]`](/dictionaries)
+* [Sets `Set<int>()`](/sets) *
+* [Dictionaries `[:]`](/dictionaries) *
 
 {% include closecol.html %}{% include opencol.html size=3 %}
 
 #### Structs & classes
 
-* [Comparison](/structs-vs-classes)
-* [Structs](/structs)
-* [Classes](/classes)
-* [Pointers](/pointers)
-* [Properties](/properties)
-* [Methods](/methods)
-* [Inheritance](/inheritance)
+* [Comparison](/structs-vs-classes) *
+* [Structs](/structs) *
+* [Classes](/classes) *
+* [Pointers](/pointers) *
+* [Properties](/properties) *
+* [Methods](/methods) *
+* [Inheritance](/inheritance) *
 
 #### Operators
 
-* [Math `+, -, *, /`](/)
-* [Comparison `==, >`](/comparison)
-* [Ternary `_ ? _ : _`](/ternary)
-* [Nil-coalescing `??`](/nil-coalescing)
-* [Range `1...5`](/)
-* [Logical `!, &&, !!`](/)
-* [Identity `===, !==`](/)
+* [Math `+, -, *, /`](/math) *
+* [Comparison `==, >`](/comparison) *
+* [Ternary `_ ? _ : _`](/ternary) *
+* [Nil-coalescing `??`](/nil-coalescing) *
+* [Range `1...5`](/range) *
+* [Logical `!, &&, !!`](/logical) *
+* [Identity `===, !==`](/identity) *
 
 {% include closecol.html %}{% include opencol.html size=3 %}
 
 #### Functional
 
-* [map](/map)
-* [flatMap](/flatmap)
-* [reduce](/reduce)
-* [sorted](/sorted)
-* [forEach](/foreach)
+* [map](/map) *
+* [flatMap](/flatmap) *
+* [reduce](/reduce) *
+* [sorted](/sorted) *
+* [forEach](/foreach) *
 
 #### Advanced
 
-* [Errors](/errors)
+* [Errors](/errors) *
 * [Dispatch](/dispatch)
-* [Extensions](/extensions)
-* [Protocols](/protocols)
-* [Generics](/generics)
-* [Access control](/access-control)
+* [Extensions](/extensions) *
+* [Protocols](/protocols) *
+* [Generics](/generics) *
+* [Access control](/access-control) *
 
 {% include closecol.html closerow=true %}
