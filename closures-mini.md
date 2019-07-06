@@ -10,7 +10,7 @@ redirect_from:
   - /lambdas-mini/
 ---
 
-The mini version of the [closures guide]({{ "/swift-closures" | relative_url }}).
+The mini version of the [closures guide](/swift-closures).
 
 ### Closure inline
 

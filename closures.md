@@ -11,7 +11,7 @@ redirect_from:
   - /lambdas/
 ---
 
-Swift closures are blocks of functionality that are self-contained, and can be passed around. They are similar to _blocks_ in C and Objective-C, as well as _lambdas_ in other languages. [Functions]({{ "/swift-functions" | relative_url }}) are a special type of closures.
+Swift closures are blocks of functionality that are self-contained, and can be passed around. They are similar to _blocks_ in C and Objective-C, as well as _lambdas_ in other languages. [Functions](/swift-functions") are a special type of closures.
 
 * TOC
 {:toc}
@@ -69,7 +69,7 @@ let sortedInts = [4, 30, 7, 9, 1].sorted(by: myClosure)
 
 ### Closure as a function
 
-A [function]({{ "/swift-functions" | relative_url }}) is a type of closure, so a closure can be stored as a function to be used later.
+A [function](/swift-functions") is a type of closure, so a closure can be stored as a function to be used later.
 
 ```swift
 func myClosure(x: Int, y: Int) -> Bool {
@@ -151,7 +151,7 @@ multiplyRemotely(x: 5, y: 6) { print($0) }
 
 ### Further reading
 
-* [Swift functions guide]({{ "/swift-functions" | relative_url }})
+* [Swift functions guide](/swift-functions")
 * [Closures (The Swift Programming Language)](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Closures.html)
 
 ### Notes

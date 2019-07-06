@@ -7,7 +7,7 @@ redirect_from:
 ---
 {::options parse_block_html="true" /}
 
-Functions are a special type of [closures]({{ "/swift-closures" | relative_url }}). Functions are first-class types, so a function can be passed in as a parameter to another function. Also, a function can return another function.
+Functions are a special type of [closures](/swift-closures"). Functions are first-class types, so a function can be passed in as a parameter to another function. Also, a function can return another function.
 
 * TOC
 {:toc}
@@ -135,5 +135,5 @@ print(result)
 
 ### Further reading
 
-* [Swift closures guide]({{ "/swift-closures" | relative_url }})
+* [Swift closures guide](/swift-closures")
 * [Functions (The Swift Programming Language)](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html)
