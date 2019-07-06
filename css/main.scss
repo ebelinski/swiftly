@@ -3,10 +3,13 @@
 ---
 
 $primary: darken(#69D1B6, 20%) !default; // Override
+$primaryDark: #69D1B6;
+$primaryDarkHover: lighten(#69D1B6, 20%);
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "bootstrap/bootstrap";
 @import "syntax-highlighting";
+@import "syntax-highlighting-dark";
 
 /* latin-ext */
 @font-face {
@@ -196,5 +199,84 @@ li .highlighter-rouge {
 @media screen and (min-width: 767px) {
   .nowrap {
     white-space: nowrap;
+  }
+}
+
+// TODO: Refactor this later
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #222;
+    color: white;
+  }
+
+  a {
+    color: $primaryDark;
+  }
+
+  a:hover {
+    color: $primaryDarkHover; 
+  }
+
+  .header {
+    border-color: white;
+
+    h1 {
+      a:hover {
+        color: $primaryDark;
+      }
+    }
+
+    h2 {
+      color: #ccc;
+    }
+  }
+
+  #site-footer {
+    border-color: white;
+  }
+
+  #markdown-toc {
+    background: #333;
+    border: 1px solid #999;
+  }
+
+  table th {
+    background: #333;
+  }
+
+  table th, table td {
+    border: 1px solid #999;
+  }
+
+  pre {
+    background-color: #333;
+    border: 1px solid #ccc;
+    color: white;
+  }
+
+  .with-placeholders {
+    .placeholder {
+      border: 1px solid #999;
+      background: #666;
+    }
+  }
+
+  table {
+    td.green {
+      background-color: #0d8321;
+    }
+
+    td.light-green {
+      background-color: #0d4d14;
+    }
+  }
+
+  .color-preview {
+    border: 1px solid #222 !important;
+  }
+
+  li .highlighter-rouge {
+    color: #ddd;
+    background-color: #555;
   }
 }
