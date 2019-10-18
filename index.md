@@ -54,7 +54,7 @@ layout: default
 
 #### Operators
 
-* [Math `+, -, *, /`](/math) *
+* [Math `+, -, *, /, %`](/math)
 * [Comparison `==, >`](/comparison) *
 * [Ternary `_ ? _ : _`](/ternary) *
 * [Nil-coalescing `??`](/nil-coalescing) *

@@ -27,4 +27,3 @@ print(divide(x: 16, y: 2))
 print(divide(x: 16, y: 0))
 // Prints "nil"
 ```
-
