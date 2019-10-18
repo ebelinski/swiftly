@@ -42,3 +42,27 @@ But the type can also be explicitly declared:
 let pointsPerPlayer: [String: Int] = ["Rashida": 150, "Isabella": 275, "Tomoko": 115]
 let nicknamePerPlayer: [String: String] = ["Rashida": "Ida", "Isabella": "Isa", "Tomoko": "Ko"]
 ```
+
+### Empty dictionaries
+
+An empty dictionary must be defined with a type:
+
+```swift
+var pointsPerPlayer: [String: Int] = [:]
+print(pointsPerPlayer) // [:]
+```
+
+Alternatively, initializer syntax may be used:
+
+```swift
+var pointsPerPlayer = [String: Int]()
+print(pointsPerPlayer) // [:]
+```
+
+A dictionary can be emptied after creation:
+
+```swift
+var pointsPerPlayer = ["Rashida": 150, "Isabella": 275, "Tomoko": 115]
+pointsPerPlayer = [:]
+print(pointsPerPlayer) // [:]
+```
