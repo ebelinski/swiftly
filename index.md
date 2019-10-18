@@ -10,7 +10,7 @@ layout: default
 * [Variables](/variables)
 * [Print](/print)
 * [Comments](/comments)
-* [Optionals](/optionals) *
+* [Optionals](/optionals)
 * [Closures](/closures)
 * [Functions](/functions)
 
