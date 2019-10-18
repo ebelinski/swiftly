@@ -16,6 +16,9 @@ let pointsPerPlayer = ["Rashida": 150, "Isabella": 275, "Tomoko": 115]
 let nicknamePerPlayer = ["Rashida": "Ida", "Isabella": "Isa", "Tomoko": "Ko"]
 ```
 
+* TOC
+{:toc}
+
 ### Mutability
 
 Dictionaries defined with **var** are mutable:
@@ -65,4 +68,32 @@ A dictionary can be emptied after creation:
 var pointsPerPlayer = ["Rashida": 150, "Isabella": 275, "Tomoko": 115]
 pointsPerPlayer = [:]
 print(pointsPerPlayer) // [:]
+```
+
+### Iterating over dictionaries
+
+A dictionary may be interated over using [for-in](/for-in).
+
+```swift
+var pointsPerPlayer = ["Rashida": 150, "Isabella": 275, "Tomoko": 115]
+for (player, points) in pointsPerPlayer {
+  print("\(player) has \(points) points.")
+}
+// Output:
+// Tomoko has 115 points.
+// Rashida has 150 points.
+// Isabella has 275 points.
+```
+
+### `count` and `isEmpty`
+
+`count` returns the number of elements in the dictionary. `isEmpty` can be used to determine if the dictionary has no elements.
+
+```swift
+var pointsPerPlayer = ["Rashida": 150, "Isabella": 275, "Tomoko": 115]
+print(pointsPerPlayer.count) // 3
+print(pointsPerPlayer.isEmpty) // false
+pointsPerPlayer = [:]
+print(pointsPerPlayer.count) // 0
+print(pointsPerPlayer.isEmpty) // true
 ```

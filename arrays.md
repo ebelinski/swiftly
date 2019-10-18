@@ -15,6 +15,9 @@ let someStrings = ["Hello", "Planet", "Earth"]
 let someArraysOfInts = [[1, 2], [10, 20]]
 ```
 
+* TOC
+{:toc}
+
 ### Mutability
 
 Arrays defined with **var** are mutable:
