@@ -227,7 +227,7 @@ li .highlighter-rouge {
   }
 
   .header {
-    border-color: white;
+    border-color: white !important;
 
     h1 {
       a:hover {
@@ -241,7 +241,7 @@ li .highlighter-rouge {
   }
 
   #site-footer {
-    border-color: white;
+    border-color: white !important;
   }
 
   #markdown-toc {

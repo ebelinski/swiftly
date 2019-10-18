@@ -35,7 +35,7 @@ layout: default
 
 #### Collection types
 
-* [Comparison](/collection-types-comparison)  *
+* [Comparison](/collection-types-comparison) *
 * [Arrays `[1, 2, 3]`](/arrays)
 * [Sets `Set<int>()`](/sets) *
 * [Dictionaries `[:]`](/dictionaries)
@@ -44,9 +44,7 @@ layout: default
 
 #### Structs & classes
 
-* [Comparison](/structs-vs-classes) *
-* [Structs](/structs) *
-* [Classes](/classes) *
+* [Structs & classes](/structs-and-classes)
 * [Pointers](/pointers) *
 * [Properties](/properties) *
 * [Methods](/methods) *
