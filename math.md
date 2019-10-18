@@ -13,8 +13,8 @@ redirect_from:
   - /multiplication/
   - /multiply/
   - /times/
-  - /modulo/
   - /remainder/
+  - /modulo/
 ---
 {::options parse_block_html="true" /}
 
@@ -60,9 +60,9 @@ print(100 / 25) // 4
 
 {% include closecol.html closerow=true %}
 
-### Modulo (`%`)
+### Remainder (`%`)
 
-The modulo operator can be used to find the _modulus_: the remainder after division of one number by another.
+The remainder operator can be used to find the _modulus_: the remainder after division of one number by another.
 
 ```swift
 print(9 % 2) // 1
