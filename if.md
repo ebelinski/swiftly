@@ -23,7 +23,7 @@ if 5 > 6 {
 
 {% include closecol.html %}{% include opencol.html size=6 %}
 
-### Ternary conditional operator
+### [Ternary conditional operator](/ternary)
 
 ```swift
 5 > 6 ? print("5 is more than 6")
