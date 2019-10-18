@@ -1,4 +1,4 @@
-# iOS Ref
+# Swiftly.dev
 
 A Swift reference website built with Jekyll.
 
