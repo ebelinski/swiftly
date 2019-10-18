@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Ternary (_ ? _ : _)"
+title: "Ternary conditional operator (_ ? _ : _)"
 description: 
 redirect_from:
   - /ternary-conditional-operator/

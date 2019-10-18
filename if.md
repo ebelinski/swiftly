@@ -45,27 +45,21 @@ func greet(name: String?) {
     print("Hello guest!")
   }  
 }
-greet(name: "Asma")
-greet(name: nil)
-// Output: 
-// Hello Asma!
-// Hello guest!
+greet(name: "Asma") // Hello Asma!
+greet(name: nil) // Hello guest!
 ```
 
 {% include closecol.html %}{% include opencol.html size=6 %}
 
-### Nil-coalescing operator
+### [Nil-coalescing operator](/nil-coalescing)
 
 ```swift
 func greet(name: String?) {
   let unwrappedName = name ?? "guest"
   print("Hello \(unwrappedName)!")
 }
-greet(name: "Asma")
-greet(name: nil)
-// Output: 
-// Hello Asma!
-// Hello guest!
+greet(name: "Asma") // Hello Asma!
+greet(name: nil) // Hello guest!
 ```
 
 {% include closecol.html closerow=true %}
