@@ -7,7 +7,7 @@ redirect_from:
 ---
 {::options parse_block_html="true" /}
 
-Arrays store values of a certain type in an ordered list. Examples:
+**Arrays** store values of a certain type in an ordered list. Examples:
 
 ```swift
 let someInts = [1, 3, 5]
