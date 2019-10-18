@@ -26,7 +26,7 @@ layout: default
 
 #### Basic types
 
-* [Numbers](/numbers) *
+* [Numbers](/numbers)
 * [Types](/types) *
 * [Booleans](/booleans) *
 * [Tuples](/tuples) *
