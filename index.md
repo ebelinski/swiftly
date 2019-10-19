@@ -73,11 +73,11 @@ layout: default
 
 #### Advanced
 
-* [Errors](/errors) *
+<!-- * [Errors](/errors) * -->
 * [Dispatch](/dispatch)
-* [Extensions](/extensions) *
-* [Protocols](/protocols) *
-* [Generics](/generics) *
-* [Access control](/access-control) *
+<!-- * [Extensions](/extensions) * -->
+<!-- * [Protocols](/protocols) * -->
+<!-- * [Generics](/generics) * -->
+<!-- * [Access control](/access-control) * -->
 
 {% include closecol.html closerow=true %}
