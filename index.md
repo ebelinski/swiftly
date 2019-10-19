@@ -54,7 +54,7 @@ layout: default
 * [Comparison `==, >`](/comparison) *
 * [Ternary `_ ? _ : _`](/ternary)
 * [Nil-coalescing `??`](/nil-coalescing)
-* [Range `1...5`](/range) *
+* [Range `1...5`](/range)
 * [Logical `!, &&, !!`](/logical) *
 * [Identity `===, !==`](/identity) *
 
