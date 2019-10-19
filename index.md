@@ -56,7 +56,7 @@ layout: default
 * [Nil-coalescing `??`](/nil-coalescing)
 * [Range `1...5`](/range)
 * [Logical `!, &&, !!`](/logical)
-* [Identity `===, !==`](/identity) *
+* [Identity `===, !==`](/identity)
 
 {% include closecol.html %}{% include opencol.html size=3 %}
 
