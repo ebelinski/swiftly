@@ -55,7 +55,7 @@ layout: default
 * [Ternary `_ ? _ : _`](/ternary)
 * [Nil-coalescing `??`](/nil-coalescing)
 * [Range `1...5`](/range)
-* [Logical `!, &&, !!`](/logical) *
+* [Logical `!, &&, !!`](/logical)
 * [Identity `===, !==`](/identity) *
 
 {% include closecol.html %}{% include opencol.html size=3 %}
