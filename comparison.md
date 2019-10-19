@@ -15,6 +15,9 @@ redirect_from:
 ---
 {::options parse_block_html="true" /}
 
+* TOC
+{:toc}
+
 **Comparison** operators return a [`Bool`](/bool) to indicate whether or not a given statement is true. They are used heavily in [if](/if) statements.
 
 {% include opencol.html size=6 newrow=true %}
@@ -78,3 +81,62 @@ print(18 <= 12) // false
 ```
 
 {% include closecol.html closerow=true %}
+
+## Comparing equality of two struct instances
+
+The `==` and `!=` may also be used to check to see if two struct instances have the same values. For this, the struct must conform to [`Equatable`](https://developer.apple.com/documentation/swift/equatable).
+
+```swift
+struct Player: Equatable {
+  var name: String
+  var score: Int
+}
+
+let player1 = Player(name: "Tomoko", score: 100)
+let player2 = Player(name: "Tomoko", score: 100)
+let player3 = Player(name: "Isabella", score: 350)
+let player4 = player1
+
+print(player1 == player2) // true
+print(player1 == player3) // false
+print(player1 == player4) // true
+
+print(player1 != player2) // false
+print(player1 != player3) // true
+print(player1 != player4) // false
+```
+
+## Comparing equality of two class instances
+
+The `==` and `!=` may also be used to check to see if two class instances have the same values. For this, the class must also conform to [`Equatable`](https://developer.apple.com/documentation/swift/equatable), which involves more work than if it was a struct.
+
+```swift
+class Player: Equatable {
+  var name: String
+  var score: Int
+
+  init(name: String, score: Int) {
+    self.name = name
+    self.score = score
+  }
+
+  static func == (lhs: Player, rhs: Player) -> Bool {
+    return lhs.name == rhs.name && lhs.score == rhs.score
+  }
+}
+
+let player1 = Player(name: "Tomoko", score: 100)
+let player2 = Player(name: "Tomoko", score: 100)
+let player3 = Player(name: "Isabella", score: 350)
+let player4 = player1
+
+print(player1 == player2) // true
+print(player1 == player3) // false
+print(player1 == player4) // true
+
+print(player1 != player2) // false
+print(player1 != player3) // true
+print(player1 != player4) // false
+```
+
+**Note**: While `==` and `!=` compare class instance equality, [`===` and `!==`](/identity) compare identity, which is a similar, but different concept.
