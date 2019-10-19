@@ -8,9 +8,9 @@ description:
 * TOC
 {:toc}
 
-**map()** is a functional method that returns an array that contains the results of mapping a given closure over the elements of a sequence. Similar methods are [compactMap](/compactMap) and [flatMap](/flatMap).
+**map** is a functional method that returns an array that contains the results of mapping a given closure over the elements of a sequence. Similar methods are [compactMap](/compactMap) and [flatMap](/flatMap).
 
-### `map()` over array of `Ints`
+### `map` over array of `Ints`
 
 ```swift
 let numbers = [1, 2, 3, 4]
@@ -18,7 +18,7 @@ let numbersSquared = numbers.map { $0 * $0 }
 print(numbersSquared) // [1, 4, 9, 16]
 ```
 
-### `map()` over array of `Strings`
+### `map` over array of `Strings`
 
 ```swift
 let players = ["Ayesha", "Beatrix", "Chris", "Daisy"]
