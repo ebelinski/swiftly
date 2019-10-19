@@ -14,8 +14,6 @@ They cannot be used on struct instances, because structs are value types, not re
 
 ### Comparing two class instances
 
-Instances of classes that conform to [`Equatable`](https://developer.apple.com/documentation/swift/equatable) can be compared with `===` and `!===`:
-
 ```swift
 class Player {
   var name: String
