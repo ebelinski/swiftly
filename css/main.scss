@@ -41,6 +41,14 @@ header, article, footer {
   max-width: 820px !important;
 }
 
+@media screen and (min-width: 850px) {
+  header, article, footer {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+
 header {
   border-width: 0px 0px 1px 0px;
   border-style: solid;
