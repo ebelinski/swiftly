@@ -27,10 +27,9 @@ layout: default
 #### Basic types
 
 * [Numbers](/numbers)
-* [Types](/types) *
 * [Booleans](/booleans)
 * [Tuples](/tuples) *
-* [Strings](/strings) *
+* [Strings](/strings)
 * [Enums](/enums) *
 
 #### Collection types
