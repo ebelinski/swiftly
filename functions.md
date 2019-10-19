@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Swift 4 guide: functions"
+title: "Functions"
 description: A quick reference guide for functions in Swift 4, with simple examples and functional examples.
 redirect_from:
   - /function/

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Swift 4 guide&colon; dispatch
+title: "Dispatch"
 description: ...
 ---
 
