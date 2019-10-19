@@ -63,7 +63,7 @@ layout: default
 #### Functional
 
 * [Comparison](/functional-methods-comparison)
-* [map](/map) *
+* [map](/map)
 * [compactMap](/compactmap) *
 * [flatMap](/flatmap) *
 * [filter](/filter) *
