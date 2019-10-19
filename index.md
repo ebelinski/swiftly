@@ -45,7 +45,6 @@ layout: default
 #### Structs & classes
 
 * [Structs & classes](/structs-and-classes)
-* [Pointers](/pointers) *
 * [Properties](/properties) *
 * [Methods](/methods) *
 * [Inheritance](/inheritance) *
