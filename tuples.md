@@ -1,7 +1,9 @@
 ---
 layout: default
 title: "Tuples"
-description: 
+description:  
+redirect_from:
+  - /tuple/
 ---
 {::options parse_block_html="true" /}
 
