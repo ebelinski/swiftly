@@ -9,19 +9,9 @@ description:
 
 ### Similarities to `for-in`
 
-The following is a [`for-in`](/for-in) example:
+{% include opencol.html size=6 newrow=true %}
 
-```swift
-let birds = ["Owl", "Crane"]
-for bird in birds {
-  print(bird)
-}
-// Output: 
-// Owl
-// Crane
-```
-
-This can be rewritten using `forEach` in the following way:
+`forEach` loop:
 
 ```swift
 let birds = ["Owl", "Crane"]
@@ -33,7 +23,21 @@ birds.forEach {
 // Crane
 ```
 
-There is no significant difference here.
+{% include closecol.html %}{% include opencol.html size=6 %}
+
+[`for-in`](/for-in) equivalent:
+
+```swift
+let birds = ["Owl", "Crane"]
+for bird in birds {
+  print(bird)
+}
+// Output: 
+// Owl
+// Crane
+```
+
+{% include closecol.html closerow=true %}
 
 ### Differences to `for-in`
 
