@@ -138,7 +138,7 @@ class Person {
   }
 
   class func intro() {
-    print("Hi, I'm a class method.")
+    print("I'm a class method.")
   }
 }
 
