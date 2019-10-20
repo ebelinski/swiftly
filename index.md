@@ -45,7 +45,7 @@ layout: default
 
 * [Structs & classes](/structs-and-classes)
 * [Properties](/properties) *
-* [Methods](/methods) *
+* [Methods](/methods)
 * [Inheritance](/inheritance) *
 
 #### Operators
