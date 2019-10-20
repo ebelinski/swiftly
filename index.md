@@ -11,7 +11,7 @@ layout: default
 * [Print](/print)
 * [Comments](/comments)
 * [Optionals](/optionals)
-* [Closures](/closures)
+* [Closures](/closures) ([mini](/closures-mini))
 * [Functions](/functions)
 
 #### Control flow

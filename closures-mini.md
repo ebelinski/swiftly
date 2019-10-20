@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Swift 4 mini guide: closures"
-description: A mini reference guide for closures in Swift 4.
+title: "Closures (mini version)"
+description: 
 redirect_from: 
   - /closure-mini/
   - /block-mini/
@@ -10,7 +10,7 @@ redirect_from:
   - /lambdas-mini/
 ---
 
-The mini version of the [closures guide](/swift-closures).
+The mini version of the [closures guide](/closures).
 
 ### Closure inline
 
