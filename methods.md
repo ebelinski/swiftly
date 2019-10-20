@@ -101,11 +101,9 @@ print(player.level) // 2
 
 ### Static/class methods
 
-Static and class methods (also known as _type methods_) belong to a struct/class type itself, rather than an instance of a struct/class.
+Static and class methods (also known as _type methods_) belong to a struct/class type itself, rather than an instance of a struct/class. They are declared with `static` for a struct or `class` for a class:
 
 {% include opencol.html size=6 newrow=true %}
-
-#### Struct example
 
 ```swift
 struct Person {
@@ -124,8 +122,6 @@ Person.intro() // I'm a static method.
 ```
 
 {% include closecol.html %}{% include opencol.html size=6 %}
-
-#### Class example
 
 ```swift
 class Person {
