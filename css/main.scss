@@ -52,7 +52,6 @@ header, article, footer {
 header {
   border-width: 0px 0px 1px 0px;
   border-style: solid;
-  border-color: black;
   text-align: center;
   padding: 0.9em 0em 1.2em;
 
@@ -79,8 +78,7 @@ header {
 footer {
   border-width: 1px 0px 0px 0px;
   border-style: solid;
-  border-color: black;
-  margin: 0em;
+  margin: 1.5em 0em 0em 0em;
   padding: 1.4em 0em;
 
   p { margin: 0em; }
@@ -235,8 +233,6 @@ li .highlighter-rouge {
   }
 
   .header {
-    border-color: white !important;
-
     h1 {
       a:hover {
         color: $primaryDark;
@@ -246,10 +242,6 @@ li .highlighter-rouge {
     h2 {
       color: #ccc;
     }
-  }
-
-  #site-footer {
-    border-color: white !important;
   }
 
   #markdown-toc {
