@@ -71,6 +71,10 @@ layout: default
 * [sorted](/sorted)
 * [forEach](/foreach)
 
+#### Meta
+
+* [Swift versions](/swift-versions)
+
 #### Advanced
 
 <!-- * [Errors](/errors) * -->
