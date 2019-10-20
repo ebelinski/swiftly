@@ -22,11 +22,8 @@ func describe(animal: String) {
   default: print("Something else")
   }
 }
-describe(animal: "Owl")
-describe(animal: "Giraffe")
-// Output: 
-// "A bird"
-// "Something else"
+describe(animal: "Owl") // "A bird"
+describe(animal: "Bear") // "Something else"
 ```
 
 {% include closecol.html %}{% include opencol.html size=6 %}
@@ -44,11 +41,8 @@ func describe(point: (Int, Int)) {
   case (_, _): print("Elsewhere")
   }
 }
-describe(point: (5, 0))
-describe(point: (11, 9))
-// Output: 
-// "On x-axis"
-// "Elsewhere"
+describe(point: (5, 0)) // "On x-axis"
+describe(point: (11, 9)) // "Elsewhere"
 ```
 
 {% include closecol.html closerow=true %}
