@@ -5,7 +5,7 @@ description:
 ---
 {::options parse_block_html="true" /}
 
-**compactMap** is a [functional method](/functional-methods-comparison) that returns an [array](/arrays) that contains the results of mapping a given [closure](/closures) over the elements of a sequence. Similar methods are [map](/map) and [flatMap](/flatMap).
+**compactMap** is a [functional method](/functional-methods-comparison) that returns an [array](/arrays) that contains the results of mapping a given [closure](/closures) over the elements of a sequence, with the exception that `nil` results are filtered out. Similar methods are [map](/map) and [flatmap](/flatMap).
 
 ### `compactMap` over array of `Strings`
 

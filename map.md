@@ -5,7 +5,7 @@ description:
 ---
 {::options parse_block_html="true" /}
 
-**map** is a [functional method](/functional-methods-comparison) that returns an [array](/arrays) that contains the results of mapping a given [closure](/closures) over the elements of a sequence. Similar methods are [compactMap](/compactMap) and [flatMap](/flatMap).
+**map** is a [functional method](/functional-methods-comparison) that returns an [array](/arrays) that contains the results of mapping a given [closure](/closures) over the elements of a sequence. Similar methods are [compactMap](/compactmap) and [flatMap](/flatmap).
 
 ### `map` over array of `Ints`
 
