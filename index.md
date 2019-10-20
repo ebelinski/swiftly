@@ -68,7 +68,7 @@ layout: default
 * [flatMap](/flatmap)
 * [filter](/filter)
 * [reduce](/reduce)
-* [sorted](/sorted) *
+* [sorted](/sorted)
 * [forEach](/foreach) *
 
 #### Advanced
