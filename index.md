@@ -65,7 +65,7 @@ layout: default
 * [Comparison](/functional-methods-comparison)
 * [map](/map)
 * [compactMap](/compactmap)
-* [flatMap](/flatmap) *
+* [flatMap](/flatmap)
 * [filter](/filter) *
 * [reduce](/reduce) *
 * [sorted](/sorted) *
