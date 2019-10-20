@@ -30,7 +30,7 @@ layout: default
 * [Booleans](/booleans)
 * [Tuples](/tuples)
 * [Strings](/strings)
-* [Enums](/enums) *
+* [Enums](/enums)
 
 #### Collection types
 
