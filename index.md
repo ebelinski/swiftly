@@ -17,7 +17,7 @@ layout: default
 #### Control flow
 
 * [If `if, if let`](/if)
-* [Guard](/guard)
+* [Guard `guard, guard let`](/guard)
 * [For-in](/for-in)
 * [While](/while)
 * [Switch](/switch)
@@ -54,7 +54,7 @@ layout: default
 * [Comparison `==, >`](/comparison)
 * [Ternary `_ ? _ : _`](/ternary)
 * [Nil-coalescing `??`](/nil-coalescing)
-* [Range `1...5`](/range)
+* [Range `a...b`](/range)
 * [Logical `!, &&, !!`](/logical)
 * [Identity `===, !==`](/identity)
 
