@@ -4,15 +4,13 @@ title: "Methods"
 description: 
 redirect_from: 
   - /method/
-  - /struct/
-  - /classes/
-  - /class/
-  - /structs-classes/
-  - /struct-class/
 ---
 {::options parse_block_html="true" /}
 
 **Methods** are [functions](/functions) that belong to a [struct](/structs-and-classes), [class](/structs-and-classes), or [enum](/enums).
+
+* TOC
+{:toc}
 
 ### Instance methods
 
@@ -82,7 +80,7 @@ john.intro() // I'm john.
 
 {% include closecol.html closerow=true %}
 
-### Mutating instance methods
+#### Mutating instance methods
 
 Because structs are value types, an instance method that modifies its instance must be marked as `mutating`:
 
