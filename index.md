@@ -19,7 +19,7 @@ layout: default
 * [If `if, if let`](/if)
 * [Guard `guard, guard let`](/guard)
 * [For-in](/for-in)
-* [While](/while)
+* [While `while, repeat-while`](/while)
 * [Switch](/switch)
 
 {% include closecol.html %}{% include opencol.html size=3 %}
