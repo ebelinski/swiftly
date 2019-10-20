@@ -67,7 +67,7 @@ layout: default
 * [compactMap](/compactmap)
 * [flatMap](/flatmap)
 * [filter](/filter)
-* [reduce](/reduce) *
+* [reduce](/reduce)
 * [sorted](/sorted) *
 * [forEach](/foreach) *
 
