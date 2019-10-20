@@ -69,7 +69,7 @@ layout: default
 * [filter](/filter)
 * [reduce](/reduce)
 * [sorted](/sorted)
-* [forEach](/foreach) *
+* [forEach](/foreach)
 
 #### Advanced
 
