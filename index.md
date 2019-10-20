@@ -28,7 +28,7 @@ layout: default
 
 * [Numbers](/numbers)
 * [Booleans](/booleans)
-* [Tuples](/tuples) *
+* [Tuples](/tuples)
 * [Strings](/strings)
 * [Enums](/enums) *
 
