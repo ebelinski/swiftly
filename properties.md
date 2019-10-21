@@ -7,17 +7,14 @@ redirect_from:
 ---
 {::options parse_block_html="true" /}
 
-**Properties** are values that belong to a [struct](/structs-and-classes), [class](/structs-and-classes), or [enum](/enums). There are two types:
-
-- Stored properties
-- Computed properties
+**Properties** are [variables or constants](/variables) that belong to a [struct](/structs-and-classes), [class](/structs-and-classes), or [enum](/enums). Properties can belong either to an instance or a type.
 
 * TOC
 {:toc}
 
-### Stored properties (instance)
+### Instance properties
 
-Stored properties are [variables or constants](/variables) that belong to an instance of a struct, class, or enum. Example:
+Instance properties are [variables or constants](/variables) that belong to an instance of a struct, class, or enum. Example:
 
 ```swift
 struct Person {
@@ -51,10 +48,6 @@ struct Person {
 var person = Person()
 print(person.name) // nil
 ```
-
-### Computed properties (instance)
-
-_Computed properties_ are like stored properties, but instead of actually storing a value, they provide a getter and (optional) setter that returns a value and set other properties indirectly.
 
 ### Static/class properties
 
@@ -92,3 +85,6 @@ print(Person.greeting) // Hello
 
 {% include closecol.html closerow=true %}
 
+### Computed properties
+
+_Computed properties_ are [variables](/variables) that are computed instead of holding a stored value. See [Variables § Computed variables (get and set)](/variables/#computed-variables-get-and-set) for more information.
