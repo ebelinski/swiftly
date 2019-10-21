@@ -38,10 +38,10 @@ body {
 header, article, footer {
   text-align: left;
   margin: 0 auto;
-  max-width: 900px !important;
+  max-width: 880px !important;
 }
 
-@media screen and (min-width: 930px) {
+@media screen and (min-width: 910px) {
   header, article, footer {
     padding-left: 0px !important;
     padding-right: 0px !important;
