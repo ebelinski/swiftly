@@ -16,7 +16,7 @@ redirect_from:
   - /set/
 ---
 
-**Variables and constants** are used to hold pieces of data. Variables can change over time (mutable), while constants must stay the same (immutable). The word "variables" is usually used to describe both variables and constants.
+**Variables and constants** are used to hold pieces of data. Variables can change over time (mutable), while constants must stay the same (immutable). The word "variables" is usually used to describe both variables and constants. Variables that belong to a [struct](/structs-and-classes), [class](/structs-and-classes), or [enum](/enums) are [properties](/properties).
 
 * TOC
 {:toc}
