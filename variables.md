@@ -15,6 +15,7 @@ redirect_from:
   - /get/
   - /set/
 ---
+{::options parse_block_html="true" /}
 
 **Variables and constants** are used to hold pieces of data. Variables can change over time (mutable), while constants must stay the same (immutable). The word "variables" is usually used to describe both variables and constants. Variables that belong to a [struct](/structs-and-classes), [class](/structs-and-classes), or [enum](/enums) are [properties](/properties).
 
@@ -124,3 +125,114 @@ distanceInMeters = 800
 print(distanceInMeters) // 800.0
 print(distanceInFeet) // 2624.0
 ```
+
+### `willSet`
+
+`willSet` can be used to execute some code before a variable's value is set:
+
+{% include opencol.html size=7 newrow=true %}
+
+```swift
+var distance = 5 {
+  willSet {
+    print("distance will be set")
+  }
+}
+
+distance = 10
+```
+
+{% include closecol.html %}{% include opencol.html size=5 %}
+
+```
+Output:
+
+distance will be set
+```
+
+{% include closecol.html closerow=true %}
+
+The new value can be accessed in `willSet`:
+
+{% include opencol.html size=7 newrow=true %}
+
+```swift
+var distance = 5 {
+  willSet(newDistance) {
+    print("distance will be set to \(newDistance)")
+  }
+}
+
+distance = 10
+```
+
+{% include closecol.html %}{% include opencol.html size=5 %}
+
+```
+Output:
+
+distance will be set to 10
+```
+
+{% include closecol.html closerow=true %}
+
+### `didSet`
+
+`didSet` can be used to execute some code after a variable's value is set. The old value can still be accessed in this code block with `oldValue`:
+
+{% include opencol.html size=7 newrow=true %}
+
+```swift
+var distance = 5 {
+  didSet {
+    print("distance was set to \(distance)")
+    print("its old value was: \(oldValue)")
+  }
+}
+
+distance = 10
+```
+
+{% include closecol.html %}{% include opencol.html size=5 %}
+
+```
+Output:
+
+distance was set to 10
+its old value was: 5
+```
+
+{% include closecol.html closerow=true %}
+
+### `willSet` with `didSet`
+
+`willSet` with `didSet` can be used together:
+
+{% include opencol.html size=7 newrow=true %}
+
+```swift
+var distance = 5 {
+  willSet(newDistance) {
+    print("distance will be set to \(newDistance)")
+  }
+
+  didSet {
+    print("distance was set to \(distance)")
+    print("its old value was: \(oldValue)")
+  }
+}
+
+distance = 10
+```
+
+{% include closecol.html %}{% include opencol.html size=5 %}
+
+```
+Output:
+
+distance will be set to 10
+distance was set to 10
+its old value was: 5
+```
+
+{% include closecol.html closerow=true %}
