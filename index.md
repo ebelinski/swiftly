@@ -7,12 +7,12 @@ layout: default
 
 #### Basics
 
-* [Variables](/variables)
-* [Print](/print)
-* [Comments](/comments)
-* [Optionals](/optionals)
+* [Variables `let, var`](/variables)
+* [Print `print("")`](/print)
+* [Comments `//`](/comments)
+* [Optionals `?, !`](/optionals)
 * [Closures](/closures) ([mini](/closures-mini))
-* [Functions](/functions)
+* [Functions `func`](/functions)
 
 #### Control flow
 
@@ -20,23 +20,23 @@ layout: default
 * [Guard `guard, guard let`](/guard)
 * [For-in](/for-in)
 * [While `while, repeat-while`](/while)
-* [Switch](/switch)
+* [Switch `switch x { ... }`](/switch)
 
 {% include closecol.html %}{% include opencol.html size=3 %}
 
 #### Basic types
 
-* [Numbers](/numbers)
-* [Booleans](/booleans)
-* [Tuples](/tuples)
+* [Numbers `Int, Float`](/numbers)
+* [Booleans `Bool`](/booleans)
+* [Tuples `(a, b, c)`](/tuples)
 * [Strings](/strings)
 * [Enums](/enums)
 
 #### Collection types
 
-* [Comparison](/collection-types-comparison) *
+<!-- * [Comparison](/collection-types-comparison) * -->
 * [Arrays `[1, 2, 3]`](/arrays)
-* [Sets `Set<int>()`](/sets) *
+* [Sets `Set<Int>()`](/sets)
 * [Dictionaries `[:]`](/dictionaries)
 
 {% include closecol.html %}{% include opencol.html size=3 %}
