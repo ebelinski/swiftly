@@ -36,7 +36,7 @@ layout: default
 
 <!-- * [Comparison](/collection-types-comparison) * -->
 * [Arrays `[1, 2, 3]`](/arrays)
-* [Sets `Set<Int>()`](/sets)
+* [Sets `Set<Int>`](/sets)
 * [Dictionaries `[:]`](/dictionaries)
 
 {% include closecol.html %}{% include opencol.html size=3 %}
