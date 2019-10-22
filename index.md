@@ -71,10 +71,6 @@ layout: default
 * [sorted](/sorted)
 * [forEach](/foreach)
 
-#### Meta
-
-* [Swift versions](/swift-versions)
-
 #### Advanced
 
 <!-- * [Errors](/errors) * -->
@@ -83,5 +79,9 @@ layout: default
 <!-- * [Protocols](/protocols) * -->
 <!-- * [Generics](/generics) * -->
 <!-- * [Access control](/access-control) * -->
+
+#### Meta
+
+* [Swift versions](/swift-versions)
 
 {% include closecol.html closerow=true %}
