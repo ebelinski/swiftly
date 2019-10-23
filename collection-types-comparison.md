@@ -5,6 +5,9 @@ description:
 redirect_from: 
   - /collection/
   - /collection-types/
+  - /collections/
+  - /sequence/
+  - /sequences/
 ---
 {::options parse_block_html="true" /}
 
