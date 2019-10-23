@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Arrays"
-description: A Swift 5.1 reference sheet for arrays, covering declaration, mutability, type annotations, iteration, and manipulation.
+description: A Swift 5.1 reference guide for arrays, covering declaration, mutability, type annotations, iteration, and manipulation.
 redirect_from: 
   - /array/
   - /list/

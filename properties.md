@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Properties"
-description: A Swift 5.1 reference sheet for properties of structs, classes, and enums, covering instance properties, static/class properties, and computed properties.
+description: A Swift 5.1 reference guide for properties of structs, classes, and enums, covering instance properties, static/class properties, and computed properties.
 redirect_from: 
   - /property/
 ---

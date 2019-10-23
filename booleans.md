@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Booleans"
-description: A Swift 5.1 reference sheet for booleans, covering declaration, mutating, and toggling.
+description: A Swift 5.1 reference guide for booleans, covering declaration, mutating, and toggling.
 redirect_from:
   - /boolean/
   - /bool/

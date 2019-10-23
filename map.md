@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "map"
-description: A Swift 5.1 reference sheet for the map method, with examples mapping over [Int] and [String].
+description: A Swift 5.1 reference guide for the map method, with examples mapping over [Int] and [String].
 ---
 {::options parse_block_html="true" /}
 

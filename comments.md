@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Comments"
-description: A Swift 5.1 reference sheet for comments, covering simple comments, multiline comments, MARK, TODO, and FIXME.
+description: A Swift 5.1 reference guide for comments, covering simple comments, multiline comments, MARK, TODO, and FIXME.
 redirect_from:
   - /comment/
   - /commenting/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Numbers"
-description: A Swift 5.1 reference sheet for numbers, covering Ints, Floats, Doubles, and converting between them.
+description: A Swift 5.1 reference guide for numbers, covering Ints, Floats, Doubles, and converting between them.
 redirect_from:
   - /integer/
   - /integers/
