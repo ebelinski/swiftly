@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "For-in"
-description: 
+description: A Swift 5.1 reference sheet for the for-in loop, with a simple example and an example with an index.
 redirect_from:
   - /for/
 ---

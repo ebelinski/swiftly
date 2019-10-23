@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "If"
-description: 
+description: A Swift 5.1 reference sheet for the if statement, covering if-else, if let, the ternary conditional operator, and the nil-coalescing operator.
 redirect_from: 
   - /if-let/
   - /iflet/
