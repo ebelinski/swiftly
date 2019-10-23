@@ -4,10 +4,11 @@ title: "Functions"
 description: A quick reference guide for functions in Swift 4, with simple examples and functional examples.
 redirect_from:
   - /function/
+  - /func/
 ---
 {::options parse_block_html="true" /}
 
-**Functions** are a special type of [closures](/swift-closures"). Functions are first-class types, so a function can be passed in as a parameter to another function. Also, a function can return another function. Functions that belong to a struct, class, or enum are [methods](/methods).
+**Functions** are a special type of [closures](/closures). Functions are first-class types, so a function can be passed in as a parameter to another function. Also, a function can return another function. Functions that belong to a [struct](/structs-and-classes), [class](/structs-and-classes), or [enum](/enums) are [methods](/methods).
 
 * TOC
 {:toc}
@@ -27,8 +28,7 @@ func greet() {
 {% include closecol.html %}{% include opencol.html size=5 %}
 
 ```swift
-greet()
-// Output: "Hello"
+greet() // "Hello"
 ```
 
 {% include closecol.html closerow=true %}
@@ -48,8 +48,7 @@ func greet(person: String) {
 {% include closecol.html %}{% include opencol.html size=5 %}
 
 ```swift
-greet(person: "Aliya")
-// Output: "Hello Aliya"
+greet(person: "Aliya") // "Hello Aliya"
 ```
 
 {% include closecol.html closerow=true %}
@@ -69,8 +68,7 @@ func multiply(x: Int, y: Int) -> Int {
 {% include closecol.html %}{% include opencol.html size=5 %}
 
 ```swift
-print(multiply(x: 5, y: 6))
-// Output: "30"
+print(multiply(x: 5, y: 6)) // 30
 ```
 
 {% include closecol.html closerow=true %}
@@ -90,11 +88,8 @@ func greet(person: String = "guest") {
 {% include closecol.html %}{% include opencol.html size=5 %}
 
 ```swift
-greet()
-greet(person: "Aliya")
-// Output:
-// Hello guest
-// Hello Aliya
+greet() // Hello guest
+greet(person: "Aliya") // Hello Aliya
 ```
 
 {% include closecol.html closerow=true %}
@@ -122,8 +117,7 @@ func perform(fn: (Int, Int) -> Int,
 let result = perform(fn: multiply, 
                      a: 5, 
                      b: 6)
-print(result)
-// Output: "30"
+print(result) // 30
 ```
 
 {% include closecol.html closerow=true %}
@@ -148,13 +142,11 @@ func operation() -> ((Int, Int) -> Int) {
 ```swift
 let myOperation = operation()
 let result = myOperation(5, 6)
-print(result)
-// Output: "30"
+print(result) // 30
 ```
 
 {% include closecol.html closerow=true %}
 
 ### Further reading
 
-* [Swift closures guide](/swift-closures")
-* [Functions (The Swift Programming Language)](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html)
+* [Functions (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/Functions.html)
