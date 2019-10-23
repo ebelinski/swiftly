@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Collection types comparison"
-description: 
+description: A Swift 5.1 comparision of collection types (arrays, sets, and dictionaries).
 redirect_from: 
   - /collection/
   - /collection-types/
