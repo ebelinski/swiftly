@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Variables"
-description: 
+description: A Swift 5.1 reference sheet for variables and constants, covering declaration, mutability, computed variables, willSet, and didSet.
 redirect_from:
   - /var/
   - /variable/
