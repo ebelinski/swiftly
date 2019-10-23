@@ -3,15 +3,14 @@ layout: default
 title: "Comparison operators (==, !=, >, <, >=, <=)"
 description: 
 redirect_from:
-  - /range/
-  - /range-operator/
-  - /range-operators/
-  - /closed-range/
-  - /closed-range-operator/
-  - /half-open-range/
-  - /half-open-range-operator/
-  - /one-sided-range/
-  - /one-sided-range-operator/
+  - /more-than/
+  - /less-than/
+  - /more/
+  - /less/
+  - /equal-to/
+  - /not-equal-to/
+  - /more-than-or-equal-to/
+  - /less-than-or-equal-to/
 ---
 {::options parse_block_html="true" /}
 

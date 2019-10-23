@@ -3,7 +3,7 @@ layout: default
 title: "Range operator (1...5)"
 description: 
 redirect_from:
-  - /range/
+  - /ranges/
   - /range-operator/
   - /range-operators/
   - /closed-range/
@@ -15,7 +15,7 @@ redirect_from:
 ---
 {::options parse_block_html="true" /}
 
-**Ranges** are shortcuts for expressing a range of values.
+**Range** operators is a shortcuts for expressing a range of values.
 
 * TOC
 {:toc}
