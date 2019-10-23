@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Closures"
-description: A quick reference guide for closures in Swift 4, with inline closures, closures as variables, and closures as functions.
+description: A Swift 5.1 reference sheet for closures, covering inline closures, closures as variables, closure typealiases, and @escaping closures.
 redirect_from:
   - /closure/
   - /fuckingswiftblocksyntax/
