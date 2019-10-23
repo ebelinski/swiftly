@@ -44,13 +44,7 @@ let guitar = StringInstrument(name: "Guitar", numberOfStrings: 6)
 It is possible to prevent a class from being subclassed by marking it as `final`:
 
 ```swift
-final class Instrument {
-  // ...
-}
-
-class StringInstrument: Instrument {
-  // ...
-}
-
+final class Instrument {}
+class StringInstrument: Instrument {}
 // ❌ error: inheritance from a final class 'Instrument'
 ```
