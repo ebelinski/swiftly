@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Structs & classes"
-description: 
+description: A Swift 5.1 reference sheet for structs and classes, comparing the two in declaration, usage, and value types vs. reference types.
 redirect_from: 
   - /structs/
   - /struct/
