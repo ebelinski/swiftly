@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "filter"
-description: 
+description: A Swift 5.1 reference sheet for the filter method, with examples filtering over [Int] and [String].
 ---
 {::options parse_block_html="true" /}
 
