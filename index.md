@@ -47,6 +47,7 @@ layout: default
 * [Properties](/properties)
 * [Methods](/methods)
 * [Inheritance](/inheritance)
+<!-- * [Initialization](/initialization) -->
 
 #### Operators
 
