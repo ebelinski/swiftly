@@ -8,7 +8,7 @@
 # Site settings
 title: Swiftly
 subtitle: Swift 5.1 references for busy coders
-description: Swiftly is a one-stop quick reference spot for Swift developers. The example-driven reference pages in Swiftly are intended for intermediate and advanced developers, but can be useful for novice developers as well.
+description: Swiftly is a one-stop quick reference spot for Swift developers, covering Swift basics, control flow, types, structs/classes, operators, functional methods, and more.
 author: Eugene Belinski
 keywords: 
 
