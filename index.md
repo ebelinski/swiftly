@@ -34,7 +34,7 @@ layout: default
 
 #### Collection types
 
-<!-- * [Comparison](/collection-types-comparison) * -->
+* [Comparison](/collection-types-comparison)
 * [Arrays `[1, 2, 3]`](/arrays)
 * [Sets `Set<Int>`](/sets)
 * [Dictionaries `[:]`](/dictionaries)
