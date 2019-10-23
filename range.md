@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Range operator (1...5)"
-description: A Swift 5.1 reference guide for the range operator, covering closed ranges, half-open ranges, one-sided ranges, and including an array example.
+description: A Swift 5.1 range operator reference guide, covering closed ranges, half-open ranges, one-sided ranges, and including an array example.
 redirect_from:
   - /ranges/
   - /range-operator/

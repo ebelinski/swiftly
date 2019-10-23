@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Switch"
-description: A Swift 5.1 reference guide for the switch statement, with a switch with equality and a switch with tuples example.
+description: A Swift 5.1 switch statement reference guide, with a switch with equality and a switch with tuples example.
 redirect_from: 
   - /case/
 ---

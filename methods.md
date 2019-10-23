@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Methods"
-description: A Swift 5.1 reference guide for methods of structs, classes, and enums, covering instance methods and static/class methods.
+description: A Swift 5.1 methods reference guide, covering instance methods and static/class methods.
 redirect_from: 
   - /method/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Enums"
-description:  
+description: 
 redirect_from:
   - /enum/
   - /enumeration/

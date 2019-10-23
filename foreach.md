@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "forEach"
-description: A Swift 5.1 reference guide for the forEach method, with examples examples and comparisons to for-in.
+description: A Swift 5.1 forEach reference guide, with examples examples and comparisons to for-in.
 ---
 {::options parse_block_html="true" /}
 
