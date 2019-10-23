@@ -61,5 +61,3 @@ myArray2.append("Moon") // ❌ Error: Unexpected type
 ### Iteration and manipulation
 
 Arrays can be iterated over using [for-in](/for-in) and [forEach](/foreach). They can be manipulated using [map](/map), [flatMap](/flatmap), [reduce](/reduce), and [sorted](/).
-
-...
