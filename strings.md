@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Strings"
-description: 
+description: A Swift 5.1 reference sheet for strings, covering basic strings, multiline strings, string length, and string interpolation.
 redirect_from:
   - /string/
   - /str/
