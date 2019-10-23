@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Functions"
-description: A quick reference guide for functions in Swift 4, with simple examples and functional examples.
+description: A Swift 5.1 reference sheet for functions, with different kinds of functions and usage examples.
 redirect_from:
   - /function/
   - /func/
