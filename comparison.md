@@ -15,10 +15,10 @@ redirect_from:
 ---
 {::options parse_block_html="true" /}
 
+**Comparison** operators return a [`Bool`](/bool) to indicate whether or not a given statement is true. They are used heavily in [if](/if) statements.
+
 * TOC
 {:toc}
-
-**Comparison** operators return a [`Bool`](/bool) to indicate whether or not a given statement is true. They are used heavily in [if](/if) statements.
 
 {% include opencol.html size=6 newrow=true %}
 

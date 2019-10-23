@@ -7,7 +7,7 @@ redirect_from:
 ---
 {::options parse_block_html="true" /}
 
-The common for loop `for (i = a; i < b; i++)` does not exist in Swift. Instead, the for-in can be modified to have an index using tuples and _[enumerated](https://developer.apple.com/documentation/swift/array/1687832-enumerated)_:
+The common for loop `for (i = a; i < b; i++)` does not exist in Swift. Instead, the **for-in** can be modified to have an index using tuples and _[enumerated](https://developer.apple.com/documentation/swift/array/1687832-enumerated)_:
 
 {% include opencol.html size=6 newrow=true %}
 

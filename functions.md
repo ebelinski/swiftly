@@ -7,7 +7,7 @@ redirect_from:
 ---
 {::options parse_block_html="true" /}
 
-Functions are a special type of [closures](/swift-closures"). Functions are first-class types, so a function can be passed in as a parameter to another function. Also, a function can return another function.
+**Functions** are a special type of [closures](/swift-closures"). Functions are first-class types, so a function can be passed in as a parameter to another function. Also, a function can return another function. Functions that belong to a struct, class, or enum are [methods](/methods).
 
 * TOC
 {:toc}

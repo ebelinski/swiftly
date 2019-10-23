@@ -10,10 +10,10 @@ redirect_from:
 ---
 {::options parse_block_html="true" /}
 
+**sorted()** and **sorted(by:)** are [functional methods](/functional-methods-comparison) that return the elements of a sequence sorted using a particular predicate.
+
 * TOC
 {:toc}
-
-**sorted()** and **sorted(by:)** are [functional methods](/functional-methods-comparison) that return the elements of a sequence sorted using a particular predicate.
 
 ### `sorted()`
 

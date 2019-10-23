@@ -13,7 +13,7 @@ redirect_from:
   - /fixme/
 ---
 
-Comments are used to include nonexecutable code in text, such as notes and reminders.
+**Comments** are used to include nonexecutable code in text, such as notes and reminders.
 
 ### Simple comment
 

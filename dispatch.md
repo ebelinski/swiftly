@@ -4,7 +4,7 @@ title: "Dispatch"
 description: ...
 ---
 
-Dispatch is a framework that allows you to run code on different threads. By default, all code on iOS is run on the **main thread** (also known as the **UI thread**).
+**Dispatch** is a framework in Foundation that allows you to run code on different threads. By default, all code on iOS is run on the _main thread_ (also known as the _UI thread_).
 
 * TOC
 {:toc}
@@ -14,6 +14,8 @@ Dispatch is a framework that allows you to run code on different threads. By def
 Time-intensive work can run on a **background** thread.[^1]
 
 ```swift
+import Foundation
+
 // Code in the main thread
 DispatchQueue.global(qos: .background).async {
   // Some code that takes a long time to execute
@@ -25,6 +27,8 @@ DispatchQueue.global(qos: .background).async {
 When background thread work done, the UI can be updated on the **main thread**.[^2]
 
 ```swift
+import Foundation
+
 // Code in the main thread
 DispatchQueue.global(qos: .background).async {
   // Some code that takes a long time to execute
@@ -37,6 +41,8 @@ DispatchQueue.global(qos: .background).async {
 ### Practical example
 
 ```swift
+import Foundation
+
 @objc func didTapOnGenerateImageButton() {
   DispatchQueue.global(qos: .background).async {
   let newImage = ImageManager.generateImage() // This could take a long time

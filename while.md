@@ -5,7 +5,7 @@ description:
 ---
 {::options parse_block_html="true" /}
 
-A while loop will run the code block each time the conditional is true. A repeat-while loop will run the block first without checking the conditional, then keep on running it as long as the conditional is true.
+A **while** loop will run the code block each time the conditional is true. A repeat-while loop will run the block first without checking the conditional, then keep on running it as long as the conditional is true.
 
 {% include opencol.html size=6 newrow=true %}
 

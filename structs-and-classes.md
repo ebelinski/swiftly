@@ -12,10 +12,10 @@ redirect_from:
 ---
 {::options parse_block_html="true" /}
 
+**Structs** and **classes** are flexible, general-purpose constructs. In Swift, structs and classes are very similar to each other, but contain important differences. Instances are created from structs and classes in similar ways.
+
 * TOC
 {:toc}
-
-**Structs** and **classes** are flexible, general-purpose constructs. In Swift, structs and classes are very similar to each other, but contain important differences. Instances are created from structs and classes in similar ways.
 
 ### Declaration comparison
 
