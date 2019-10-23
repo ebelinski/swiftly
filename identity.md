@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Identity operators (===, !==) "
-description: 
+description: A Swift 5.1 reference sheet for identity operators, with an example comparing two class instances.
 redirect_from:
   - /identity-operator/
   - /identity-operators/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Ternary conditional operator (_ ? _ : _)"
-description: 
+description: A Swift 5.1 reference sheet for the ternary conditional operator, with an example and a comparison to if-else.
 redirect_from:
   - /ternary-conditional-operator/
   - /ternary-operator/

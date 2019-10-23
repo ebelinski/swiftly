@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Comparison operators (==, !=, >, <, >=, <=)"
-description: 
+description: A Swift 5.1 reference sheet for comparison operators, covering equal to ==, not equal to !=, greater than >, less than <, greater than or equal to >=, and less than or equal to <=.
 redirect_from:
   - /more-than/
   - /less-than/
