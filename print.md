@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Print"
-description: 
+description: A Swift 5.1 reference sheet for the print method, covering usage and string interpolation.
 redirect_from:
   - /write/
   - /writeln/
