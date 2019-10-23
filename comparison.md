@@ -81,7 +81,7 @@ print(18 <= 12) // false
 
 {% include closecol.html closerow=true %}
 
-## Comparing equality of two struct instances
+### Comparing equality of two struct instances
 
 The `==` and `!=` may also be used to check to see if two struct instances have the same values. For this, the struct must conform to [`Equatable`](https://developer.apple.com/documentation/swift/equatable).
 
@@ -105,7 +105,7 @@ print(player1 != player3) // true
 print(player1 != player4) // false
 ```
 
-## Comparing equality of two class instances
+### Comparing equality of two class instances
 
 The `==` and `!=` may also be used to check to see if two class instances have the same values. For this, the class must also conform to [`Equatable`](https://developer.apple.com/documentation/swift/equatable), which involves more work than if it was a struct.
 
