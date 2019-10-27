@@ -73,7 +73,7 @@ case .ringo: print("My favorite beatle played the drums.")
 
 ### Associated values
 
-Enums can have associated values, and the type of each value can be different:
+Enum cases can have associated values, and the type of each value can be different:
 
 ```swift
 enum Shape {
@@ -95,7 +95,17 @@ switch shape1 {
 
 ### Raw values
 
+Enum cases can also have raw values. These are similar to associated values above, but they are prepopulated with default values:
 
+```swift
+enum Hello: String {
+  case english = "Hello"
+  case japanese = "こんにちは"
+  case emoji = "👋"
+}
+
+print(Hello.japanese.rawValue) // こんにちは
+```
 
 ### Implicit raw values
 
