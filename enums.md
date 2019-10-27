@@ -109,7 +109,15 @@ print(Hello.japanese.rawValue) // こんにちは
 
 ### Implicit raw values
 
+Raw values can be implicitly assigned:
 
+```swift
+enum Beatle: String {
+  case john, paul, george, ringo
+}
+
+print("My favorite beatle is \(Beatle.john.rawValue).") // My favorite beatle is john.
+```
 
 ### Initializing from raw values
 
