@@ -4,12 +4,10 @@ title: About
 description: 
 ---
 
-Swiftly is a one-stop quick reference spot for Swift developers. The example-driven reference pages in Swiftly are intended for intermediate and advanced developers, but can be useful for novice developers as well.
-
-It is currently under construction.
+Swiftly is a one-stop quick reference spot for Swift developers. Swiftly contains example-driven reference pages for developers of all levels. It was launched by [Eugene](https://ebelinski.com/) (me) in October 2019.
 
 Got any feedback? I can be reached a number of ways:
 
-* Email: ebelinski at protonmail dot com
+* Email: ebelinski [at] protonmail [dot] com
 * Twitter: [@EugeneBelinski](https://twitter.com/EugeneBelinski)
 * Keybase: [ebelinski](https://keybase.io/ebelinski)
