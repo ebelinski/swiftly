@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Enums"
-description: 
+description: A Swift 5.1 enums reference guide, covering basic enums, basic usage, switch usage, associated values, raw values, and iterating over cases.
 redirect_from:
   - /enum/
   - /enumeration/
