@@ -46,3 +46,21 @@ describe(point: (11, 9)) // "Elsewhere"
 ```
 
 {% include closecol.html closerow=true %}
+
+### Switch with [enum](/enums)
+
+```swift
+enum Beatle {
+  case john, paul, george, ringo
+}
+
+var myFavoriteBeatle = Beatle.john
+
+switch myFavoriteBeatle {
+case .john: print("My favorite beatle played vocals and lead guitar.")
+case .paul: print("My favorite beatle played vocals and bass guitar.")
+case .george: print("My favorite beatle played lead and rhythm guitar.")
+case .ringo: print("My favorite beatle played the drums.")
+}
+// Output: "My favorite beatle played vocals and lead guitar."
+```
