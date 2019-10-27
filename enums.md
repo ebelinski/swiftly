@@ -63,17 +63,30 @@ enum Beatle {
 var myFavoriteBeatle = Beatle.john
 
 switch myFavoriteBeatle {
-case .john: "My favorite beatle played vocals and lead guitar."
-case .paul: "My favorite beatle played vocals and bass guitar."
-case .george: "My favorite beatle played lead and rhythm guitar."
-case .ringo: "My favorite beatle played the drums."
+case .john: print("My favorite beatle played vocals and lead guitar.")
+case .paul: print("My favorite beatle played vocals and bass guitar.")
+case .george: print("My favorite beatle played lead and rhythm guitar.")
+case .ringo: print("My favorite beatle played the drums.")
 }
 // Output: "My favorite beatle played vocals and lead guitar."
 ```
 
 ### Associated values
 
+Enums can have associated values, and the type of each value can be different:
 
+```swift
+enum Shape {
+  case triangleWithSides(Int, Int, Int)
+  case circleWithRadius(Float)
+}
+
+let triangle = Shape.triangleWithSides(2, 3, 4)
+let circle = Shape.circleWithRadius(12.5)
+
+print(triangle) // triangleWithSides(2, 3, 4)
+print(circle) // circleWithRadius(12.5)
+```
 
 ### Raw values
 
