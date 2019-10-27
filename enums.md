@@ -121,7 +121,21 @@ print("My favorite beatle is \(Beatle.john.rawValue).") // My favorite beatle is
 
 ### Initializing from raw values
 
+An enum case can be initialized from a raw value, and the initializer returns an optional:
 
+```swift
+enum Hello: String {
+  case english = "Hello"
+  case japanese = "こんにちは"
+  case emoji = "👋"
+}
+
+let hello1 = Hello(rawValue: "こんにちは")
+let hello2 = Hello(rawValue: "Привет")
+
+print(hello1) // Optional(Hello.japanese)
+print(hello2) // nil
+```
 
 ### Iterating over cases
 
