@@ -81,11 +81,16 @@ enum Shape {
   case circleWithRadius(Float)
 }
 
-let triangle = Shape.triangleWithSides(2, 3, 4)
-let circle = Shape.circleWithRadius(12.5)
+let shape1 = Shape.triangleWithSides(2, 3, 4)
+let shape2 = Shape.circleWithRadius(12.5)
 
-print(triangle) // triangleWithSides(2, 3, 4)
-print(circle) // circleWithRadius(12.5)
+switch shape1 {
+  case .triangleWithSides(let side1, let side2, let side3):
+    print("The shape is a triangle with side lenghts \(side1), \(side2), and \(side3).")
+  case .circleWithRadius(let radius):
+    print("The shape is a circle with radius \(radius).")
+}
+// Output: "The shape is a triangle with side lenghts 2, 3, and 4."
 ```
 
 ### Raw values
