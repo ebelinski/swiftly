@@ -5,6 +5,7 @@
 $primary: darken(#69D1B6, 20%) !default; // Override
 $primaryDark: #69D1B6;
 $primaryDarkHover: lighten(#69D1B6, 20%);
+$primaryAsBackground: darken($primary, 30%);
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "bootstrap/bootstrap";
@@ -286,5 +287,10 @@ li .highlighter-rouge {
   li .highlighter-rouge {
     color: #ddd;
     background-color: #555;
+  }
+
+  .alert.alert-primary {
+    background: $primaryAsBackground;
+    color: white;
   }
 }
