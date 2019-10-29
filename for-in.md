@@ -39,6 +39,29 @@ for (i, bird) in birds.enumerated() {
 
 {% include closecol.html closerow=true %}
 
+### For-in-where
+
+```swift
+struct Player {
+  let name: String
+  let level: Int
+}
+
+let players = [
+  Player(name: "Rashida", level: 1),
+  Player(name: "Tomoko", level: 1),
+  Player(name: "Isabella", level: 20)
+]
+
+for player in players where player.level == 1 {
+  print("\(player.name) is a novice.")
+}
+
+// Output:
+// Rashida is a novice.
+// Tomoko is a novice.
+```
+
 ### See also
 
 * [forEach](/foreach)
