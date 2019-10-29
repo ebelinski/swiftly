@@ -54,7 +54,7 @@ let players = [
 ]
 
 for player in players where player.level == 1 {
-  print("\(player.name) is a novice.")
+  print("\(player.name) is a beginner.")
 }
 
 // Output:
