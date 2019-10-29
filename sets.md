@@ -7,7 +7,7 @@ redirect_from:
 ---
 {::options parse_block_html="true" /}
 
-**Sets** store values of a certain type in an ordered list. Examples:
+**Sets** store values of a certain type in an unordered list. Examples:
 
 ```swift
 let numbers: Set<Int> = [1, 3, 5]
