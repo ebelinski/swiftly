@@ -27,7 +27,7 @@ redirect_from:
 Variables are declared with `var`:
 
 ```swift
-var greeting "Hello"
+var greeting = "Hello"
 var numberOfToys = 8
 var isMorning = true
 ```
@@ -35,7 +35,7 @@ var isMorning = true
 Variable declarations can include [type annotations](/type-annotations) for clarity:
 
 ```swift
-var greeting: String "Hello"
+var greeting: String = "Hello"
 var numberOfToys: Int = 8
 var isMorning: Bool = true
 ```
@@ -53,7 +53,7 @@ print(numberOfToys) // Prints "9"
 Constants are declared with `let`:
 
 ```swift
-let greeting "Hello"
+let greeting = "Hello"
 let numberOfToys = 8
 let isMorning = true
 ```
@@ -61,7 +61,7 @@ let isMorning = true
 Constant declarations can include [type annotations](/type-annotations) for clarity:
 
 ```swift
-let greeting: String "Hello"
+let greeting: String = "Hello"
 let numberOfToys: Int = 8
 let isMorning: Bool = true
 ```
