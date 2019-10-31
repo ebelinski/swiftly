@@ -83,12 +83,9 @@ import Foundation
 
 let sentence = "You're only as good as your last haircut."
 
-print(sentence.contains("only as")) // true
-print(sentence.contains("good")) // true
-print(sentence.contains("haircut")) // true
-
+print(sentence.contains("only")) // true
+print(sentence.contains("last haircut")) // true
 print(sentence.contains("intend")) // false
-print(sentence.contains("follow")) // false
 print(sentence.contains("charming")) // false
 
 print(sentence.contains("you're")) // false
