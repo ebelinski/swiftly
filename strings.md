@@ -76,20 +76,28 @@ print("Hi, I'm \(name), from \(location).")
 // Output: "Hi, I'm Tomoko, from Sydney."
 ```
 
-### Searching within a String with `.contains(_:)`
+### Search within a String with `.contains(_:)`
 
 ```swift
 import Foundation
 
 let sentence = "Swift is my favorite programming language!"
 
+print(sentence.contains("Swift")) // true
 print(sentence.contains("my favorite")) // true
-print(sentence.contains("language")) // true
-print(sentence.contains("intend")) // false
-print(sentence.contains("charming")) // false
 
 print(sentence.contains("swift")) // false
+print(sentence.contains("charming")) // false
+```
+
+### Case-insensitive search with `.contains(_:)` or `range(of:options:)`
+
+```swift
+import Foundation
+
+let sentence = "Swift is my favorite programming language!"
 print(sentence.lowercased().contains("swift")) // true
+print(sentence.range(of: "swift", options: .caseInsensitive) != nil) // true
 ```
 
 ### Find-and-replace with `replacingOccurrences(of:with:)`
@@ -102,7 +110,7 @@ let newSentence = sentence.replacingOccurrences(of: "Swift", with: "VBA")
 print(newSentence) // VBA is my favorite programming language!
 ```
 
-### Trimming whitespace with `trimmingCharacters(in:)`
+### Trimming whitespace and new lines with `trimmingCharacters(in:)`
 
 ```swift
 import Foundation
