@@ -45,7 +45,7 @@ print(myString)
 // It's my favorite programming language!"
 ```
 
-### Determining string length with `.count()` and `.isEmpty`
+### String length with `.count()` and `.isEmpty`
 
 {% include opencol.html size=6 newrow=true %}
 
@@ -81,13 +81,27 @@ print("Hi, I'm \(name), from \(location).")
 ```swift
 import Foundation
 
-let sentence = "You're only as good as your last haircut."
+let sentence = "Swift is my favorite programming language!"
 
-print(sentence.contains("only")) // true
-print(sentence.contains("last haircut")) // true
+print(sentence.contains("my favorite")) // true
+print(sentence.contains("language")) // true
 print(sentence.contains("intend")) // false
 print(sentence.contains("charming")) // false
 
 print(sentence.contains("you're")) // false
 print(sentence.lowercased().contains("you're")) // true
 ```
+
+### Find-and-replace with `replacingOccurrences(of:with:)`
+
+```swift
+import Foundation
+
+let sentence = "Swift is my favorite programming language!"
+let newSentence = sentence.replacingOccurrences(of: "Swift", with: "VBA")
+print(newSentence) // VBA is my favorite programming language!
+```
+
+### Further reading
+
+* [Strings and Characters (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)
