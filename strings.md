@@ -102,6 +102,16 @@ let newSentence = sentence.replacingOccurrences(of: "Swift", with: "VBA")
 print(newSentence) // VBA is my favorite programming language!
 ```
 
+### Trimming whitespace with `trimmingCharacters(in:)`
+
+```swift
+import Foundation
+
+let sentence = "   Swift is my favorite programming language!\n\n  "
+let newSentence = sentence.trimmingCharacters(in: .whitespacesAndNewlines)
+print(newSentence) // Swift is my favorite programming language!
+```
+
 ### Further reading
 
 * [Strings and Characters (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)
