@@ -88,8 +88,8 @@ print(sentence.contains("language")) // true
 print(sentence.contains("intend")) // false
 print(sentence.contains("charming")) // false
 
-print(sentence.contains("you're")) // false
-print(sentence.lowercased().contains("you're")) // true
+print(sentence.contains("swift")) // false
+print(sentence.lowercased().contains("swift")) // true
 ```
 
 ### Find-and-replace with `replacingOccurrences(of:with:)`
