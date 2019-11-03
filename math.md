@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Math (+, -, *, /, %)"
-description: A Swift 5.1 math operations reference guide, covering addition, sbutraction, multiplication, division, and remainder (modulo).
+description: A Swift 5.1 math operations reference guide, covering addition, subtraction, multiplication, division, and remainder (modulo).
 redirect_from:
   - /addition/
   - /add/
