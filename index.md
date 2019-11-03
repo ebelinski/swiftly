@@ -51,6 +51,7 @@ layout: default
 
 #### Operators
 
+* [Assign `=, +=. -=, *=, /=`](/assignment)
 * [Math `+, -, *, /, %`](/math)
 * [Comparison `==, >`](/comparison)
 * [Ternary `_ ? _ : _`](/ternary)
