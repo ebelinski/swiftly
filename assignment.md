@@ -9,9 +9,6 @@ redirect_from:
 ---
 {::options parse_block_html="true" /}
 
-* TOC
-{:toc}
-
 ### Assignment operator (`=`)
 
 ```swift
