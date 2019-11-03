@@ -15,8 +15,14 @@ redirect_from:
   - /times/
   - /remainder/
   - /modulo/
+  - /unary/
+  - /unary-plus/
+  - /unary-minus/
 ---
 {::options parse_block_html="true" /}
+
+* TOC
+{:toc}
 
 {% include opencol.html size=6 newrow=true %}
 
@@ -69,3 +75,29 @@ print(9 % 2) // 1
 print(100 % 10) // 0
 print(100 % 95) // 5
 ```
+
+### Unary operators
+
+A prefixed `-` can be used to toggle the sign of a value. A prefixed `+` does nothing, but can be used for code symmetry. No space is allowed between the operator and the value.
+
+{% include opencol.html size=6 newrow=true %}
+
+### Unary minus (`-`)
+
+```swift
+let a = 5
+let b = -a
+print(b) // -5
+```
+
+{% include closecol.html %}{% include opencol.html size=6 %}
+
+### Unary plus (`+`)
+
+```swift
+let a = 5
+let b = +a
+print(b) // 5
+```
+
+{% include closecol.html closerow=true %}
