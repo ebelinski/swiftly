@@ -85,10 +85,10 @@ let barcode1 = Barcode.qr("example.com")
 let barcode2 = Barcode.upc(0, 12345, 67890, 5)
 
 switch barcode2 {
-  case .qr(let value):
-    print("QR barcode with value \(value)")
-  case .upc(let numberSystem, let manufacturer, let item, let check):
-    print("UPC barcode with value \(numberSystem) \(manufacturer) \(item) \(check)")
+case .qr(let value):
+  print("QR barcode with value \(value)")
+case .upc(let numberSystem, let manufacturer, let item, let check):
+  print("UPC barcode with value \(numberSystem) \(manufacturer) \(item) \(check)")
 }
 // Output: "UPC barcode with value 0 12345 67890 5"
 ```
