@@ -31,3 +31,8 @@ if 5 > 6 {
 ```
 
 {% include closecol.html closerow=true %}
+
+### See also
+
+* [If let](/if-let)
+* [If case let](/if-case-let)

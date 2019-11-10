@@ -39,3 +39,8 @@ greet(name: nil) // Hello guest!
 ```
 
 {% include closecol.html closerow=true %}
+
+### See also
+
+* [If](/if)
+* [If case let](/if-case-let)
