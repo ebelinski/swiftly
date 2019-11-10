@@ -16,7 +16,7 @@ layout: default
 
 #### Control flow
 
-* [If `if, if let`](/if)
+* [If `if, if let, if case let`](/if)
 * [Guard `guard, guard let`](/guard)
 * [For-in](/for-in)
 * [While `while, repeat-while`](/while)
