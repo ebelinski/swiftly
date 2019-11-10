@@ -23,7 +23,7 @@ if 5 > 6 {
 
 {% include closecol.html %}{% include opencol.html size=6 %}
 
-### [Ternary conditional operator](/ternary)
+### [Ternary conditional](/ternary) equivalent
 
 ```swift
 5 > 6 ? print("5 is more than 6")
@@ -51,7 +51,7 @@ greet(name: nil) // Hello guest!
 
 {% include closecol.html %}{% include opencol.html size=6 %}
 
-### [Nil-coalescing operator](/nil-coalescing)
+### [Nil-coalescing](/nil-coalescing) equivalent
 
 ```swift
 func greet(name: String?) {
