@@ -22,7 +22,8 @@ layout: default
 * [Guard `guard, guard let`](/guard)
 * [For-in](/for-in)
 * [While `while, repeat-while`](/while)
-* [Switch `switch x { ... }`](/switch)
+* [Switch (case)](/switch)
+* [Switch (case let)](/switch-case-let)
 
 {% include closecol.html %}{% include opencol.html size=3 %}
 
