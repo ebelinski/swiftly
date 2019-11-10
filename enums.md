@@ -76,21 +76,21 @@ case .ringo: print("My favorite beatle played the drums.")
 Enum cases can have associated values, and the type of each value can be different:
 
 ```swift
-enum Shape {
-  case triangleWithSides(Int, Int, Int)
-  case circleWithRadius(Float)
+enum Barcode {
+  case qr(String)
+  case upc(Int, Int, Int, Int)
 }
 
-let shape1 = Shape.triangleWithSides(2, 3, 4)
-let shape2 = Shape.circleWithRadius(12.5)
+let barcode1 = Barcode.qr("https://example.com")
+let barcode2 = Barcode.upc(0, 12345, 67890, 5)
 
-switch shape1 {
-  case .triangleWithSides(let side1, let side2, let side3):
-    print("The shape is a triangle with side lenghts \(side1), \(side2), and \(side3).")
-  case .circleWithRadius(let radius):
-    print("The shape is a circle with radius \(radius).")
+switch barcode2 {
+  case .upc(let numberSystem, let manufacturer, let item, let check):
+    print("UPC barcode with value \(numberSystem) \(manufacturer) \(item) \(check)")
+  case .qr(let value):
+    print("QR barcode with value \(value)")
 }
-// Output: "The shape is a triangle with side lenghts 2, 3, and 4."
+// Output: "UPC barcode with value 0 12345 67890 5"
 ```
 
 ### Raw values
