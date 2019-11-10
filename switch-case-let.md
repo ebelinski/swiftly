@@ -21,9 +21,9 @@ enum Barcode {
 
 func describe(_ code: Barcode) {
   switch code {
-  case .qr(let value):
+  case let .qr(value):
     print("QR: \(value)")
-  case .upc(let ns, let m, let i, let c):
+  case let .upc(ns, m, i, c):
     print("UPC: \(ns) \(m) \(i) \(c)")
   }
 }
