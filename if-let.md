@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "If"
+title: "If let"
 description: A Swift 5.1 if let statement reference guide, with an if let-else example and its nil-coalescing equivalent.
 redirect_from:
   - /iflet/

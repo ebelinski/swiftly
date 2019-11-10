@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "If"
+title: "If case let"
 description: A Swift 5.1 if case let statement reference guide, with an if case let example and its switch case let equivalent.
 redirect_from: 
   - /ifcaselet/
@@ -37,7 +37,7 @@ describe(Barcode.upc(0, 12345, 67890, 5))
 
 {% include closecol.html %}{% include opencol.html size=6 %}
 
-### [Switch](/switch) case let equivalent
+### [Switch case let](/switch-case-let) equivalent
 
 ```swift
 enum Barcode {
