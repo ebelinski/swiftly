@@ -64,3 +64,7 @@ case .ringo: print("My favorite beatle played the drums.")
 }
 // Output: "My favorite beatle played vocals and lead guitar."
 ```
+
+### See also
+
+* [Switch (case let)](/switch-case-let)
