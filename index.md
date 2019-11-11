@@ -76,7 +76,7 @@ layout: default
 
 #### Advanced
 
-<!-- * [Errors](/errors) * -->
+* [Errors](/errors)
 * [Dispatch](/dispatch)
 <!-- * [Extensions](/extensions) * -->
 <!-- * [Protocols](/protocols) * -->
