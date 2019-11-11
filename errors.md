@@ -56,5 +56,5 @@ func didPressDownloadFileButton() {
 #### Usage
 
 ```swift
-didPressDownloadFileButton() // Output: The user needs 1000 MB to download this file.
+didPressDownloadFileButton() // The user needs 1000 MB to download this file.
 ```
