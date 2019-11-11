@@ -11,27 +11,35 @@ redirect_from:
 
 ### Complete example
 
+#### Error declaration
+
 ```swift
-// Error declaration
 enum DownloadError: Error {
   case unauthorized
   case notEnoughSpace(mbNeeded: Int)
 }
+```
 
-// Function that throws errors
+#### Throwing errors
+
+```swift
 func downloadFile(mbFree: Int) throws {
-  let apiManager = APIManager()
+  var userIsAuthorized = true
+  var mbFileSize = 1000
 
-  if !apiManager.userIsAuthorized {
+  if !userIsAuthorized {
     throw DownloadError.unauthorized
-  } else if mbFree < apiManager.mbFileSize {
+  } else if mbFree < mbFileSize {
     throw DownloadError.notEnoughSpace(mbNeeded: apiManager.mbFileSize)
   } else {
-    apiManager.downloadFile()
+    // File download logic goes here
   }
 }
+```
 
-// Function that catches errors
+#### Catching errors
+
+```swift
 func didPressDownloadFileButton() {
   do {
     try downloadFile(mbFree: 500)
@@ -43,17 +51,10 @@ func didPressDownloadFileButton() {
     print("Unknown error: \(error).")
   }
 }
+```
 
-// Helper struct
-struct APIManager {
-  var userIsAuthorized = true
-  var mbFileSize = 1000
+#### Usage
 
-  func downloadFile() {
-    // File download logic goes here
-  }
-}
-
-// Usage
+```swift
 didPressDownloadFileButton() // Output: The user needs 1000 MB to download this file.
 ```
