@@ -7,7 +7,7 @@ redirect_from:
 ---
 {::options parse_block_html="true" /}
 
-**Errors** in Swift are represented by values that conform to the `Error` protocol. They can be thrown, caught, propagated, and recovered.
+**Errors** are represented by values that conform to the `Error` protocol. They can be thrown, caught, propagated, and recovered.
 
 ### Complete example
 
