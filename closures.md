@@ -149,6 +149,39 @@ multiplyRemotely(x: 5, y: 6) { print($0) }
 // Output: 30
 ```
 
+### Closure that captures variables
+
+A closure can _capture_ a variable. This closure captures `greeting`:
+
+```swift
+var greeting = "Hello"
+let greet = { print(greeting) }
+
+greet() // Hello
+greeting = "Bonjour"
+greet() // Bonjour
+```
+
+A **capture list**, such as `[greeting]`, can be used to capture a _copy_ of a variable:
+
+```swift
+var greeting = "Hello"
+let greet = { [greeting] in print(greeting) }
+
+greet() // Hello
+greeting = "Bonjour"
+greet() // Hello
+```
+
+A closure can have both a capture list and parameters:
+
+```swift
+var greeting = "Hello"
+let greet = { [greeting] (name: String) in print("\(greeting), \(name)") }
+
+greet("Isabella") // Isabella
+```
+
 ### Further reading
 
 * [Closures (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
