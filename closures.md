@@ -122,7 +122,7 @@ Or **no** arguments:
 func multiply(x: Int, y: Int, completion: () -> Void) {
   completion()
 }
-multiply(x: 5, y: 6) { } // Does nothing
+multiply(x: 5, y: 6) { print("Hello") } // Output: Hello
 ```
 
 ### Typealias for a closure parameter
