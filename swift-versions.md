@@ -36,7 +36,7 @@ Last updated October 20, 2019. To use the Xcode download links, log into [develo
     <td>
       <a href="https://swift.org/blog/swift-5-1-released/">Swift 5.1</a>
     </td>
-    <td>2019</td>
+    <td rowspan="2">2019</td>
     <td>September 20</td>
     <td>
       <a href="https://download.developer.apple.com/Developer_Tools/Xcode_11/Xcode_11.xip">Xcode 11.0</a>, 
@@ -53,7 +53,6 @@ Last updated October 20, 2019. To use the Xcode download links, log into [develo
         <span class="strong">Swift 5.0</span>
       </a>
     </td>
-    <td>2019</td>
     <td>March 25</td>
     <td>
       <a href="https://download.developer.apple.com/Developer_Tools/Xcode_10.2/Xcode_10.2.xip">Xcode 10.2</a>,
