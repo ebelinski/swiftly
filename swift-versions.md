@@ -50,7 +50,7 @@ Last updated October 20, 2019. To use the Xcode download links, log into [develo
   <tr>
     <td>
       <a href="https://swift.org/blog/swift-5-released/">
-        <span class="strong">Swift 5.0</span>
+        <strong>Swift 5.0</strong>
       </a>
     </td>
     <td>March 25</td>
@@ -98,7 +98,7 @@ Last updated October 20, 2019. To use the Xcode download links, log into [develo
   <tr>
     <td>
       <a href="https://swift.org/blog/swift-4-0-released/">
-        <span class="strong">Swift 4.0</span>
+        <strong>Swift 4.0</strong>
       </a>
     </td>
     <td>Sept 19</td>
@@ -144,7 +144,7 @@ Last updated October 20, 2019. To use the Xcode download links, log into [develo
   <tr>
     <td>
       <a href="https://swift.org/blog/swift-3-0-released/">
-        <span class="strong">Swift 3.0</span>
+        <strong>Swift 3.0</strong>
       </a>
     </td>
     <td rowspan="2">Sept 13</td>
@@ -199,7 +199,7 @@ Last updated October 20, 2019. To use the Xcode download links, log into [develo
     </td>
   </tr>
   <tr>
-    <td><span class="strong">Swift 2.0</span></td>
+    <td><strong>Swift 2.0</strong></td>
     <td>Sept 17</td>
     <td>
       Xcode 7.0, 
@@ -227,7 +227,7 @@ Last updated October 20, 2019. To use the Xcode download links, log into [develo
     </td>
   </tr>
   <tr>
-    <td><span class="strong">Swift 1.0</span></td>
+    <td><strong>Swift 1.0</strong></td>
     <td>Sept 15</td>
     <td>
       Xcode 6.0, 
