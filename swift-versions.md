@@ -24,6 +24,16 @@ Last updated October 20, 2019. To use the Xcode download links, log into [develo
   </tr>
   <tr>
     <td>
+      <a href="https://swift.org/blog/5-2-release-process/">Swift 5.2</a> (beta)
+    </td>
+    <td>2020</td>
+    <td>TBD</td>
+    <td>
+      Xcode 11.4 (beta)
+    </td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://swift.org/blog/swift-5-1-released/">Swift 5.1</a>
     </td>
     <td>2019</td>
@@ -31,7 +41,10 @@ Last updated October 20, 2019. To use the Xcode download links, log into [develo
     <td>
       <a href="https://download.developer.apple.com/Developer_Tools/Xcode_11/Xcode_11.xip">Xcode 11.0</a>, 
       <a href="https://download.developer.apple.com/Developer_Tools/Xcode_11.1/Xcode_11.1.xip">Xcode 11.1</a>,
-      Xcode 11.2
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_11.2/Xcode_11.2.xip">Xcode 11.2</a>,
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_11.2.1/Xcode_11.2.1.xip">Xcode 11.2.1</a>,
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_11.3/Xcode_11.3.xip">Xcode 11.3</a>,
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_11.3.1/Xcode_11.3.1.xip">Xcode 11.3.1</a>
     </td>
   </tr>
   <tr>
