@@ -9,6 +9,8 @@ redirect_from:
   - /not/
   - /and/
   - /or/
+  - /!/
+  - /&&/
 ---
 {::options parse_block_html="true" /}
 

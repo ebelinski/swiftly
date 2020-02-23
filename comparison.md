@@ -11,6 +11,12 @@ redirect_from:
   - /not-equal-to/
   - /more-than-or-equal-to/
   - /less-than-or-equal-to/
+  - /==/
+  - /!=/
+  - />/
+  - /</
+  - />=/
+  - /<=/
 ---
 {::options parse_block_html="true" /}
 

@@ -5,6 +5,8 @@ description: A Swift 5.1 identity operators reference guide, with an example com
 redirect_from:
   - /identity-operator/
   - /identity-operators/
+  - /===/
+  - /!==/
 ---
 {::options parse_block_html="true" /}
 

@@ -18,6 +18,9 @@ redirect_from:
   - /unary/
   - /unary-plus/
   - /unary-minus/
+  - /+/
+  - /-/
+  - /*/
 ---
 {::options parse_block_html="true" /}
 

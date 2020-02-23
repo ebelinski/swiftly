@@ -6,6 +6,10 @@ redirect_from:
   - /assign/
   - /compound-assignment/
   - /compound-assign/
+  - /=/
+  - /+=/
+  - /-=/
+  - /*=/
 ---
 {::options parse_block_html="true" /}
 
