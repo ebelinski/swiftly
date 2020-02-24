@@ -22,3 +22,8 @@ permalink: pretty
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
+
+collections:
+  guides:
+    output: true
+    permalink: /:name
