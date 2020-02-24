@@ -2,7 +2,7 @@
 
 [Swiftly](https://swiftly.dev/) is a [Swift](https://swift.org/) language reference website for Swift developers of all levels. It is built with [Jekyll](https://jekyllrb.com/).
 
-The guide pages are found in the [_guides](_guides) directory.
+The guide pages are found in the [_guides](_guides) directory. These pages are written in Markdown, although many pages also contain HTML, and use the line `{::options parse_block_html="true" /}` to render the HTML.
 
 ## Setup
 
@@ -12,4 +12,4 @@ The guide pages are found in the [_guides](_guides) directory.
 
 ### Tips
 
-I have found that editing with Sublime Text using the Markdown Extended syntax works best.
+* I have found that editing with Sublime Text using the Markdown Extended syntax works best. It ensures that the Swift code inside the Markdown files are highlighted in the editor.
