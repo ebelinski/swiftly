@@ -2,7 +2,7 @@
 
 [Swiftly](https://swiftly.dev/) is a [Swift](https://swift.org/) language reference website for Swift developers of all levels. It is built with [Jekyll](https://jekyllrb.com/).
 
-The guide pages are found in the [_guides](tree/master/_guides) directory.
+The guide pages are found in the [_guides](_guides) directory.
 
 ## Setup
 
