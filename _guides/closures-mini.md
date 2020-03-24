@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Closures (mini version)"
-description: A Swift 5.1 closures mini-guide, covering inline closures and closures as function parameters.
+description: A Swift 5.2 closures mini-guide, covering inline closures and closures as function parameters.
 redirect_from: 
   - /closure-mini/
   - /block-mini/

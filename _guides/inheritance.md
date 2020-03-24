@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Inheritance"
-description: A Swift 5.1 class inheritance reference guide, covering subclassing, overriding properties, overriding methods, preventing overrides, and accessing superclass properties and methods.
+description: A Swift 5.2 class inheritance reference guide, covering subclassing, overriding properties, overriding methods, preventing overrides, and accessing superclass properties and methods.
 redirect_from: 
   - /property/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Nil-coalescing operator (??)"
-description: A Swift 5.1 nil-coalescing operator (??) reference guide, with an example and a comparison to let-else.
+description: A Swift 5.2 nil-coalescing operator (??) reference guide, with an example and a comparison to let-else.
 redirect_from:
   - /ternary-conditional-operator/
   - /ternary-operator/

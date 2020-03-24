@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "If let"
-description: A Swift 5.1 if let statement reference guide, with an if let-else example and its nil-coalescing equivalent.
+description: A Swift 5.2 if let statement reference guide, with an if let-else example and its nil-coalescing equivalent.
 redirect_from:
   - /iflet/
 ---
