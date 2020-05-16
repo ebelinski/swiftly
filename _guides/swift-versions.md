@@ -12,7 +12,7 @@ redirect_from:
 {:toc}
 </div>
 
-Last updated October 20, 2019. To use the Xcode download links, log into [developer.apple.com](https://developer.apple.com/) first. Some Xcode versions are not available for download.
+Last updated May 16, 2020. To use the Xcode download links, log into [developer.apple.com](https://developer.apple.com/) first (Apple Developer membership required). Some Xcode versions are not available for download.
 
 ### Open source versions
 
@@ -24,17 +24,17 @@ Last updated October 20, 2019. To use the Xcode download links, log into [develo
   </tr>
   <tr>
     <td>
-      <a href="https://swift.org/blog/5-2-release-process/">Swift 5.2</a> (beta)
+      <a href="https://swift.org/blog/swift-5-2-released/">Swift 5.2</a> (beta)
     </td>
     <td>2020</td>
-    <td>TBD</td>
+    <td>March 24</td>
     <td>
-      Xcode 11.4 (beta)
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_11.4/Xcode_11.4.xip">Xcode 11.4</a>, <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_11.4.1/Xcode_11.4.1.xip">Xcode 11.4.1</a>
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://swift.org/blog/swift-5-1-released/">Swift 5.2</a>
+      <a href="https://swift.org/blog/swift-5-1-released/">Swift 5.1</a>
     </td>
     <td rowspan="2">2019</td>
     <td>September 20</td>
