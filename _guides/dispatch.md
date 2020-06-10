@@ -58,9 +58,10 @@ import Foundation
 
 @objc func didTapOnGenerateImageButton() {
   DispatchQueue.global(qos: .background).async {
-  let newImage = ImageManager.generateImage() // This could take a long time
-  DispatchQueue.main.async {
-    self.imageView = newImage // The UI can only be updated on the main thread
+    let newImage = ImageManager.generateImage() // This synchronous method could take a long time
+    DispatchQueue.main.async {
+      self.imageView = newImage // The UI can only be updated on the main thread
+    }
   }
 }
 ```
