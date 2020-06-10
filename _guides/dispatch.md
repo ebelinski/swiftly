@@ -38,6 +38,19 @@ DispatchQueue.global(qos: .background).async {
 }
 ```
 
+### Run code in the main thread after a delay
+
+With **asyncAfter** it is possible to tell the Dispatch framework to execute a block of code after a **delay**:
+
+```swift
+import Foundation
+
+// Code in the main thread
+DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+    // Code in the main thread that runs after 3 seconds
+}
+```
+
 ### Practical example
 
 ```swift
