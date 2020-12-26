@@ -2,9 +2,10 @@
 layout: default
 title: Swift versions
 description: Tables showing versions of the Swift programming language, and their corresponding Xcode releases.
-redirect_from: 
+redirect_from:
   - /versions/
 ---
+
 {::options parse_block_html="true" /}
 
 <div id="compact-toc">
@@ -24,12 +25,30 @@ Last updated May 16, 2020. To use the Xcode download links, log into [developer.
   </tr>
   <tr>
     <td>
-      <a href="https://swift.org/blog/swift-5-2-released/">Swift 5.2</a> (beta)
+      <a href="https://swift.org/blog/swift-5-3-released/">Swift 5.3</a>
+    </td>
+    <td>2021</td>
+    <td>September 16</td>
+    <td>
+      <a href="https://download.developer.apple.com/Developer_Tools/Xcode_12/Xcode_12.xip">Xcode 12</a>, 
+      <a href="https://download.developer.apple.com/Developer_Tools/Xcode_12.0.1/Xcode_12.0.1.xip">Xcode 12.0.1</a>, 
+      <a href="https://download.developer.apple.com/Developer_Tools/Xcode_12.1/Xcode_12.1.xip">Xcode 12.1</a>, 
+      <a href="https://download.developer.apple.com/Developer_Tools/Xcode_12.2/Xcode_12.2.xip">Xcode 12.2</a>, 
+      <a href="https://download.developer.apple.com/Developer_Tools/Xcode_12.3/Xcode_12.3.xip">Xcode 12.3</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://swift.org/blog/swift-5-2-released/">Swift 5.2</a>
     </td>
     <td>2020</td>
     <td>March 24</td>
     <td>
-      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_11.4/Xcode_11.4.xip">Xcode 11.4</a>, <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_11.4.1/Xcode_11.4.1.xip">Xcode 11.4.1</a>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_11.4/Xcode_11.4.xip">Xcode 11.4</a>, 
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_11.4.1/Xcode_11.4.1.xip">Xcode 11.4.1</a>, 
+      <a href="https://download.developer.apple.com/Developer_Tools/Xcode_11.5/Xcode_11.5.xip">Xcode 11.5</a>, 
+      <a href="https://download.developer.apple.com/Developer_Tools/Xcode_11.6/Xcode_11.6.xip">Xcode 11.6</a>, 
+      <a href="https://download.developer.apple.com/Developer_Tools/Xcode_11.7/Xcode_11.7.xip">Xcode 11.7</a>
     </td>
   </tr>
   <tr>
