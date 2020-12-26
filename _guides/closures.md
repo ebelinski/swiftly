@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Closures"
-description: A Swift 5.2 closures reference guide, covering inline closures, closures as variables, closure typealiases, and @escaping closures.
+description: A Swift 5.3 closures reference guide, covering inline closures, closures as variables, closure typealiases, and @escaping closures.
 redirect_from:
   - /closure/
   - /fuckingswiftblocksyntax/

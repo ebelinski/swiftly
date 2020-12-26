@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "If"
-description: A Swift 5.2 if statement reference guide, with an if-else example and its ternary conditional equivalent.
+description: A Swift 5.3 if statement reference guide, with an if-else example and its ternary conditional equivalent.
 redirect_from:
   - /if-else/
 ---

@@ -7,10 +7,10 @@
 
 # Site settings
 title: Swiftly
-subtitle: Swift 5.2 references for busy coders
+subtitle: Swift 5.3 references for busy coders
 description: Swiftly is a one-stop quick reference spot for Swift developers, covering Swift basics, control flow, types, structs/classes, operators, functional methods, and more.
 author: Eugene Belinski
-keywords: 
+keywords:
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site

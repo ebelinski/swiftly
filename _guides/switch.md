@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Switch (case)"
-description: A Swift 5.2 switch statement reference guide, with a switch with equality and a switch with tuples example.
+description: A Swift 5.3 switch statement reference guide, with a switch with equality and a switch with tuples example.
 redirect_from: 
   - /case/
 ---

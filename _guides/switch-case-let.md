@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Switch (case let)"
-description: A Swift 5.2 switch case let statement reference guide, with a switch case let example and its if case let equivalent.
+description: A Swift 5.3 switch case let statement reference guide, with a switch case let example and its if case let equivalent.
 redirect_from: 
   - /switchcaselet/
 ---

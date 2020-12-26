@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "compactMap"
-description: A Swift 5.2 compactMap reference guide, with a compactMap over [String] example.
+description: A Swift 5.3 compactMap reference guide, with a compactMap over [String] example.
 ---
 {::options parse_block_html="true" /}
 

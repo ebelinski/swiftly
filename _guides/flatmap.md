@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "flatMap"
-description: A Swift 5.2 flatMap reference guide, with a flatMap over [Int] example.
+description: A Swift 5.3 flatMap reference guide, with a flatMap over [Int] example.
 ---
 {::options parse_block_html="true" /}
 

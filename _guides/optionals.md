@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Optionals"
-description: A Swift 5.2 optionals reference guide with a simple example.
+description: A Swift 5.3 optionals reference guide with a simple example.
 redirect_from:
   - /optional/
 ---

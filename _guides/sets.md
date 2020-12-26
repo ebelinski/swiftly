@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Sets"
-description: A Swift 5.2 sets reference guide, covering declaration, mutability, type annotations, iteration, and manipulation.
+description: A Swift 5.3 sets reference guide, covering declaration, mutability, type annotations, iteration, and manipulation.
 redirect_from: 
   - /set/
 ---

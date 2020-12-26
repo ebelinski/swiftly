@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Logical operators (!, &&, ||)"
-description: A Swift 5.2 logical operators reference guide, covering logical NOT (!),n logical AND (&&), logical OR (||), and examples combining logical operators.
+description: A Swift 5.3 logical operators reference guide, covering logical NOT (!),n logical AND (&&), logical OR (||), and examples combining logical operators.
 redirect_from:
   - /logical-not/
   - /logical-and/

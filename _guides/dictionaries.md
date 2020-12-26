@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Dictionaries"
-description: A Swift 5.2 dictionaries reference guide, covering declaration, mutability, type annotations, iteration, and counting elements.
+description: A Swift 5.3 dictionaries reference guide, covering declaration, mutability, type annotations, iteration, and counting elements.
 redirect_from: 
   - /dictionary/
   - /dict/
