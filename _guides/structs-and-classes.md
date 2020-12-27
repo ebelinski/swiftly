@@ -126,3 +126,7 @@ print(player2.name) // Isabella
 ```
 
 {% include closecol.html closerow=true %}
+
+### Further reading
+
+* [Structures and Classes `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)
