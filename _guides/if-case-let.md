@@ -125,4 +125,4 @@ describe(Barcode.upc(0, 12345, 67890, 5))
 
 ### Further reading
 
-* [Control Flow (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)
+* [Control Flow `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)

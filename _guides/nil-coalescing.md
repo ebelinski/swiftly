@@ -40,3 +40,7 @@ greet(name: nil) // Hello guest!
 ```
 
 {% include closecol.html closerow=true %}
+
+### Further reading
+
+* [Basic Operators § Nil-Coalescing Operator `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID72)

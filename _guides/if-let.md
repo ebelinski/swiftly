@@ -47,4 +47,4 @@ greet(name: nil) // Hello guest!
 
 ### Further reading
 
-* [Control Flow (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)
+* [Control Flow `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)

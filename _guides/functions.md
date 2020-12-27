@@ -149,4 +149,4 @@ print(result) // 30
 
 ### Further reading
 
-* [Functions (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/Functions.html)
+* [Functions `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/Functions.html)

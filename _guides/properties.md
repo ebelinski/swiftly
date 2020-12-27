@@ -91,4 +91,4 @@ _Computed properties_ are [variables](/variables) that are computed instead of h
 
 ### Further reading
 
-* [Properties (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/Properties.html)
+* [Properties `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/Properties.html)

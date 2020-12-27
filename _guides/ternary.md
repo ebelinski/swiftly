@@ -12,7 +12,7 @@ The **ternary conditional operator** is a shorthand alternative to [if-else](/if
 
 {% include opencol.html size=6 newrow=true %}
 
-### Example if-else
+### Example [if-else](\if)
 
 ```swift
 if 5 > 6 {
@@ -34,3 +34,11 @@ if 5 > 6 {
 ```
 
 {% include closecol.html closerow=true %}
+
+### See also
+
+* [If](/if)
+
+### Further reading
+
+* [Basic Operators § Ternary Conditional Operator `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID63)

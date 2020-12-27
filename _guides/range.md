@@ -70,3 +70,7 @@ print(players[2...]) // ["Chris", "Daisy"]
 print(players[...2]) // ["Ayesha", "Beatrix", "Chris"]
 print(players[..<2]) // ["Ayesha", "Beatrix"]
 ```
+
+### Further reading
+
+* [Basic Operators § Range Operators `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID73)

@@ -72,3 +72,7 @@ if (loggedIn && accountConfirmed) || browsingAsGuest {
 }
 // The user is logged in with a confirmed account, or they are browsing as guest.
 ```
+
+### Further reading
+
+* [Basic Operators § Logical Operators `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID76)

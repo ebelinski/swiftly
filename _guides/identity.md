@@ -40,3 +40,7 @@ print(player1 !== player2) // true
 print(player1 !== player3) // true
 print(player1 !== player4) // false
 ```
+
+### Further reading
+
+* [Structures and Classes § Identity Operators `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html#ID90)

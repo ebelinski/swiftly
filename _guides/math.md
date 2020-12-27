@@ -85,7 +85,7 @@ A prefixed `-` can be used to toggle the sign of a value. A prefixed `+` does no
 
 {% include opencol.html size=6 newrow=true %}
 
-### Unary minus (`-`)
+#### Unary minus (`-`)
 
 ```swift
 let a = 5
@@ -95,7 +95,7 @@ print(b) // -5
 
 {% include closecol.html %}{% include opencol.html size=6 %}
 
-### Unary plus (`+`)
+#### Unary plus (`+`)
 
 ```swift
 let a = 5
@@ -104,3 +104,7 @@ print(b) // 5
 ```
 
 {% include closecol.html closerow=true %}
+
+### Further reading
+
+* [Basic Operators § Arithmetic Operators `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID63)

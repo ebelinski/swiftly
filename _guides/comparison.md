@@ -145,3 +145,7 @@ print(player1 != player4) // false
 ```
 
 **Note**: While `==` and `!=` compare class instance equality, [`===` and `!==`](/identity) compare identity, which is a similar, but different concept.
+
+### Further reading
+
+* [Basic Operators § Comparison Operators `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID70)

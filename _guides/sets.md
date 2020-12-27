@@ -56,4 +56,4 @@ Sets can be iterated over using [for-in](/for-in). They can be manipulated using
 
 ### Further reading
 
-* [Collection Types (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
+* [Collection Types `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)

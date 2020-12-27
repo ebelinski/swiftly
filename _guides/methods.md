@@ -143,4 +143,4 @@ Person.intro() // I'm a class method.
 
 ### Further reading
 
-* [Methods (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/Methods.html)
+* [Methods `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/Methods.html)

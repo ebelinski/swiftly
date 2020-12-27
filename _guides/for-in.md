@@ -68,4 +68,4 @@ for player in players where player.level == 1 {
 
 ### Further reading
 
-* [Control Flow (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)
+* [Control Flow `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)

@@ -122,4 +122,4 @@ print(newSentence) // Swift is my favorite programming language!
 
 ### Further reading
 
-* [Strings and Characters (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)
+* [Strings and Characters `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)

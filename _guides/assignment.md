@@ -66,3 +66,8 @@ print(a) // 2
 ```
 
 {% include closecol.html closerow=true %}
+
+### Further reading
+
+* [Basic Operators § Assignment Operator `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID62)
+* [Basic Operators § Compound Assignment Operators `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID69)

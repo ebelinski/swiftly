@@ -72,4 +72,4 @@ Arrays can be iterated over using [for-in](/for-in) and [forEach](/foreach). The
 
 ### Further reading
 
-* [Collection Types (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
+* [Collection Types `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
