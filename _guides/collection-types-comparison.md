@@ -43,3 +43,13 @@ redirect_from:
 | **Arrays** | Can have repeating values. |
 | **Set** | May not have repeating values. Each value is unique. |
 | **Dictionaries** | Keys are unique but values can be repeating. |
+
+### See also
+
+* [Arrays](/arrays)
+* [Sets](/sets)
+* [Dictionaries](/dictionaries)
+
+### Further reading
+
+* [Collection Types (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)

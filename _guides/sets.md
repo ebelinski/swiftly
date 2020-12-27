@@ -47,3 +47,13 @@ let planets: Set<String> = ["Mars", "Jupiter", "Earth"]
 ### Iteration and manipulation
 
 Sets can be iterated over using [for-in](/for-in). They can be manipulated using [map](/map), [flatMap](/flatmap), and [reduce](/reduce). They can be sorted into an [array](/arrays) using [sorted](/).
+
+### See also
+
+* [Collection types comparison](/collection-types-comparison)
+* [Arrays](/arrays)
+* [Dictionaries](/dictionaries)
+
+### Further reading
+
+* [Collection Types (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)

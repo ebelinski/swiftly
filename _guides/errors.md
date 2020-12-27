@@ -5,9 +5,11 @@ description: A Swift 5.3 errors reference guide, covering error declaration, thr
 redirect_from: 
   - /error/
 ---
-{::options parse_block_html="true" /}
 
 **Errors** are represented by values that conform to the `Error` protocol. They can be thrown, caught, propagated, and recovered.
+
+* TOC
+{:toc}
 
 ### Complete example
 

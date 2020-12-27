@@ -122,3 +122,7 @@ describe(Barcode.upc(0, 12345, 67890, 5))
 
 * [If](/if)
 * [If let](/if-let)
+
+### Further reading
+
+* [Control Flow (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)

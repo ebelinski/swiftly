@@ -44,3 +44,7 @@ greet(name: nil) // Hello guest!
 
 * [If](/if)
 * [If case let](/if-case-let)
+
+### Further reading
+
+* [Control Flow (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)

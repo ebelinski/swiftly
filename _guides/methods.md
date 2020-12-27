@@ -140,3 +140,7 @@ Person.intro() // I'm a class method.
 ```
 
 {% include closecol.html closerow=true %}
+
+### Further reading
+
+* [Methods (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/Methods.html)

@@ -63,3 +63,13 @@ myArray2.append("Moon") // ❌ Error: Unexpected type
 ### Iteration and manipulation
 
 Arrays can be iterated over using [for-in](/for-in) and [forEach](/foreach). They can be manipulated using [map](/map), [flatMap](/flatmap), [reduce](/reduce), and [sorted](/).
+
+### See also
+
+* [Collection types comparison](/collection-types-comparison)
+* [Sets](/sets)
+* [Dictionaries](/dictionaries)
+
+### Further reading
+
+* [Collection Types (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)

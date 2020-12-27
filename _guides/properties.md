@@ -88,3 +88,7 @@ print(Person.greeting) // Hello
 ### Computed properties
 
 _Computed properties_ are [variables](/variables) that are computed instead of holding a stored value. See [Variables § Computed variables (get and set)](/variables/#computed-variables-get-and-set) for more information.
+
+### Further reading
+
+* [Properties (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/Properties.html)

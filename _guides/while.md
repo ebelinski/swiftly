@@ -54,3 +54,7 @@ repeat {
 ```
 
 {% include closecol.html closerow=true %}
+
+### Further reading
+
+* [Control Flow (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)

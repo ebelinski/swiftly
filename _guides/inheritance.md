@@ -161,3 +161,7 @@ guitar.describe()
 // This instrument is called a Guitar.
 // ...and it has 6 strings.
 ```
+
+### Further reading
+
+* [Inheritance (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/Inheritance.html)

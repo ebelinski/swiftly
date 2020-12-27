@@ -97,3 +97,13 @@ pointsPerPlayer = [:]
 print(pointsPerPlayer.count) // 0
 print(pointsPerPlayer.isEmpty) // true
 ```
+
+### See also
+
+* [Collection types comparison](/collection-types-comparison)
+* [Arrays](/arrays)
+* [Sets](/sets)
+
+### Further reading
+
+* [Collection Types (The Swift Programming Language)](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)

@@ -80,3 +80,7 @@ print(findFirstNegativeNumber(numbers: numbers))
 {% include closecol.html closerow=true %}
 
 What happened here? In the `for-in` loop, calling `return number` returns the method `findFirstNegativeNumber` with our value. But in the `forEach` loop, calling `return $0` actually has the effect of attempting to return the `forEach` closure, not the method `findFirstNegativeNumber`, with our value. The closure does not allow a non-void return type, so the code cannot be compiled. (Even if it could, the `findFirstNegativeNumber` method would then always return `nil`.)
+
+### See also
+
+* [For-in](/for-in)
