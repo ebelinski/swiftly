@@ -155,3 +155,7 @@ for beatle in Beatle.allCases {
 // george is a Beatle.
 // ringo is a Beatle."
 ```
+
+### Further reading
+
+* [Enumerations `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html)
