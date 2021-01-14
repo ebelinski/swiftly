@@ -43,4 +43,4 @@ greet(name: nil) // Hello guest!
 
 ### Further reading
 
-* [Basic Operators § Nil-Coalescing Operator `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID72)
+* [Basic Operators § Nil-Coalescing Operator `📖 Official Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID72)

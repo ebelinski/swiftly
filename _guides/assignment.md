@@ -69,5 +69,5 @@ print(a) // 2
 
 ### Further reading
 
-* [Basic Operators § Assignment Operator `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID62)
-* [Basic Operators § Compound Assignment Operators `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID69)
+* [Basic Operators § Assignment Operator `📖 Official Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID62)
+* [Basic Operators § Compound Assignment Operators `📖 Official Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID69)

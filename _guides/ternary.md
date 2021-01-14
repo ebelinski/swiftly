@@ -41,4 +41,4 @@ if 5 > 6 {
 
 ### Further reading
 
-* [Basic Operators § Ternary Conditional Operator `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID63)
+* [Basic Operators § Ternary Conditional Operator `📖 Official Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID63)

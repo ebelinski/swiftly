@@ -106,4 +106,4 @@ print(pointsPerPlayer.isEmpty) // true
 
 ### Further reading
 
-* [Collection Types `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
+* [Collection Types `📖 Official Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)

@@ -164,4 +164,4 @@ guitar.describe()
 
 ### Further reading
 
-* [Inheritance `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/Inheritance.html)
+* [Inheritance `📖 Official Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/Inheritance.html)

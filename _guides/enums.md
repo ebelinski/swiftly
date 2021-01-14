@@ -158,4 +158,4 @@ for beatle in Beatle.allCases {
 
 ### Further reading
 
-* [Enumerations `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html)
+* [Enumerations `📖 Official Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html)

@@ -148,4 +148,4 @@ print(player1 != player4) // false
 
 ### Further reading
 
-* [Basic Operators § Comparison Operators `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID70)
+* [Basic Operators § Comparison Operators `📖 Official Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID70)

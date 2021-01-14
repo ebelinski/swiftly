@@ -71,4 +71,4 @@ case .ringo: print("My favorite beatle played the drums.")
 
 ### Further reading
 
-* [Control Flow `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)
+* [Control Flow `📖 Official Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)

@@ -43,4 +43,4 @@ print(player1 !== player4) // false
 
 ### Further reading
 
-* [Structures and Classes § Identity Operators `Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html#ID90)
+* [Structures and Classes § Identity Operators `📖 Official Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html#ID90)
