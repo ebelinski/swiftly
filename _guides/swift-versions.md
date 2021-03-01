@@ -26,7 +26,7 @@ Last updated May 16, 2020. To use the Xcode download links, log into [developer.
     <td>
       <a href="https://swift.org/blog/swift-5-3-released/">Swift 5.3</a>
     </td>
-    <td>2021</td>
+    <td rowspan="2">2020</td>
     <td>September 16</td>
     <td>
       <a href="https://download.developer.apple.com/Developer_Tools/Xcode_12/Xcode_12.xip">12</a>, 
@@ -40,7 +40,6 @@ Last updated May 16, 2020. To use the Xcode download links, log into [developer.
     <td>
       <a href="https://swift.org/blog/swift-5-2-released/">Swift 5.2</a>
     </td>
-    <td>2020</td>
     <td>March 24</td>
     <td>
       <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_11.4/Xcode_11.4.xip">11.4</a>, 
