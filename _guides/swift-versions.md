@@ -29,11 +29,12 @@ Last updated May 16, 2020. To use the Xcode download links, log into [developer.
     <td rowspan="2">2020</td>
     <td>September 16</td>
     <td>
-      <a href="https://download.developer.apple.com/Developer_Tools/Xcode_12/Xcode_12.xip">12</a>, 
+      <a href="https://download.developer.apple.com/Developer_Tools/Xcode_12/Xcode_12.xip">12.0</a>, 
       <a href="https://download.developer.apple.com/Developer_Tools/Xcode_12.0.1/Xcode_12.0.1.xip">12.0.1</a>, 
       <a href="https://download.developer.apple.com/Developer_Tools/Xcode_12.1/Xcode_12.1.xip">12.1</a>, 
       <a href="https://download.developer.apple.com/Developer_Tools/Xcode_12.2/Xcode_12.2.xip">12.2</a>, 
-      <a href="https://download.developer.apple.com/Developer_Tools/Xcode_12.3/Xcode_12.3.xip">12.3</a>
+      <a href="https://download.developer.apple.com/Developer_Tools/Xcode_12.3/Xcode_12.3.xip">12.3</a>, 
+      <a href="https://download.developer.apple.com/Developer_Tools/Xcode_12.4/Xcode_12.4.xip">12.4</a>
     </td>
   </tr>
   <tr>
