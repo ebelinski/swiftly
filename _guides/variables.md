@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Variables"
-description: A Swift 5.3 variables and constants reference guide, covering declaration, mutability, computed variables, willSet, and didSet.
+description: A Swift 5.4 variables and constants reference guide, covering declaration, mutability, computed variables, willSet, and didSet.
 redirect_from:
   - /var/
   - /variable/

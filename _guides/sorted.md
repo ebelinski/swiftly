@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "sorted() and sorted(by:)"
-description: A Swift 5.3 sorted() and sorted(by:) methods reference guide, with examples for both.
+description: A Swift 5.4 sorted() and sorted(by:) methods reference guide, with examples for both.
 redirect_from:
   - /sort/
   - /sorting/
