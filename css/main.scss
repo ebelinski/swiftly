@@ -229,7 +229,7 @@ li .highlighter-rouge {
   }
 
   a:hover {
-    color: $primaryDarkHover; 
+    color: $primaryDarkHover;
   }
 
   .header {
@@ -293,4 +293,11 @@ li .highlighter-rouge {
     background: $primaryAsBackground;
     color: white;
   }
+}
+
+.beta {
+  font-weight: bold;
+  display: inline-block;
+  padding: 0px 2px;
+  color: #cc9300;
 }
