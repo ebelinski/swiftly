@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Properties"
-description: A Swift 5.4 properties reference guide, covering instance properties, static/class properties, and computed properties.
+description: A Swift 5.5 properties reference guide, covering instance properties, static/class properties, and computed properties.
 redirect_from: 
   - /property/
 ---

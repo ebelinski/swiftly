@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Dispatch"
-description: A Swift 5.4 Dispatch reference guide, covering running code on a background thread, main thread, and a practical example.
+description: A Swift 5.5 Dispatch reference guide, covering running code on a background thread, main thread, and a practical example.
 ---
 
 **Dispatch** is a framework in Foundation that allows you to run code on different threads. By default, all code on iOS is run on the _main thread_ (also known as the _UI thread_).

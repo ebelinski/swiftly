@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "While"
-description: A Swift 5.4 while loop reference guide, with a simple while and a repeat-while example.
+description: A Swift 5.5 while loop reference guide, with a simple while and a repeat-while example.
 ---
 {::options parse_block_html="true" /}
 

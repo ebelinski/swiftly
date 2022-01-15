@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Methods"
-description: A Swift 5.4 methods reference guide, covering instance methods and static/class methods.
+description: A Swift 5.5 methods reference guide, covering instance methods and static/class methods.
 redirect_from: 
   - /method/
 ---
