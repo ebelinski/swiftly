@@ -24,12 +24,12 @@ Last updated July 8, 2021. To use the Xcode download links, log into [developer.
   </tr>
   <tr>
     <td>
-      Swift 5.5 <sup class="beta">BETA</sup>
+      <a href="https://swift.org/blog/swift-5-5-released/">Swift 5.5</a>
     </td>
     <td rowspan="2">2021</td>
-    <td>TBD</td>
+    <td>September 20</td>
     <td>
-      Xcode 13 <sup class="beta">BETA</sup>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13/Xcode_13.xip">13.0</a>
     </td>
   </tr>
   <tr>
