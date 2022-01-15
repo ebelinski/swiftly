@@ -29,7 +29,10 @@ Last updated July 8, 2021. To use the Xcode download links, log into [developer.
     <td rowspan="2">2021</td>
     <td>September 20</td>
     <td>
-      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13/Xcode_13.xip">13.0</a>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13/Xcode_13.xip">13.0</a>,
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13.1/Xcode_13.1.xip">13.1</a>,
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13.2/Xcode_13.2.xip">13.2</a>,
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13.2.1/Xcode_13.2.1.xip">13.2.1</a>
     </td>
   </tr>
   <tr>
