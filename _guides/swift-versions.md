@@ -12,7 +12,7 @@ redirect_from:
 {:toc}
 </div>
 
-Last updated July 8, 2021. To use the Xcode download links, log into [developer.apple.com](https://developer.apple.com/) first (Apple Developer membership required). Some Xcode versions are not available for download.
+Last updated January 15, 2022. To use the Xcode download links, log into [developer.apple.com](https://developer.apple.com/) first (Apple Developer membership required). Some Xcode versions are not available for download.
 
 ### Open source versions
 
@@ -23,16 +23,36 @@ Last updated July 8, 2021. To use the Xcode download links, log into [developer.
     <th>Part of Xcode versions</th>
   </tr>
   <tr>
+    <td>Swift 5.5.2</td>
+    <td rowspan="5">2021</td>
+    <td>December 13</td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13.2/Xcode_13.2.xip">13.2</a>,
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13.2.1/Xcode_13.2.1.xip">13.2.1</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Swift 5.5.1</td>
+    <td>October 25</td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13.1/Xcode_13.1.xip">13.1</a>
+    </td>
+  </tr>
+  <tr>
     <td>
       <a href="https://swift.org/blog/swift-5-5-released/">Swift 5.5</a>
     </td>
-    <td rowspan="2">2021</td>
     <td>September 20</td>
     <td>
-      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13/Xcode_13.xip">13.0</a>,
-      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13.1/Xcode_13.1.xip">13.1</a>,
-      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13.2/Xcode_13.2.xip">13.2</a>,
-      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13.2.1/Xcode_13.2.1.xip">13.2.1</a>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13/Xcode_13.xip">13.0</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Swift 5.4.2
+    </td>
+    <td>June 21</td>
+    <td>
+      <a href="https://download.developer.apple.com/Developer_Tools/Xcode_12.5.1/Xcode_12.5.1.xip">12.5.1</a>
     </td>
   </tr>
   <tr>
@@ -41,8 +61,7 @@ Last updated July 8, 2021. To use the Xcode download links, log into [developer.
     </td>
     <td>April 26</td>
     <td>
-      <a href="https://download.developer.apple.com/Developer_Tools/Xcode_12.5/Xcode_12.5.xip">12.5</a>,
-      <a href="https://download.developer.apple.com/Developer_Tools/Xcode_12.5.1/Xcode_12.5.1.xip">12.5.1</a>
+      <a href="https://download.developer.apple.com/Developer_Tools/Xcode_12.5/Xcode_12.5.xip">12.5</a>
     </td>
   </tr>
   <tr>
