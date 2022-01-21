@@ -7,7 +7,7 @@ redirect_from:
 ---
 {::options parse_block_html="true" /}
 
-The common for loop `for (i = a; i < b; i++)` does not exist in Swift. Instead, the **for-in** can be modified to have an index using tuples and _[enumerated](https://developer.apple.com/documentation/swift/array/1687832-enumerated)_:
+The common for loop syntax `for (i = a; i < b; i++)` does not exist in Swift. Instead, **for-in** can be modified to have an index using tuples and _[enumerated](https://developer.apple.com/documentation/swift/array/1687832-enumerated)_:
 
 {% include opencol.html size=6 newrow=true %}
 
@@ -61,11 +61,11 @@ for player in players where player.level == 1 {
 
 ### Traditional for loop
 
-It is possible to reproduce the traditional `for (i = 1; i < 11; ++i)` for loop from other languages:
+It is still possible to reproduce a for loop similar to `for (i = a; i < b; i++)`:
 
 ```swift
 let birds = ["Owl", "Crane"]
-for i in 0...birds.count-1 {
+for i in 0 ..< birds.count {
   print("[\(i)]: \(birds[i])")
 }
 // Output:
