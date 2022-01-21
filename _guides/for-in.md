@@ -61,7 +61,7 @@ for player in players where player.level == 1 {
 
 ### Traditional for loop
 
-It is still possible to reproduce a for loop similar to `for (i = a; i < b; i++)`:
+It is still possible to create a for loop similar to `for (i = a; i < b; i++)`:
 
 ```swift
 let birds = ["Owl", "Crane"]
