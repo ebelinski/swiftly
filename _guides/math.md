@@ -63,7 +63,7 @@ print(100 * 25) // 2500
 ### Division (`/`)
 
 ```swift
-print(5 / 10) // -5
+print(5 / 10) // 0
 print(100 / 25) // 4
 ```
 
