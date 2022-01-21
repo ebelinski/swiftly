@@ -59,6 +59,20 @@ for player in players where player.level == 1 {
 // Tomoko is a beginner.
 ```
 
+### Traditional for loop
+
+It is possible to reproduce the traditional `for (i = 1; i < 11; ++i)` for loop from other languages:
+
+```swift
+let birds = ["Owl", "Crane"]
+for i in 0...birds.count-1 {
+  print("[\(i)]: \(birds[i])")
+}
+// Output:
+// [0]: Owl
+// [1]: Crane
+```
+
 ### See also
 
 * [forEach](/foreach)
