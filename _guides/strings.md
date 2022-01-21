@@ -17,33 +17,39 @@ redirect_from:
 ### Basic string
 
 ```swift
-let myString = "Swift is my favorite programming language!"
+let myString = "Swift is my favorite language!"
 ```
+
+{% include opencol.html size=6 newrow=true %}
 
 ### String with line breaks
 
 ```swift
-let myString = "Swift?\nIt's my favorite programming language!"
+let myString = "Swift?\nIt's my favorite language!"
 
 print(myString)
 // Output:
 // "Swift?
-// It's my favorite programming language!"
+// It's my favorite language!"
 ```
+
+{% include closecol.html %}{% include opencol.html size=6 %}
 
 ### Multiline string
 
 ```swift
 let myLongString = """
 Swift?
-It's my favorite programming language!
+It's my favorite language!
 """
 
 print(myString)
 // Output:
 // "Swift?
-// It's my favorite programming language!"
+// It's my favorite language!"
 ```
+
+{% include closecol.html closerow=true %}
 
 ### String length with `.count()` and `.isEmpty`
 
@@ -81,7 +87,7 @@ print("Hi, I'm \(name), from \(location).")
 ```swift
 import Foundation
 
-let sentence = "Swift is my favorite programming language!"
+let sentence = "Swift is my favorite language!"
 
 print(sentence.contains("Swift")) // true
 print(sentence.contains("my favorite")) // true
@@ -95,7 +101,7 @@ print(sentence.contains("charming")) // false
 ```swift
 import Foundation
 
-let sentence = "Swift is my favorite programming language!"
+let sentence = "Swift is my favorite language!"
 print(sentence.lowercased().contains("swift")) // true
 print(sentence.range(of: "swift", options: .caseInsensitive) != nil) // true
 ```
@@ -105,9 +111,9 @@ print(sentence.range(of: "swift", options: .caseInsensitive) != nil) // true
 ```swift
 import Foundation
 
-let sentence = "Swift is my favorite programming language!"
+let sentence = "Swift is my favorite language!"
 let newSentence = sentence.replacingOccurrences(of: "Swift", with: "VBA")
-print(newSentence) // VBA is my favorite programming language!
+print(newSentence) // VBA is my favorite language!
 ```
 
 ### Trimming whitespace and new lines with `trimmingCharacters(in:)`
@@ -115,9 +121,9 @@ print(newSentence) // VBA is my favorite programming language!
 ```swift
 import Foundation
 
-let sentence = "   Swift is my favorite programming language!\n\n  "
+let sentence = "   Swift is my favorite language!\n\n  "
 let newSentence = sentence.trimmingCharacters(in: .whitespacesAndNewlines)
-print(newSentence) // Swift is my favorite programming language!
+print(newSentence) // Swift is my favorite language!
 ```
 
 ### Further reading
