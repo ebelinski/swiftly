@@ -18,7 +18,7 @@ let birds = ["Owl", "Crane"]
 for bird in birds {
   print(bird)
 }
-// Output: 
+// Output:
 // Owl
 // Crane
 ```
@@ -32,7 +32,7 @@ let birds = ["Owl", "Crane"]
 for (i, bird) in birds.enumerated() {
   print("[\(i)]: \(bird)")
 }
-// Output: 
+// Output:
 // [0]: Owl
 // [1]: Crane
 ```
@@ -42,10 +42,7 @@ for (i, bird) in birds.enumerated() {
 ### For-in-where
 
 ```swift
-struct Player {
-  let name: String
-  let level: Int
-}
+struct Player { let name: String, level: Int }
 
 let players = [
   Player(name: "Rashida", level: 1),
@@ -58,8 +55,8 @@ for player in players where player.level == 1 {
 }
 
 // Output:
-// Rashida is a novice.
-// Tomoko is a novice.
+// Rashida is a beginner.
+// Tomoko is a beginner.
 ```
 
 ### See also
