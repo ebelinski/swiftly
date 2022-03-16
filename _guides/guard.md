@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Guard"
-description: A Swift 5.5 guard statement reference guide, with a simple guard and a guard let example.
+description: A Swift 5.6 guard statement reference guide, with a simple guard and a guard let example.
 redirect_from: 
   - /guard-let/
 ---

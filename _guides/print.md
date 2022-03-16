@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Print"
-description: A Swift 5.5 print method reference guide, covering usage and string interpolation.
+description: A Swift 5.6 print method reference guide, covering usage and string interpolation.
 redirect_from:
   - /write/
   - /writeln/

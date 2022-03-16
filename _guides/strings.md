@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Strings"
-description: A Swift 5.5 strings reference guide, covering basic strings, multiline strings, string length, and string interpolation.
+description: A Swift 5.6 strings reference guide, covering basic strings, multiline strings, string length, and string interpolation.
 redirect_from:
   - /string/
   - /str/

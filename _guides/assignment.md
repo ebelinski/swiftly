@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Assignment (=, +=. -=, *=, /=)"
-description: A Swift 5.5 assignment operations reference guide, covering assignment and compound assignment.
+description: A Swift 5.6 assignment operations reference guide, covering assignment and compound assignment.
 redirect_from:
   - /assign/
   - /compound-assignment/

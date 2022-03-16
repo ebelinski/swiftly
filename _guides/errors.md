@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Errors"
-description: A Swift 5.5 errors reference guide, covering error declaration, throwing errors, and catching errors.
+description: A Swift 5.6 errors reference guide, covering error declaration, throwing errors, and catching errors.
 redirect_from: 
   - /error/
 ---

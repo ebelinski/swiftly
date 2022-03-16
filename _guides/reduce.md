@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "reduce"
-description: A Swift 5.5 reduce method reference guide, with a reduce [Int] example.
+description: A Swift 5.6 reduce method reference guide, with a reduce [Int] example.
 ---
 {::options parse_block_html="true" /}
 

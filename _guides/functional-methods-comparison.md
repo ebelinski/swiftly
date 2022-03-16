@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Functional methods comparison"
-description: "A Swift 5.5 comparision of functional methods: map, compactMap, flatMap, fliter, reduce, sorted, and forEach."
+description: "A Swift 5.6 comparision of functional methods: map, compactMap, flatMap, fliter, reduce, sorted, and forEach."
 redirect_from: 
   - /functional/
   - /functional-methods/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "If case let"
-description: A Swift 5.5 if case let statement reference guide, with an if case let example and its switch case let equivalent.
+description: A Swift 5.6 if case let statement reference guide, with an if case let example and its switch case let equivalent.
 redirect_from: 
   - /ifcaselet/
   - /ifcase/
