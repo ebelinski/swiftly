@@ -51,14 +51,14 @@ layout: default
 
 #### Operators
 
-* [Assign `=, +=. -=, *=, /=`](/assignment)
-* [Math `+, -, *, /, %`](/math)
-* [Comparison `==, >`](/comparison)
+* [Assign `=` `+=` `-=` `*=`](/assignment)
+* [Math `+` `-` `*` `/` `%`](/math)
+* [Comparison `==` `!=` `>`](/comparison)
 * [Ternary `_ ? _ : _`](/ternary)
 * [Nil-coalescing `??`](/nil-coalescing)
 * [Range `a...b`](/range)
-* [Logical `!, &&, !!`](/logical)
-* [Identity `===, !==`](/identity)
+* [Logical `!` `&&` `!!`](/logical)
+* [Identity `===` `!==`](/identity)
 
 {% include closecol.html %}{% include opencol.html size=3 %}
 
