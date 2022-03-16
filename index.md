@@ -76,6 +76,7 @@ layout: default
 #### Advanced
 
 * [Errors](/errors)
+* [In-out params `inout` `&`](/in-out)
 <!-- * [Results](/results) * -->
 * [Dispatch](/dispatch)
 <!-- * [Extensions](/extensions) * -->
