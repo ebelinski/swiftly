@@ -1,13 +1,13 @@
 ---
 layout: default
 title: "In-out parameters"
-description: A Swift 5.6 nil-coalescing operator (??) reference guide, with an example and a comparison to let-else.
+description: A Swift 5.6 in-out parameter reference guide, with an example of declaring a function with an in-out parameter and passing in an in-out parameter.
 redirect_from:
   - /inout/
 ---
 {::options parse_block_html="true" /}
 
-**In-out parameters** are [function](/functions) parameters whose values can be modified, with those modifications persisting after the function ends.
+**In-out parameters** are [function](/functions) parameters whose values can be modified, with those modifications persisting after the function ends. They enable the sharing of value types as if they were reference types.
 
 {% include opencol.html size=6 newrow=true %}
 
