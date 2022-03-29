@@ -2,7 +2,7 @@
 layout: default
 title: "Arrays"
 description: A Swift 5.6 arrays reference guide, covering declaration, mutability, type annotations, iteration, and manipulation.
-redirect_from: 
+redirect_from:
   - /array/
   - /list/
   - /lists/
@@ -45,6 +45,13 @@ But the type can also be explicitly declared:
 ```swift
 let someInts: [Int] = [1, 3, 5]
 let someStrings: [String] = ["Hello", "Planet", "Earth"]
+```
+
+And explicit types are required for empty arrays, because the type cannot be inferred:
+
+```swift
+let someStrings: [String] = []
+let someInts = [Int]()
 ```
 
 ### Arrays that allow any element type
