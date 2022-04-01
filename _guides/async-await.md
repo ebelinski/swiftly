@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "async/await"
-description: A Swift 5.6 async/await reference guide.
+description: A Swift 5.6 async/await reference guide, covering declaring async functions, calling them with await, performing parallel work, using async/await with URLSession, and more.
 redirect_from:
   - /async/
   - /await/
@@ -40,7 +40,7 @@ func getScores() async -> [Int] {
 
 ### Calling async functions with `await`
 
-Async functions need to be awaited with `await`:
+Async function calls need to be awaited with `await`:
 
 ```swift
 // These will execute sequentially. Once getGames() finishes, getPlayers() will start, and so on.
