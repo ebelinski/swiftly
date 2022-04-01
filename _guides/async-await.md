@@ -8,7 +8,7 @@ redirect_from:
 ---
 {::options parse_block_html="true" /}
 
-**async** and **await** are keywords used to run asynchronous code as if it was synchronous.
+**async** and **await** are keywords used to run asynchronous code as if it was synchronous. A function can be marked with `async` to make it asynchronous, and an asyncronous function can be called with `await` to halt execution until the asynchronous function returns.
 
 * TOC
 {:toc}
@@ -16,8 +16,6 @@ redirect_from:
 {% include opencol.html size=6 newrow=true %}
 
 ### Declaring `async` functions
-
-Async function declarations must be marked with `async`:
 
 ```swift
 func getGames() async -> [String] {
@@ -39,8 +37,6 @@ func getScores() async -> [Int] {
 {% include closecol.html %}{% include opencol.html size=6 %}
 
 ### Calling async functions with `await`
-
-Async function calls need to be awaited with `await`:
 
 ```swift
 // These will execute sequentially. Once getGames() finishes, getPlayers() will start, and so on.
@@ -189,7 +185,7 @@ Task {
 
 ### Combining `async` with `throws`
 
-Async functions can still throw errors, but they must be called with `try await`:
+Async functions can still throw [errors](/errors), but they must be called with `try await`:
 
 ```swift
 import Foundation
@@ -216,3 +212,4 @@ Task {
 ### Further reading
 
 * [Concurrency `📖 Official Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/Concurrency.html)
+* [Connecting async/await to other Swift code](https://www.swiftbysundell.com/articles/connecting-async-await-with-other-swift-code/)
