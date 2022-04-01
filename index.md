@@ -39,8 +39,6 @@ layout: default
 * [Sets `Set<Int>`](/sets)
 * [Dictionaries `[:]`](/dictionaries)
 
-{% include closecol.html %}{% include opencol.html size=3 %}
-
 #### Structs & classes
 
 * [Structs & classes](/structs-and-classes)
@@ -48,6 +46,8 @@ layout: default
 * [Methods](/methods)
 * [Inheritance](/inheritance)
 <!-- * [Initialization](/initialization) -->
+
+{% include closecol.html %}{% include opencol.html size=3 %}
 
 #### Operators
 
@@ -60,8 +60,6 @@ layout: default
 * [Logical `!` `&&` `!!`](/logical)
 * [Identity `===` `!==`](/identity)
 
-{% include closecol.html %}{% include opencol.html size=3 %}
-
 #### Functional
 
 * [Comparison](/functional-methods-comparison)
@@ -73,12 +71,18 @@ layout: default
 * [sorted](/sorted)
 * [forEach](/foreach)
 
+{% include closecol.html %}{% include opencol.html size=3 %}
+
+#### Concurrency
+
+* [Dispatch](/dispatch)
+* [async/await](/async-await)
+
 #### Advanced
 
 * [Errors](/errors)
 * [In-out params `inout` `&`](/in-out)
 <!-- * [Results](/results) * -->
-* [Dispatch](/dispatch)
 <!-- * [Extensions](/extensions) * -->
 <!-- * [Protocols](/protocols) * -->
 <!-- * [Generics](/generics) * -->
