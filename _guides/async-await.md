@@ -196,10 +196,9 @@ import Foundation
 import _Concurrency // If using Playgrounds
 
 func getGames() async throws -> [String] {
-  let (data, _) = try await URLSession.shared.data(from: URL(string: "tel:5555555555")!)
-  let games = try JSONDecoder().decode([String].self, from: data)
-
-  return games
+  let 📞 = URL(string: "tel:5555555555")!
+  let (data, _) = try await URLSession.shared.data(from: 📞)
+  return try JSONDecoder().decode([String].self, from: data)
 }
 
 Task {
