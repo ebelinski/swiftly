@@ -66,7 +66,7 @@ func getGames(
 
   let task = session.dataTask(with: url) {
     data, _, _ in
-    let games = try! ecoder.decode(
+    let games = try! decoder.decode(
       [String].self,
       from: data!
     )
