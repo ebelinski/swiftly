@@ -10,6 +10,8 @@ redirect_from:
 
 **async** and **await** are keywords used to run asynchronous code as if it was synchronous. A function can be marked with `async` to make it asynchronous, and an asyncronous function can be called with `await` to halt execution until the asynchronous function returns.
 
+On Apple platforms, `async`/`await` requires iOS 13+, macOS Monterey+, watchOS 6+, or tvOS 13+. [Dispatch](/dispatch) is compatible with older platforms.
+
 * TOC
 {:toc}
 
@@ -152,6 +154,32 @@ getGames() { games in
 
 {% include closecol.html closerow=true %}
 
+### Combining `async` with `throws`
+
+Async functions can still throw [errors](/errors), but they must be called with `try await`:
+
+```swift
+import Foundation
+import _Concurrency // If using Playgrounds
+
+func getGames() async throws -> [String] {
+  let 📞 = URL(string: "tel:5555555555")!
+  let (data, _) = try await URLSession.shared.data(from: 📞)
+  return try JSONDecoder().decode([String].self, from: data)
+}
+
+Task {
+  do {
+    let games = try await getGames()
+    print(games)
+  } catch {
+    print("Could not get games: \(error.localizedDescription)")
+  }
+}
+
+// Output: Could not get games: unsupported URL
+```
+
 ### Calling completion block functions from an `async` function
 
 Legacy functions that still use completion blocks can still be called from `async` methods using `withCheckedContinuation`. In this example, `continuation.resume(returning:)` must be called **exactly one time**.
@@ -181,32 +209,6 @@ Task {
 }
 
 // Output: ["Backgammon", "Chess", "Go", "Mahjong"]
-```
-
-### Combining `async` with `throws`
-
-Async functions can still throw [errors](/errors), but they must be called with `try await`:
-
-```swift
-import Foundation
-import _Concurrency // If using Playgrounds
-
-func getGames() async throws -> [String] {
-  let 📞 = URL(string: "tel:5555555555")!
-  let (data, _) = try await URLSession.shared.data(from: 📞)
-  return try JSONDecoder().decode([String].self, from: data)
-}
-
-Task {
-  do {
-    let games = try await getGames()
-    print(games)
-  } catch {
-    print("Could not get games: \(error.localizedDescription)")
-  }
-}
-
-// Output: Could not get games: unsupported URL
 ```
 
 ### Further reading
