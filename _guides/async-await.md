@@ -5,6 +5,9 @@ description: A Swift 5.6 async/await reference guide, covering declaring async f
 redirect_from:
   - /async/
   - /await/
+  - /asyncawait/
+  - /await-async/
+  - /awaitasync/
 ---
 {::options parse_block_html="true" /}
 
@@ -182,6 +185,8 @@ Task {
 
 ### Calling completion block functions from an `async` function
 
+#### Using `withCheckedContinuation`
+
 Legacy functions that still use completion blocks can still be called from `async` methods using `withCheckedContinuation`. In this example, `continuation.resume(returning:)` must be called **exactly one time**.
 
 ```swift
@@ -209,6 +214,48 @@ Task {
 }
 
 // Output: ["Backgammon", "Chess", "Go", "Mahjong"]
+```
+
+#### Using `withCheckedThrowingContinuation`
+
+```swift
+import Foundation
+import _Concurrency // If using Playgrounds
+
+func legacyGetGames(completion: @escaping (Result<[String], Error>) -> Void) {
+  let 📞 = URL(string: "tel:5555555555")!
+  URLSession.shared.dataTask(with: 📞) { data, _, error in
+    if let error = error {
+      completion(.failure(error))
+      return
+    }
+    let games = try! JSONDecoder().decode([String].self, from: data!)
+    completion(.success(games))
+  }.resume()
+}
+
+func getGames() async throws -> [String] {
+  return try await withCheckedThrowingContinuation { continuation in
+    legacyGetGames() { result in
+      switch result {
+      case .success(let games): continuation.resume(returning: games)
+      case .failure(let error): continuation.resume(throwing: error)
+      }
+    }
+  }
+}
+
+Task {
+  do {
+    let games = try await getGames()
+    print(games)
+  } catch {
+    print("Could not get games: \(error.localizedDescription)")
+  }
+}
+
+// Output: ["Backgammon", "Chess", "Go", "Mahjong"]
+
 ```
 
 ### Further reading
