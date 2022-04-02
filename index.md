@@ -77,6 +77,7 @@ layout: default
 
 * [Dispatch](/dispatch)
 * [async/await](/async-await)
+* [@MainActor](/mainactor)
 * [isMainThread](/ismainthread)
 
 #### Advanced
