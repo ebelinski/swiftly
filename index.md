@@ -75,9 +75,9 @@ layout: default
 
 #### Concurrency
 
-* [Dispatch](/dispatch)
 * [async/await](/async-await)
 * [@MainActor](/mainactor)
+* [Dispatch](/dispatch)
 * [isMainThread](/ismainthread)
 
 #### Advanced
