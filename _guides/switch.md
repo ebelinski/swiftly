@@ -2,7 +2,7 @@
 layout: default
 title: "Switch (case)"
 description: A Swift 5.6 switch statement reference guide, with a switch with equality and a switch with tuples example.
-redirect_from: 
+redirect_from:
   - /case/
 ---
 {::options parse_block_html="true" /}
@@ -30,7 +30,7 @@ describe(animal: "Bear") // "Something else"
 
 ### Switch with tuples
 
-Here, all cases are covered, so a `default` case is unnecessary.
+A `default` case is unnecessary when all cases are covered.
 
 ```swift
 func describe(point: (Int, Int)) {
@@ -63,6 +63,21 @@ case .george: print("My favorite beatle played lead and rhythm guitar.")
 case .ringo: print("My favorite beatle played the drums.")
 }
 // Output: "My favorite beatle played vocals and lead guitar."
+```
+
+### Switch with [range](/range)
+
+```swift
+let userAge = 25
+
+switch userAge {
+case 0..<13: print("The user is a child.")
+case 13..<18: print("The user is a teenager.")
+case 18...Int.max: print("The user is an adult.")
+default: print("Invalid age.")
+}
+
+// Output: "Invalid age."
 ```
 
 ### See also
