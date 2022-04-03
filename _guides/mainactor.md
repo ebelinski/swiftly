@@ -12,3 +12,76 @@ redirect_from:
 * TOC
 {:toc}
 
+### `@MainActor` functions
+
+You can ensure that a function only runs on the main thread by marking it with `@MainActor`:
+
+```swift
+import _Concurrency // If using Playgrounds
+
+@MainActor
+func someFunction() {
+  print("This function is running on the main thread.")
+}
+
+Task {
+  await someFunction()
+}
+
+// Output: This function is running on the main thread.
+```
+
+### `@MainActor` structs and classes
+
+You can also ensure an entire [struct or class](/structs-and-classes) runs on the main thread with `@MainActor`:
+
+```swift
+import _Concurrency // If using Playgrounds
+
+@MainActor
+struct SomeStruct {
+  func someFunction() {
+    print("This function is running on the main thread.")
+  }
+}
+
+Task {
+  let someStruct = await SomeStruct()
+  await someStruct.someFunction()
+}
+```
+
+### Limitations
+
+A piece of code marked with `@MainActor` might still contain additional logic that runs on a different threat if it is sent to a different [dispatch](/dispatch) queue:
+
+```swift
+import Foundation
+import _Concurrency // If using Playgrounds
+
+@MainActor
+func someFunction() {
+  print("1️⃣ On main thread: \(Thread.isMainThread)")
+
+  DispatchQueue.global(qos: .background).async {
+    print("2️⃣ On main thread: \(Thread.isMainThread)")
+  }
+}
+
+Task {
+  await someFunction()
+}
+
+// Output:
+// 1️⃣ On main thread: true
+// 2️⃣ On main thread: false
+```
+
+### See also
+
+* [Dispatch](/dispatch)
+* [async/await](/async-await)
+
+### Further reading
+
+* [MainActor documentation](https://developer.apple.com/documentation/swift/mainactor)

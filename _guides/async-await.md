@@ -255,7 +255,6 @@ Task {
 }
 
 // Output: ["Backgammon", "Chess", "Go", "Mahjong"]
-
 ```
 
 ### Further reading
