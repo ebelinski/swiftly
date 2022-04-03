@@ -7,6 +7,9 @@ redirect_from:
 ---
 {::options parse_block_html="true" /}
 
+* TOC
+{:toc}
+
 {% include opencol.html size=6 newrow=true %}
 
 ### Switch with equality
