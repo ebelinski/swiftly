@@ -257,6 +257,12 @@ Task {
 // Output: ["Backgammon", "Chess", "Go", "Mahjong"]
 ```
 
+### See also
+
+* [@MainActor](/mainactor)
+* [Dispatch](/dispatch)
+* [isMainActor](/ismainactor)
+
 ### Further reading
 
 * [Concurrency `📖 Official Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/Concurrency.html)

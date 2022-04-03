@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "isMainThread"
-description: A Swift 5.6 @MainActor reference guide, covering declaring async functions, calling them with await, performing parallel work, using async/await with URLSession, and more.
+description: A Swift 5.6 isMainThread reference guide, with a simple example, an example using Dispatch, and an example using @MainActor and Dispatch.
 redirect_from:
   - /ismain/
   - /is-main-thread/
@@ -80,6 +80,7 @@ DispatchQueue.global(qos: .background).async {
 
 * [Dispatch](/dispatch)
 * [async/await](/async-await)
+* [@MainActor](/mainactor)
 
 ### Further reading
 
