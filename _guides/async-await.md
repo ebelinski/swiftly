@@ -59,7 +59,7 @@ print(scores)
 
 ### Use `Task` outside of an async context
 
-Calling an `async` function from a synchronous context requires must be done in a `Task`, which ironicallly uses a closure:
+Calling an `async` function from a synchronous context requires must be done in a `Task`:
 
 ```swift
 Task {
