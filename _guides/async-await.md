@@ -68,7 +68,7 @@ Task {
 }
 ```
 
-### Calling async functions in parallel with `async`
+### Calling async functions in parallel
 
 `async`/`await` can be combined to call multiple `async` methods at the same time, and then continue execution when all parallel methods have finished.
 
