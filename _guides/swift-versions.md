@@ -27,7 +27,7 @@ Last updated January 15, 2022. To use the Xcode download links, log into [develo
       <a href="https://www.swift.org/blog/swift-5.6-released/">Swift 5.6</a>
     </td>
     <td>2022</td>
-    <td>September 20</td>
+    <td>March 14</td>
     <td>
       <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13.3/Xcode_13.3.xip">13.3</a>
     </td>
