@@ -13,9 +13,6 @@ redirect_from:
 
 **isMainThread** (part of Foundation) can be used to check to see if the current `Thread` is the main thread.
 
-* TOC
-{:toc}
-
 {% include opencol.html size=6 newrow=true %}
 
 ### Simple example
