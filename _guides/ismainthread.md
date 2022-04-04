@@ -52,12 +52,12 @@ import Foundation
 import _Concurrency // If using Playgrounds
 
 func someFunction() {
-  print("someFunction() is \(Thread.isMainThread ? "running" : "not running") in the main thread.")
+  print("1️⃣ On main thread: \(Thread.isMainThread)")
 }
 
 @MainActor
 func someOtherFunction() {
-  print("someOtherFunc() is \(Thread.isMainThread ? "running" : "not running") in the main thread.")
+  print("2️⃣ On main thread: \(Thread.isMainThread)")
 }
 
 DispatchQueue.global(qos: .background).async {
@@ -68,8 +68,8 @@ DispatchQueue.global(qos: .background).async {
 }
 
 // Output:
-// someFunction() is not running in the main thread.
-// someOtherFunc() is running in the main thread.
+// 1️⃣ On main thread: false
+// 2️⃣ On main thread: true
 ```
 
 ### See also
