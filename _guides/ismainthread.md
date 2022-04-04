@@ -63,7 +63,6 @@ func someOtherFunction() {
   print("someOtherFunc() is \(Thread.isMainThread ? "running" : "not running") in the main thread.")
 }
 
-
 DispatchQueue.global(qos: .background).async {
   Task {
     someFunction()
