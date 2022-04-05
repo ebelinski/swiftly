@@ -51,7 +51,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
   <tr>
     <td>September 20</td>
     <td class="nowrap">
-      <a href="https://swift.org/blog/swift-5-5-released/"><strong>Swift 5.5</strong></a> ⭐
+      <a href="https://swift.org/blog/swift-5.5-released/"><strong>Swift 5.5</strong></a> ⭐
     </td>
     <td>
       <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13/Xcode_13.xip">13.0</a>
@@ -67,7 +67,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
   <tr>
     <td>April 26</td>
     <td>
-      <a href="https://swift.org/blog/swift-5-4-released/">Swift 5.4</a>
+      <a href="https://swift.org/blog/swift-5.4-released/">Swift 5.4</a>
     </td>
     <td>
       <a href="https://download.developer.apple.com/Developer_Tools/Xcode_12.5/Xcode_12.5.xip">12.5</a>
@@ -77,7 +77,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
     <td rowspan="2">2020</td>
     <td>September 16</td>
     <td>
-      <a href="https://swift.org/blog/swift-5-3-released/">Swift 5.3</a>
+      <a href="https://swift.org/blog/swift-5.3-released/">Swift 5.3</a>
     </td>
     <td>
       <a href="https://download.developer.apple.com/Developer_Tools/Xcode_12/Xcode_12.xip">12.0</a>,
@@ -91,7 +91,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
   <tr>
     <td>March 24</td>
     <td>
-      <a href="https://swift.org/blog/swift-5-2-released/">Swift 5.2</a>
+      <a href="https://swift.org/blog/swift-5.2-released/">Swift 5.2</a>
     </td>
     <td>
       <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_11.4/Xcode_11.4.xip">11.4</a>,
@@ -105,7 +105,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
     <td rowspan="2">2019</td>
     <td>September 20</td>
     <td>
-      <a href="https://swift.org/blog/swift-5-1-released/">Swift 5.1</a>
+      <a href="https://swift.org/blog/swift-5.1-released/">Swift 5.1</a>
     </td>
     <td>
       <a href="https://download.developer.apple.com/Developer_Tools/Xcode_11/Xcode_11.xip">11.0</a>,
@@ -131,7 +131,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
     <td rowspan="2">2018</td>
     <td>September 17</td>
     <td>
-      <a href="https://swift.org/blog/swift-4-2-released/">Swift 4.2</a>
+      <a href="https://swift.org/blog/swift-4.2-released/">Swift 4.2</a>
     </td>
     <td>
       <a href="https://download.developer.apple.com/Developer_Tools/Xcode_10/Xcode_10.xip">10.0</a>,
@@ -141,7 +141,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
   <tr>
     <td>March 29</td>
     <td>
-      <a href="https://swift.org/blog/swift-4-1-released/">Swift 4.1</a>
+      <a href="https://swift.org/blog/swift-4.1-released/">Swift 4.1</a>
     </td>
     <td>
       <a href="https://download.developer.apple.com/Developer_Tools/Xcode_9.3/Xcode_9.3.xip">9.3</a>
@@ -165,7 +165,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
   <tr>
     <td>September 19</td>
     <td>
-      <a href="https://swift.org/blog/swift-4-0-released/">
+      <a href="https://swift.org/blog/swift-4.0-released/">
         <strong>Swift 4.0 ⭐</strong>
       </a>
     </td>
@@ -185,7 +185,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
   <tr>
     <td>March 27</td>
     <td>
-      <a href="https://swift.org/blog/swift-3-1-released/">Swift 3.1</a>
+      <a href="https://swift.org/blog/swift-3.1-released/">Swift 3.1</a>
     </td>
     <td>
       <a href="https://download.developer.apple.com/Developer_Tools/Xcode_8.3/Xcode_8.3.xip">8.3,</a>
@@ -211,7 +211,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
   <tr>
     <td rowspan="2">September 13</td>
     <td>
-      <a href="https://swift.org/blog/swift-3-0-released/">
+      <a href="https://swift.org/blog/swift-3.0-released/">
         <strong>Swift 3.0 ⭐</strong>
       </a>
     </td>
@@ -219,7 +219,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
   </tr>
   <tr>
     <td>
-      <a href="https://swift.org/blog/swift-2-3/">Swift 2.3</a>
+      <a href="https://swift.org/blog/swift-2.3/">Swift 2.3</a>
     </td>
     <td>
       8.0,
@@ -238,7 +238,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
   <tr>
     <td>March 21</td>
     <td>
-      <a href="https://swift.org/blog/swift-2-2-released/">Swift 2.2</a>
+      <a href="https://swift.org/blog/swift-2.2-released/">Swift 2.2</a>
     </td>
     <td>
       <a href="https://download.developer.apple.com/Developer_Tools/Xcode_7.3/Xcode_7.3.dmg">7.3</a>
