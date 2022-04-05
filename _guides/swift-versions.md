@@ -12,7 +12,7 @@ redirect_from:
 {:toc}
 </div>
 
-Last updated April 5, 2022. To use the Xcode download links, log into [developer.apple.com](https://developer.apple.com/) first (Apple Developer membership required). Some Xcode versions are not available for download. ⭐ denotes major release.
+Last updated April 5, 2022. To use the Xcode download links, log into [developer.apple.com](https://developer.apple.com/) first (Apple Developer membership required). Some Xcode versions are not available for download. ⭐ denotes major releases.
 
 ### Open source versions
 
@@ -33,7 +33,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
     </td>
   </tr>
   <tr>
-    <td rowspan="5">2021</td>
+    <td rowspan="6">2021</td>
     <td>December 13</td>
     <td>Swift 5.5.2</td>
     <td>
@@ -49,12 +49,17 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
     </td>
   </tr>
   <tr>
-    <td>September 20</td>
+    <td rowspan="2">September 20</td>
     <td class="nowrap">
       <a href="https://swift.org/blog/swift-5.5-released/"><strong>Swift 5.5</strong></a> ⭐
     </td>
     <td>
       <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13/Xcode_13.xip">13.0</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="table-notes">
+      New: <a href="/async-await">async/await</a>.
     </td>
   </tr>
   <tr>
@@ -102,7 +107,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
     </td>
   </tr>
   <tr>
-    <td rowspan="2">2019</td>
+    <td rowspan="3">2019</td>
     <td>September 20</td>
     <td>
       <a href="https://swift.org/blog/swift-5.1-released/">Swift 5.1</a>
@@ -117,7 +122,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
     </td>
   </tr>
   <tr>
-    <td>March 25</td>
+    <td rowspan="2">March 25</td>
     <td>
       <a href="https://swift.org/blog/swift-5-released/"><strong>Swift 5.0</strong></a> ⭐
     </td>
@@ -125,6 +130,11 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
       <a href="https://download.developer.apple.com/Developer_Tools/Xcode_10.2/Xcode_10.2.xip">10.2</a>,
       <a href="https://download.developer.apple.com/Developer_Tools/Xcode_10.2.1/Xcode_10.2.1.xip">10.2.1</a>,
       <a href="https://download.developer.apple.com/Developer_Tools/Xcode_10.3/Xcode_10.3.xip">10.3</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="table-notes">
+      New: ABI stability.
     </td>
   </tr>
   <tr>
@@ -148,7 +158,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
     </td>
   </tr>
   <tr>
-    <td rowspan="5">2017</td>
+    <td rowspan="6">2017</td>
     <td>December 5</td>
     <td>Swift 4.0.3</td>
     <td>
@@ -163,7 +173,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
     </td>
   </tr>
   <tr>
-    <td>September 19</td>
+    <td rowspan="2">September 19</td>
     <td>
       <a href="https://swift.org/blog/swift-4.0-released/">
         <strong>Swift 4.0 ⭐</strong>
@@ -172,6 +182,11 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
     <td>
       9.0,
       <a href="https://download.developer.apple.com/Developer_Tools/Xcode_9.0.1/Xcode_9.0.1.xip">9.0.1</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="table-notes">
+      New: Codable.
     </td>
   </tr>
   <tr>
@@ -193,7 +208,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
     </td>
   </tr>
   <tr>
-    <td rowspan="6">2016</td>
+    <td rowspan="7">2016</td>
     <td>December 13</td>
     <td>Swift 3.0.2</td>
     <td>
@@ -209,13 +224,18 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
     </td>
   </tr>
   <tr>
-    <td rowspan="2">September 13</td>
+    <td rowspan="3">September 13</td>
     <td>
       <a href="https://swift.org/blog/swift-3.0-released/">
         <strong>Swift 3.0 ⭐</strong>
       </a>
     </td>
     <td>8.0</td>
+  </tr>
+  <tr>
+    <td colspan="2" class="table-notes">
+      New: Swift Package Manager, "The Grand Renaming"
+    </td>
   </tr>
   <tr>
     <td>
@@ -255,7 +275,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
     <th>Part of Xcode versions</th>
   </tr>
   <tr>
-    <td rowspan="3">2015</td>
+    <td rowspan="4">2015</td>
     <td>October 21</td>
     <td>Swift 2.1</td>
     <td>
@@ -266,11 +286,16 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
     </td>
   </tr>
   <tr>
-    <td>September 17</td>
+    <td rowspan="2">September 17</td>
     <td><strong>Swift 2.0 ⭐</strong></td>
     <td>
       7.0,
       <a href="https://download.developer.apple.com/Developer_Tools/Xcode_7.0.1/Xcode_7.0.1.dmg">7.0.1</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="table-notes">
+      New: <a href="/errors">Errors</a>, <a href="/guard">guard</a>
     </td>
   </tr>
   <tr>
