@@ -13,6 +13,7 @@ layout: default
 * [Optionals `?, !`](/optionals)
 * [Closures](/closures) ([mini](/closures-mini))
 * [Functions `func`](/functions)
+* [Cheatsheet](/cheatsheet)
 
 #### Control flow
 
@@ -89,6 +90,7 @@ layout: default
 <!-- * [Protocols](/protocols) * -->
 <!-- * [Generics](/generics) * -->
 <!-- * [Access control](/access-control) * -->
+<!-- * [Codable](/codable) * -->
 
 #### Meta
 
