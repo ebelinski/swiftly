@@ -59,7 +59,7 @@ if let myInt = myInt {
 enum Direction {
   case north, south, east, west
 }
-var direction: Direction = .north
+var direction = Direction.north
 ```
 
 ### [Switch](/switch) statement
