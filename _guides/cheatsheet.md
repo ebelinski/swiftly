@@ -45,8 +45,8 @@ if 5 > 3 {
 
 ```swift
 let myInt: Int? = 5
-if let unwrappedInt = myInt {
-  print("myInt is \(unwrappedInt)")
+if let myInt = myInt {
+  print("myInt is \(myInt)")
 }
 // Output: "myInt is 5"
 ```
@@ -56,19 +56,22 @@ if let unwrappedInt = myInt {
 ### [Enum](/enums)
 
 ```swift
-enum CompassPoint {
+enum Direction {
   case north, south, east, west
 }
-var direction: CompassPoint = .north
+var direction: Direction = .north
 ```
 
 ### [Switch](/switch) statement
 
 ```swift
 switch direction {
-case .north: print("Going north!")
-case .south: print("Going south...")
-default: print("Going east or west.")
+case .north:
+  print("Going north!")
+case .south:
+  print("Going south...")
+default:
+  print("Going east or west.")
 }
 // Output: "Going north!"
 ```
@@ -86,8 +89,8 @@ func square(x: Int) -> Int {
 
 ```swift
 let squareOf6 = square(x: 6)
-print("Square of 6 is: \(squareOf6)")
-// Output: "Square of 6 is: 36"
+print("6^2 is: \(squareOf6)")
+// Output: "6^2 is: 36"
 ```
 
 {% include closecol.html %}{% include opencol.html size=4 %}
@@ -95,11 +98,11 @@ print("Square of 6 is: \(squareOf6)")
 ### Declaring a [struct](/structs-and-classes)
 
 ```swift
-struct MyStruct {
-  var myInt: Int
-  let myStr: String
-  mutating func squareMyInt() {
-    myInt = myInt * myInt
+struct Player {
+  let name: String
+  var score: Int
+  mutating func doubleScore() {
+    score *= 2
   }
 }
 ```
@@ -107,18 +110,17 @@ struct MyStruct {
 ### Instantiating a [struct](/structs-and-classes)
 
 ```swift
-var obj = MyStruct(myInt: 5,
-                   myStr: "Hi! 👋")
-obj.squareMyInt()
-print("\(obj.myStr) \(obj.myInt)")
-// Output: "Hi! 👋 25"
+var sam = Player(name: "Sam", score: 5)
+sam.doubleScore()
+print("\(sam.name)'s score: \(sam.score)")
+// Output: "Sam's score: 10"
 ```
 
 ### [Array](/arrays)
 
 ```swift
-var myArr = [1, 3]
-myArr.append(5)
+var myArr = [10, 20]
+myArr.append(30)
 ```
 
 ### Loop over [array](/arrays)
@@ -129,7 +131,7 @@ for element in myArr {
   sum += element
 }
 print(sum)
-// Output: "9"
+// Output: "60"
 ```
 
 {% include closecol.html closerow=true %}
