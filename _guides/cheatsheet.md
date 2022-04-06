@@ -13,7 +13,7 @@ redirect_from:
 
 ```swift
 let myInt = 5
-let myString = "5.5"
+let myString = "Five"
 ```
 
 ### [Variables](/variables)
@@ -27,7 +27,7 @@ myInt = myInt + 5
 
 ```swift
 let myInt: Int = 5
-let myString: String = "5.5"
+let myString: String = "Five"
 ```
 
 ### [If](/if) statement
