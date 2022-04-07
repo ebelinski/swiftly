@@ -2,16 +2,23 @@
 layout: default
 title: "Sets"
 description: A Swift 5.6 sets reference guide, covering declaration, mutability, type annotations, iteration, and manipulation.
-redirect_from: 
+redirect_from:
   - /set/
 ---
 {::options parse_block_html="true" /}
 
-**Sets** store values of a certain type in an unordered list. Examples:
+**Sets** store unique values of a certain type in an unordered list. Examples:
 
 ```swift
 let numbers: Set<Int> = [1, 3, 5]
 let planets: Set<String> = ["Mars", "Jupiter", "Earth"]
+```
+
+Sets do not guarantee a specific order, and each value can appear only once:
+
+```swift
+let numbers: Set<Int> = [1, 3, 5, 5, 5]
+print(numbers) // [3, 1, 5]
 ```
 
 * TOC
