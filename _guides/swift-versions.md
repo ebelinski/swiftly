@@ -59,7 +59,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
   </tr>
   <tr>
     <td colspan="2" class="table-notes">
-      New: <a href="/async-await">async/await</a>.
+      New: Structured concurrency, <a href="/async-await">async/await</a>, actors.
     </td>
   </tr>
   <tr>
@@ -134,7 +134,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
   </tr>
   <tr>
     <td colspan="2" class="table-notes">
-      New: ABI stability.
+      New: <a href="https://www.swift.org/blog/abi-stability-and-more/">ABI stability</a>, Result type.
     </td>
   </tr>
   <tr>
