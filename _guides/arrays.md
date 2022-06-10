@@ -11,11 +11,23 @@ redirect_from:
 
 **Arrays** store values of a certain type in an ordered list. Examples:
 
+{% include opencol.html size=6 newrow=true %}
+
 ```swift
 let someInts = [1, 3, 5]
 let someStrings = ["Hello", "Planet", "Earth"]
 let someArraysOfInts = [[1, 2], [10, 20]]
 ```
+
+{% include closecol.html %}{% include opencol.html size=6 %}
+
+```swift
+print(someInts[0]) // 1
+print(someStrings[2]) // Earth
+print(someArraysOfInts[1]) // [10, 20]
+```
+
+{% include closecol.html closerow=true %}
 
 * TOC
 {:toc}
