@@ -15,7 +15,7 @@ redirect_from:
   - /num/
 ---
 
-Swift contains three main number types: `Int`, `Float`, and `Double`.
+Swift contains three main number types: `Int`, `Double`, and `Float`.
 
 * TOC
 {:toc}
@@ -42,18 +42,15 @@ print(9 / 4)    // 2 (not 2.25)
 print(100 / 99) // 1 (not ~1.01010101)
 ```
 
-### Floats (`Float`)
+### Doubles (`Double`)
 
-Floating-point numbers are represented by `Floats` and `Doubles`.
-
-By default, numbers with fractional components are usually inferred to be `Floats`:
+`Doubles` are floating-point numbers that are represented as 64-bits. They are similar to `Floats`. By default, numbers with fractional components are usually inferred to be `Doubles`:
 
 ```swift
-let myNumber1 = 5.0 // Inferred to be of type Float
-let myNumber2 = 3.14 // Inferred to be of type Float
+let myNumber = 5.0
 ```
 
-[Arithmetic](/math) can be performed on `Floats` and is more accurate than arithmetic on `Ints`:
+[Arithmetic](/math) can be performed on `Doubles` and is more accurate than arithmetic on `Ints`:
 
 ```swift
 print(20.0 / 3.0)   // 6.666666666666667
@@ -61,14 +58,12 @@ print(9.0 / 4.0)    // 2.25
 print(100.0 / 99.0) // 1.0101010101010102
 ```
 
-### Doubles (`Double`)
+### Floats (`Float`)
 
-`Doubles` are like `Floats`, but they are represented as 64-bits, rather than 32-bits. This means they are _more precise_ but also take up _more space_.
-
-A `Double` is usually defined with an explicit type:
+`Floats` are floating-point numbers that are represented as 32-bits. They are similar to `Doubles`, but they take up _less space_ and are _less precise_.
 
 ```swift
-let myNumber: Double = 5.0
+let myNumber: Float = 5.0
 ```
 
 ### Converting between `Int`, `Float`, and `Double`
