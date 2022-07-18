@@ -23,7 +23,16 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
     <th>Part of Xcode versions</th>
   </tr>
   <tr>
-    <td>2022</td>
+    <td rowspan="2">2022</td>
+    <td><i>TBD</i></td>
+    <td class="nowrap">
+      Swift 5.7 <sup class="beta">BETA</sup>
+    </td>
+    <td>
+      14.0 <sup class="beta">BETA</sup>
+    </td>
+  </tr>
+  <tr>
     <td>March 14</td>
     <td class="nowrap">
       <a href="https://www.swift.org/blog/swift-5.6-released/">Swift 5.6</a>
