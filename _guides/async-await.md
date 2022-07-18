@@ -13,7 +13,7 @@ redirect_from:
 
 **async** and **await** are keywords used to run asynchronous code as if it was synchronous. A function can be marked with `async` to make it asynchronous, and an asyncronous function can be called with `await` to halt execution until the asynchronous function returns.
 
-On Apple platforms, `async`/`await` requires iOS 13+, macOS Monterey+, watchOS 6+, or tvOS 13+. [Dispatch](/dispatch) is compatible with older platforms.
+On Apple platforms, `async`/`await` requires iOS 13+, macOS Monterey+, watchOS 6+, or tvOS 13+. Apple-provided async/await APIs such as URLSession's async methods require iOS 15+, but can be [backported](https://www.swiftbysundell.com/articles/making-async-system-apis-backward-compatible/). [Dispatch](/dispatch) remains as an alternative for older platforms.
 
 * TOC
 {:toc}
