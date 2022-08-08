@@ -310,6 +310,18 @@ li .highlighter-rouge {
     background: $primaryAsBackground;
     color: white;
   }
+
+  .table-notes {
+    code {
+      color: #ddd;
+      font-weight: bold;
+      font-size: 90%;
+    }
+
+    font-size: 90%;
+    background-color: #333;
+    color: #f2f2f2;
+  }
 }
 
 .beta {
