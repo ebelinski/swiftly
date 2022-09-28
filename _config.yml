@@ -24,6 +24,6 @@ plugins:
   - jekyll-sitemap
 
 collections:
-  guides:
+  subpages:
     output: true
     permalink: /:name
