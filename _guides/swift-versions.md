@@ -23,7 +23,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
     <th>Part of Xcode versions</th>
   </tr>
   <tr>
-    <td rowspan="4">2022</td>
+    <td rowspan="5">2022</td>
     <td>September 26</td>
     <td class="nowrap">Swift 5.7.1</td>
     <td>
@@ -31,12 +31,17 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
     </td>
   </tr>
   <tr>
-    <td>September 12</td>
+    <td rowspan="2">September 12</td>
     <td class="nowrap">
       <a href="https://www.swift.org/blog/swift-5.7-released/"><strong>Swift 5.7</strong></a> ⭐
     </td>
     <td>
       <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14/Xcode_14.xip">14.0</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="table-notes">
+      New: Regex.
     </td>
   </tr>
   <tr>
