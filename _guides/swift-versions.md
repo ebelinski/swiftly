@@ -23,14 +23,28 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
     <th>Part of Xcode versions</th>
   </tr>
   <tr>
-    <td rowspan="2">2022</td>
+    <td rowspan="4">2022</td>
+    <td>September 26</td>
+    <td class="nowrap">Swift 5.7.1</td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14.0.1/Xcode_14.0.1.xip">14.0.1</a>
+    </td>
+  </tr>
+  <tr>
     <td>September 12</td>
     <td class="nowrap">
       <a href="https://www.swift.org/blog/swift-5.7-released/">Swift 5.7</a>
     </td>
     <td>
-      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14/Xcode_14.xip">14.0</a>,
-      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14.0.1/Xcode_14.0.1.xip">14.0.1</a>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14/Xcode_14.xip">14.0</a>
+    </td>
+  </tr>
+  <tr>
+    <td>May 16</td>
+    <td class="nowrap">Swift 5.6.1</td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13.4/Xcode_13.4.xip">13.4</a>,
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13.4.1/Xcode_13.4.1.xip">13.4.1</a>
     </td>
   </tr>
   <tr>
