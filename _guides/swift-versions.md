@@ -24,12 +24,13 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
   </tr>
   <tr>
     <td rowspan="2">2022</td>
-    <td><i>TBD</i></td>
+    <td>September 12</td>
     <td class="nowrap">
-      Swift 5.7 <sup class="beta">BETA</sup>
+      <a href="https://www.swift.org/blog/swift-5.7-released/">Swift 5.7</a>
     </td>
     <td>
-      14.0 <sup class="beta">BETA</sup>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14/Xcode_14.xip">14.0</a>,
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14.0.1/Xcode_14.0.1.xip">14.0.1</a>
     </td>
   </tr>
   <tr>
