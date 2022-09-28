@@ -33,7 +33,7 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
   <tr>
     <td>September 12</td>
     <td class="nowrap">
-      <a href="https://www.swift.org/blog/swift-5.7-released/">Swift 5.7</a>
+      <a href="https://www.swift.org/blog/swift-5.7-released/"><strong>Swift 5.7</strong></a> ⭐
     </td>
     <td>
       <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14/Xcode_14.xip">14.0</a>
