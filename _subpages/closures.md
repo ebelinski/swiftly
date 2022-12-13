@@ -179,7 +179,7 @@ A closure can have both a capture list and parameters:
 var greeting = "Hello"
 let greet = { [greeting] (name: String) in print("\(greeting), \(name)") }
 
-greet("Isabella") // Isabella
+greet("Isabella") // Hello, Isabella
 ```
 
 ### Further reading
