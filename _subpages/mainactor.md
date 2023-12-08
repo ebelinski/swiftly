@@ -53,7 +53,7 @@ Task {
 
 ### Limitations
 
-A piece of code marked with `@MainActor` might still contain additional logic that runs on a different threat if it is sent to a different [dispatch](/dispatch) queue:
+A piece of code marked with `@MainActor` might still contain additional logic that runs on a different thread if it is sent to a different [dispatch](/dispatch) queue:
 
 ```swift
 import Foundation
