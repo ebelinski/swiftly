@@ -23,6 +23,21 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
     <th>Part of Xcode versions</th>
   </tr>
   <tr>
+    <td rowspan="2">2023</td>
+    <td rowspan="2">March 30</td>
+    <td class="nowrap">
+      <a href="https://www.swift.org/blog/swift-5.8-released/"><strong>Swift 5.8</strong></a> ⭐
+    </td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14.3/Xcode_14.3.xip">14.3</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="table-notes">
+      New: Variables in Result Builder, Function back deployment, implicit self for weak self captures.
+    </td>
+  </tr>
+  <tr>
     <td rowspan="5">2022</td>
     <td>September 26</td>
     <td class="nowrap">Swift 5.7.1</td>
