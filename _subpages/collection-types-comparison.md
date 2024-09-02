@@ -30,7 +30,7 @@ redirect_from:
 
 | **Arrays** | `let numbers: [Int] = []` or `let numbers = [Int]()` |
 | **Set** | `let numbers: Set<Int> = []` or `let numbers = Set<Int>()` |
-| **Dictionaries** | `let points: [String: Int] = []` or `let points = [String: Int]()` |
+| **Dictionaries** | `let points: [String: Int] = [:]` or `let points = [String: Int]()` |
 
 ### Order
 
