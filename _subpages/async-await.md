@@ -95,7 +95,6 @@ Notice how on the left, `getGames` is executed from top to bottom. In comparison
 
 ```swift
 import Foundation
-import _Concurrency // If using Playgrounds
 
 func getGames() async -> [String] {
   let urlString = "https://swiftly.dev/api/games"
@@ -112,10 +111,8 @@ func getGames() async -> [String] {
   return games
 }
 
-Task {
-  let games = await getGames()
-  print(games)
-}
+let games = await getGames()
+print(games)
 
 // Output: ["Backgammon", "Chess", "Go", "Mahjong"]
 ```
@@ -132,20 +129,16 @@ func getGames(
 ) {
   let urlString = "https://swiftly.dev/api/games"
   let url = URL(string: urlString)!
-  let session = URLSession.shared
-  let decoder = JSONDecoder()
 
-  let task = session.dataTask(with: url) {
+  URLSession.shared.dataTask(with: url) {
     data, _, _ in
-    let games = try! decoder.decode(
+    let games = try! JSONDecoder().decode(
       [String].self,
       from: data!
     )
 
     completion(games)
-  }
-
-  task.resume()
+  }.resume()
 }
 
 getGames() { games in
@@ -163,21 +156,17 @@ Async functions can still throw [errors](/errors), but they must be called with 
 
 ```swift
 import Foundation
-import _Concurrency // If using Playgrounds
 
 func getGames() async throws -> [String] {
-  let 📞 = URL(string: "tel:5555555555")!
-  let (data, _) = try await URLSession.shared.data(from: 📞)
+  let (data, _) = try await URLSession.shared.data(from: URL(string: "https://swiftly.dev/api/games")!)
   return try JSONDecoder().decode([String].self, from: data)
 }
 
-Task {
-  do {
-    let games = try await getGames()
-    print(games)
-  } catch {
-    print("Could not get games: \(error.localizedDescription)")
-  }
+do {
+  let games = try await getGames()
+  print(games)
+} catch {
+  print("Could not get games: \(error.localizedDescription)")
 }
 
 // Output: Could not get games: unsupported URL
@@ -191,7 +180,6 @@ Legacy functions that still use completion blocks can still be called from `asyn
 
 ```swift
 import Foundation
-import _Concurrency // If using Playgrounds
 
 func legacyGetGames(completion: @escaping ([String]) -> Void) {
   URLSession.shared.dataTask(with: URL(string: "https://swiftly.dev/api/games")!) { data, _, _ in
@@ -208,10 +196,8 @@ func getGames() async -> [String] {
   }
 }
 
-Task {
-  let games = await getGames()
-  print(games)
-}
+let games = await getGames()
+print(games)
 
 // Output: ["Backgammon", "Chess", "Go", "Mahjong"]
 ```
@@ -220,11 +206,9 @@ Task {
 
 ```swift
 import Foundation
-import _Concurrency // If using Playgrounds
 
 func legacyGetGames(completion: @escaping (Result<[String], Error>) -> Void) {
-  let 📞 = URL(string: "tel:5555555555")!
-  URLSession.shared.dataTask(with: 📞) { data, _, error in
+  URLSession.shared.dataTask(with: URL(string: "https://swiftly.dev/api/games")!) { data, _, _ in
     if let error = error {
       completion(.failure(error))
       return
@@ -245,13 +229,11 @@ func getGames() async throws -> [String] {
   }
 }
 
-Task {
-  do {
-    let games = try await getGames()
-    print(games)
-  } catch {
-    print("Could not get games: \(error.localizedDescription)")
-  }
+do {
+  let games = try await getGames()
+  print(games)
+} catch {
+  print("Could not get games: \(error.localizedDescription)")
 }
 
 // Output: ["Backgammon", "Chess", "Go", "Mahjong"]
