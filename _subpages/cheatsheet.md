@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Swift 5.6 cheatsheet
-description: A beautiful and clutter-free Swift 5.6 cheatsheet, covering constants, variables, type annotations, if statements, optionals, enums, switch statements, functions, structs, and arrays.
+title: Swift cheatsheet
+description: A beautiful and clutter-free Swift cheatsheet, covering constants, variables, type annotations, if statements, optionals, enums, switch statements, functions, structs, and arrays.
 redirect_from:
   - /swift-cheatsheet/
 ---

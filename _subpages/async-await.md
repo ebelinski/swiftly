@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "async/await"
-description: A Swift 5.6 async/await reference guide, covering declaring async functions, calling them with await, performing parallel work, using async/await with URLSession, and more.
+description: A Swift async/await reference guide, covering declaring async functions, calling them with await, performing parallel work, using async/await with URLSession, and more.
 redirect_from:
   - /async/
   - /await/

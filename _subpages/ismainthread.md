@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "isMainThread"
-description: A Swift 5.6 isMainThread reference guide, with a simple example, an example using Dispatch, and an example using @MainActor and Dispatch.
+description: A Swift isMainThread reference guide, with a simple example, an example using Dispatch, and an example using @MainActor and Dispatch.
 redirect_from:
   - /ismain/
   - /is-main-thread/

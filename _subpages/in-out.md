@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "In-out parameters"
-description: A Swift 5.6 in-out parameter reference guide, with an example of declaring a function with an in-out parameter and passing in an in-out parameter.
+description: A Swift in-out parameter reference guide, with an example of declaring a function with an in-out parameter and passing in an in-out parameter.
 redirect_from:
   - /inout/
 ---

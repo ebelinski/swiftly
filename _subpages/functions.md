@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Functions"
-description: A Swift 5.6 functions reference guide, with different kinds of functions and usage examples.
+description: A Swift functions reference guide, with different kinds of functions and usage examples.
 redirect_from:
   - /function/
   - /func/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "@MainActor"
-description: A Swift 5.6 @MainActor reference guide, covering declaring functions, structs, and classes with @MainActor, and its limitations.
+description: A Swift @MainActor reference guide, covering declaring functions, structs, and classes with @MainActor, and its limitations.
 redirect_from:
   - /main-actor/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Tuples"
-description: A Swift 5.6 tuples reference guide, covering composition and decomposition.
+description: A Swift tuples reference guide, covering composition and decomposition.
 redirect_from:
   - /tuple/
 ---
