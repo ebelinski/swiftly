@@ -243,7 +243,7 @@ do {
 
 * [@MainActor](/mainactor)
 * [Dispatch](/dispatch)
-* [isMainActor](/ismainactor)
+* [isMainThread](/ismainthread)
 
 ### Further reading
 

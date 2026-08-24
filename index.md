@@ -58,7 +58,7 @@ layout: default
 * [Ternary `_ ? _ : _`](/ternary)
 * [Nil-coalescing `??`](/nil-coalescing)
 * [Range `a...b`](/range)
-* [Logical `!` `&&` `!!`](/logical)
+* [Logical `!` `&&` `||`](/logical)
 * [Identity `===` `!==`](/identity)
 
 #### Functional
