@@ -34,11 +34,11 @@ print(divide(x: 5, y: 0))
 
 ```swift
 func greet(name: String?) {
-  guard let unwrapped = name else {
+  guard let name else {
     print("Hello guest!")
     return
   }
-  print("Hello \(unwrapped)!")
+  print("Hello \(name)!")
 }
 greet(name: "Asma")
 greet(name: nil)
@@ -48,3 +48,5 @@ greet(name: nil)
 ```
 
 {% include closecol.html closerow=true %}
+
+`guard let name` is shorthand for `guard let name = name`: it unwraps the optional into a constant of the same name. The unwrapped value can also be given a different name, as in `guard let unwrapped = name`.

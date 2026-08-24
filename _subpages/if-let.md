@@ -15,11 +15,11 @@ redirect_from:
 
 ```swift
 func greet(name: String?) {
-  if let unwrappedName = name {
-    print("Hello \(unwrappedName)!")
+  if let name {
+    print("Hello \(name)!")
   } else {
     print("Hello guest!")
-  }  
+  }
 }
 greet(name: "Asma") // Hello Asma!
 greet(name: nil) // Hello guest!
@@ -39,6 +39,8 @@ greet(name: nil) // Hello guest!
 ```
 
 {% include closecol.html closerow=true %}
+
+`if let name` is shorthand for `if let name = name`: it unwraps the optional into a constant of the same name. The unwrapped value can also be given a different name, as in `if let unwrappedName = name`.
 
 ### See also
 

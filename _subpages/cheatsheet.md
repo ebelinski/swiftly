@@ -45,7 +45,7 @@ if 5 > 3 {
 
 ```swift
 let myInt: Int? = 5
-if let myInt = myInt {
+if let myInt {
   print("myInt is \(myInt)")
 }
 // Output: "myInt is 5"
