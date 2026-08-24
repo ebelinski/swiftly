@@ -13,7 +13,7 @@ redirect_from:
 
 **async** and **await** are keywords used to run asynchronous code as if it was synchronous. A function can be marked with `async` to make it asynchronous, and an asynchronous function can be called with `await` to halt execution until the asynchronous function returns.
 
-On Apple platforms, `async`/`await` requires iOS 13+, macOS Monterey+, watchOS 6+, or tvOS 13+. Apple-provided async/await APIs such as URLSession's async methods require iOS 15+, but can be [backported](https://www.swiftbysundell.com/articles/making-async-system-apis-backward-compatible/) to iOS 13+. [Dispatch](/dispatch) remains as an alternative for older platforms.
+`async`/`await` is the standard way to write asynchronous Swift. [Dispatch](/dispatch) remains common in older codebases.
 
 * TOC
 {:toc}
@@ -141,7 +141,7 @@ func getGames(
   }.resume()
 }
 
-getGames() { games in
+getGames { games in
   print(games)
 }
 
@@ -190,7 +190,7 @@ func legacyGetGames(completion: @escaping ([String]) -> Void) {
 
 func getGames() async -> [String] {
   return await withCheckedContinuation { continuation in
-    legacyGetGames() { games in
+    legacyGetGames { games in
       continuation.resume(returning: games)
     }
   }
@@ -220,7 +220,7 @@ func legacyGetGames(completion: @escaping (Result<[String], Error>) -> Void) {
 
 func getGames() async throws -> [String] {
   return try await withCheckedThrowingContinuation { continuation in
-    legacyGetGames() { result in
+    legacyGetGames { result in
       switch result {
       case .success(let games): continuation.resume(returning: games)
       case .failure(let error): continuation.resume(throwing: error)

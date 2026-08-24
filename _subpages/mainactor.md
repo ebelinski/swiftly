@@ -7,7 +7,9 @@ redirect_from:
 ---
 {::options parse_block_html="true" /}
 
-**@MainActor** is a keyword that is used to ensure a function or class only runs on the main thread. This can be used to ensure that UI updates are only done on the main thread, and not on a background thread.
+**@MainActor** is an attribute that isolates a function or type to the main actor, so it only runs on the main thread. This can be used to ensure that UI updates are only done on the main thread, and not on a background thread.
+
+Since Swift 6.2, projects can opt in to *main actor by default* isolation (on by default in new Xcode app projects), which isolates all code in a module to the main actor without explicit `@MainActor` annotations.
 
 * TOC
 {:toc}
@@ -17,8 +19,6 @@ redirect_from:
 You can ensure that a function only runs on the main thread by marking it with `@MainActor`:
 
 ```swift
-import _Concurrency // If using Playgrounds
-
 @MainActor
 func someFunction() {
   print("This function is running on the main thread.")
@@ -36,8 +36,6 @@ Task {
 You can also ensure an entire [struct or class](/structs-and-classes) runs on the main thread with `@MainActor`:
 
 ```swift
-import _Concurrency // If using Playgrounds
-
 @MainActor
 struct SomeStruct {
   func someFunction() {
@@ -57,7 +55,6 @@ A piece of code marked with `@MainActor` might still contain additional logic th
 
 ```swift
 import Foundation
-import _Concurrency // If using Playgrounds
 
 @MainActor
 func someFunction() {

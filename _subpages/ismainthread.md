@@ -11,7 +11,7 @@ redirect_from:
 ---
 {::options parse_block_html="true" /}
 
-**isMainThread** (part of Foundation) can be used to check to see if the current `Thread` is the main thread.
+**isMainThread** (part of Foundation) can be used to check to see if the current `Thread` is the main thread. In modern Swift concurrency code, prefer [@MainActor](/mainactor) isolation, which lets the compiler guarantee main-thread execution instead of checking for it at runtime (`MainActor.assertIsolated()` is available for runtime assertions).
 
 {% include opencol.html size=6 newrow=true %}
 
@@ -49,7 +49,6 @@ DispatchQueue.global(qos: .background).async {
 
 ```swift
 import Foundation
-import _Concurrency // If using Playgrounds
 
 func someFunction() {
   print("1️⃣ On main thread: \(Thread.isMainThread)")
@@ -80,4 +79,4 @@ DispatchQueue.global(qos: .background).async {
 
 ### Further reading
 
-* [isMainThread documentation](https://developer.apple.com/documentation/foundation/nsthread/1412704-ismainthread)
+* [isMainThread documentation](https://developer.apple.com/documentation/foundation/thread/ismainthread-swift.type.property)

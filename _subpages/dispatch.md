@@ -4,7 +4,9 @@ title: "Dispatch"
 description: A Swift Dispatch reference guide, covering running code on a background thread, main thread, and a practical example.
 ---
 
-**Dispatch** is a framework in Foundation that allows you to run code on different threads. By default, all code on iOS is run on the _main thread_ (also known as the _UI thread_).
+**Dispatch** (Grand Central Dispatch) is a framework for running code on different threads. By default, all code on iOS is run on the _main thread_ (also known as the _UI thread_).
+
+In new code, prefer Swift concurrency — [async/await](/async-await), `Task`, and [@MainActor](/mainactor) — over Dispatch. Dispatch remains common in existing codebases and interoperates with Swift concurrency.
 
 * TOC
 {:toc}
@@ -40,7 +42,7 @@ DispatchQueue.global(qos: .background).async {
 
 ### Run code in the main thread after a delay
 
-With **asyncAfter** it is possible to tell the Dispatch framework to execute a block of code after a **delay**:
+With **asyncAfter** it is possible to tell the Dispatch framework to execute a block of code after a **delay** (the Swift concurrency equivalent is `try await Task.sleep(for: .seconds(3))`):
 
 ```swift
 import Foundation
