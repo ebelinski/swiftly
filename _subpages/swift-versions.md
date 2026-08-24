@@ -12,7 +12,7 @@ redirect_from:
 {:toc}
 </div>
 
-Last updated April 5, 2022. To use the Xcode download links, log into [developer.apple.com](https://developer.apple.com/) first (Apple Developer membership required). Some Xcode versions are not available for download. ⭐ denotes major releases.
+Last updated August 24, 2026. To use the Xcode download links, log into [developer.apple.com](https://developer.apple.com/) first (Apple Developer membership required). Some Xcode versions are not available for download. ⭐ denotes major releases.
 
 ### Open source versions
 
@@ -23,11 +23,176 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
     <th>Part of Xcode versions</th>
   </tr>
   <tr>
-    <td rowspan="5">2022</td>
-    <td>September 26</td>
+    <td rowspan="4">2026</td>
+    <td>June 25</td>
+    <td class="nowrap">Swift 6.3.3</td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_26.6/Xcode_26.6.xip">26.6</a>
+    </td>
+  </tr>
+  <tr>
+    <td>May 13</td>
+    <td class="nowrap">Swift 6.3.2</td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_26.5/Xcode_26.5.xip">26.5</a>
+    </td>
+  </tr>
+  <tr>
+    <td>March 24</td>
+    <td class="nowrap">
+      <a href="https://www.swift.org/blog/swift-6.3-released/">Swift 6.3</a>
+    </td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_26.4/Xcode_26.4.xip">26.4</a>,
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_26.4.1/Xcode_26.4.1.xip">26.4.1</a>
+    </td>
+  </tr>
+  <tr>
+    <td>February 26</td>
+    <td class="nowrap">Swift 6.2.4</td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_26.3/Xcode_26.3.xip">26.3</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="6">2025</td>
+    <td>December 12</td>
+    <td class="nowrap">Swift 6.2.3</td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_26.2/Xcode_26.2.xip">26.2</a>
+    </td>
+  </tr>
+  <tr>
+    <td>November 3</td>
+    <td class="nowrap">Swift 6.2.1</td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_26.1/Xcode_26.1.xip">26.1</a>,
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_26.1.1/Xcode_26.1.1.xip">26.1.1</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">September 15</td>
+    <td class="nowrap">
+      <a href="https://www.swift.org/blog/swift-6.2-released/"><strong>Swift 6.2</strong></a> ⭐
+    </td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_26/Xcode_26.xip">26.0</a>,
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_26.0.1/Xcode_26.0.1.xip">26.0.1</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="table-notes">
+      New: Approachable concurrency (main actor by default), InlineArray and Span, WebAssembly support.
+    </td>
+  </tr>
+  <tr>
+    <td>May 27</td>
+    <td class="nowrap">Swift 6.1.2</td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_16.4/Xcode_16.4.xip">16.4</a>
+    </td>
+  </tr>
+  <tr>
+    <td>March 31</td>
+    <td class="nowrap">
+      <a href="https://www.swift.org/blog/swift-6.1-released/">Swift 6.1</a>
+    </td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_16.3/Xcode_16.3.xip">16.3</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="5">2024</td>
+    <td>December 11</td>
+    <td class="nowrap">Swift 6.0.3</td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_16.2/Xcode_16.2.xip">16.2</a>
+    </td>
+  </tr>
+  <tr>
+    <td>October 28</td>
+    <td class="nowrap">Swift 6.0.2</td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_16.1/Xcode_16.1.xip">16.1</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">September 16</td>
+    <td class="nowrap">
+      <a href="https://www.swift.org/blog/announcing-swift-6/"><strong>Swift 6.0</strong></a> ⭐
+    </td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_16/Xcode_16.xip">16.0</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="table-notes">
+      New: Swift 6 language mode with compile-time data-race safety, typed throws, Embedded Swift.
+    </td>
+  </tr>
+  <tr>
+    <td>March 5</td>
+    <td class="nowrap">
+      <a href="https://www.swift.org/blog/swift-5.10-released/">Swift 5.10</a>
+    </td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_15.3/Xcode_15.3.xip">15.3</a>,
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_15.4/Xcode_15.4.xip">15.4</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="5">2023</td>
+    <td>December 11</td>
+    <td class="nowrap">Swift 5.9.2</td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_15.1/Xcode_15.1.xip">15.1</a>,
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_15.2/Xcode_15.2.xip">15.2</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">September 18</td>
+    <td class="nowrap">
+      <a href="https://www.swift.org/blog/swift-5.9-released/"><strong>Swift 5.9</strong></a> ⭐
+    </td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_15/Xcode_15.xip">15.0</a>,
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_15.0.1/Xcode_15.0.1.xip">15.0.1</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="table-notes">
+      New: Macros, if and switch expressions, C++ interoperability.
+    </td>
+  </tr>
+  <tr>
+    <td>June 1</td>
+    <td class="nowrap">Swift 5.8.1</td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14.3.1/Xcode_14.3.1.xip">14.3.1</a>
+    </td>
+  </tr>
+  <tr>
+    <td>March 30</td>
+    <td class="nowrap">
+      <a href="https://www.swift.org/blog/swift-5.8-released/">Swift 5.8</a>
+    </td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14.3/Xcode_14.3.xip">14.3</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="6">2022</td>
+    <td>December 13</td>
+    <td class="nowrap">Swift 5.7.2</td>
+    <td>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14.2/Xcode_14.2.xip">14.2</a>
+    </td>
+  </tr>
+  <tr>
+    <td>November 1</td>
     <td class="nowrap">Swift 5.7.1</td>
     <td>
-      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14.0.1/Xcode_14.0.1.xip">14.0.1</a>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14.1/Xcode_14.1.xip">14.1</a>
     </td>
   </tr>
   <tr>
@@ -36,7 +201,8 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
       <a href="https://www.swift.org/blog/swift-5.7-released/"><strong>Swift 5.7</strong></a> ⭐
     </td>
     <td>
-      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14/Xcode_14.xip">14.0</a>
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14/Xcode_14.xip">14.0</a>,
+      <a href="https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14.0.1/Xcode_14.0.1.xip">14.0.1</a>
     </td>
   </tr>
   <tr>
@@ -359,7 +525,8 @@ Last updated April 5, 2022. To use the Xcode download links, log into [developer
 
 ### Further reading
 
-* [Swift changelog (GitHub)](https://github.com/apple/swift/blob/master/CHANGELOG.md)
+* [Swift changelog (GitHub)](https://github.com/swiftlang/swift/blob/main/CHANGELOG.md)
 * [Swift releases (Swift.org)](https://swift.org/download/#releases)
-* [Xcode changelog (Apple)](https://developer.apple.com/library/content/releasenotes/DeveloperTools/RN-Xcode/Chapters/Introduction.html)
+* [Xcode release notes (Apple)](https://developer.apple.com/documentation/xcode-release-notes)
+* [XcodeReleases.com](https://xcodereleases.com/)
 * [SwiftVersion.net](https://swiftversion.net/)
