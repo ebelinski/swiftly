@@ -63,4 +63,4 @@ didPressDownloadFileButton() // The user needs 1000 MB to download this file.
 
 ### Further reading
 
-* [Error Handling `📖 Official Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html)
+* [Error Handling `📖 Official Swift Book`](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/errorhandling/)

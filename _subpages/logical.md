@@ -75,4 +75,4 @@ if (loggedIn && accountConfirmed) || browsingAsGuest {
 
 ### Further reading
 
-* [Basic Operators § Logical Operators `📖 Official Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID76)
+* [Basic Operators § Logical Operators `📖 Official Swift Book`](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/basicoperators/#Logical-Operators)

@@ -247,5 +247,5 @@ do {
 
 ### Further reading
 
-* [Concurrency `📖 Official Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/Concurrency.html)
+* [Concurrency `📖 Official Swift Book`](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/concurrency/)
 * [Connecting async/await to other Swift code](https://www.swiftbysundell.com/articles/connecting-async-await-with-other-swift-code/)

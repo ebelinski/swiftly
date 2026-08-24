@@ -73,4 +73,4 @@ print(players[..<2]) // ["Ayesha", "Beatrix"]
 
 ### Further reading
 
-* [Basic Operators § Range Operators `📖 Official Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID73)
+* [Basic Operators § Range Operators `📖 Official Swift Book`](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/basicoperators/#Range-Operators)

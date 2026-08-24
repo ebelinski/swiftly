@@ -184,7 +184,7 @@ greet("Isabella") // Hello, Isabella
 
 ### Further reading
 
-* [Closures `📖 Official Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
+* [Closures `📖 Official Swift Book`](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/closures/)
 
 ### Notes
 

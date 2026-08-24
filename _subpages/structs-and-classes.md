@@ -129,4 +129,4 @@ print(player2.name) // Isabella
 
 ### Further reading
 
-* [Structures and Classes `📖 Official Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)
+* [Structures and Classes `📖 Official Swift Book`](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/classesandstructures/)

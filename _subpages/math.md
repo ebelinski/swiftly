@@ -107,4 +107,4 @@ print(b) // 5
 
 ### Further reading
 
-* [Basic Operators § Arithmetic Operators `📖 Official Swift Book`](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID63)
+* [Basic Operators § Arithmetic Operators `📖 Official Swift Book`](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/basicoperators/#Arithmetic-Operators)
