@@ -11,7 +11,7 @@ redirect_from:
 ---
 {::options parse_block_html="true" /}
 
-**async** and **await** are keywords used to run asynchronous code as if it was synchronous. A function can be marked with `async` to make it asynchronous, and an asyncronous function can be called with `await` to halt execution until the asynchronous function returns.
+**async** and **await** are keywords used to run asynchronous code as if it was synchronous. A function can be marked with `async` to make it asynchronous, and an asynchronous function can be called with `await` to halt execution until the asynchronous function returns.
 
 On Apple platforms, `async`/`await` requires iOS 13+, macOS Monterey+, watchOS 6+, or tvOS 13+. Apple-provided async/await APIs such as URLSession's async methods require iOS 15+, but can be [backported](https://www.swiftbysundell.com/articles/making-async-system-apis-backward-compatible/) to iOS 13+. [Dispatch](/dispatch) remains as an alternative for older platforms.
 
@@ -59,7 +59,7 @@ print(scores)
 
 ### Use `Task` outside of an async context
 
-Calling an `async` function from a synchronous context requires must be done in a `Task`:
+Calling an `async` function from a synchronous context must be done in a `Task`:
 
 ```swift
 Task {
@@ -169,7 +169,7 @@ do {
   print("Could not get games: \(error.localizedDescription)")
 }
 
-// Output: Could not get games: unsupported URL
+// Output: ["Backgammon", "Chess", "Go", "Mahjong"]
 ```
 
 ### Calling completion block functions from an `async` function
@@ -208,8 +208,8 @@ print(games)
 import Foundation
 
 func legacyGetGames(completion: @escaping (Result<[String], Error>) -> Void) {
-  URLSession.shared.dataTask(with: URL(string: "https://swiftly.dev/api/games")!) { data, _, _ in
-    if let error = error {
+  URLSession.shared.dataTask(with: URL(string: "https://swiftly.dev/api/games")!) { data, _, error in
+    if let error {
       completion(.failure(error))
       return
     }

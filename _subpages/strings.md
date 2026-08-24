@@ -51,7 +51,7 @@ print(myString)
 
 {% include closecol.html closerow=true %}
 
-### String length with `.count()` and `.isEmpty`
+### String length with `.count` and `.isEmpty`
 
 {% include opencol.html size=6 newrow=true %}
 

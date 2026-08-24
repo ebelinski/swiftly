@@ -26,13 +26,13 @@ enum DownloadError: Error {
 
 ```swift
 func downloadFile(mbFree: Int) throws {
-  var userIsAuthorized = true
-  var mbFileSize = 1000
+  let userIsAuthorized = true
+  let mbFileSize = 1000
 
   if !userIsAuthorized {
     throw DownloadError.unauthorized
   } else if mbFree < mbFileSize {
-    throw DownloadError.notEnoughSpace(mbNeeded: apiManager.mbFileSize)
+    throw DownloadError.notEnoughSpace(mbNeeded: mbFileSize)
   } else {
     // File download logic goes here
   }
