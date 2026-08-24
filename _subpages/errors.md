@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Errors"
-description: A Swift errors reference guide, covering error declaration, throwing errors, and catching errors.
+description: A Swift errors reference guide, covering error declaration, throwing errors, catching errors, and typed throws.
 redirect_from: 
   - /error/
 ---
@@ -60,6 +60,35 @@ func didPressDownloadFileButton() {
 ```swift
 didPressDownloadFileButton() // The user needs 1000 MB to download this file.
 ```
+
+### Typed throws
+
+Since Swift 6.0, a function can declare exactly which [error](/errors) type it throws with `throws(...)`. Inside the function, `throw` can use shorthand member syntax, and at the call site the compiler knows the concrete error type, so a `switch` over it is exhaustive without a fallback clause:
+
+```swift
+func downloadFile(mbFree: Int) throws(DownloadError) {
+  guard mbFree >= 1000 else {
+    throw .notEnoughSpace(mbNeeded: 1000)
+  }
+  // File download logic goes here
+}
+
+do {
+  try downloadFile(mbFree: 500)
+} catch {
+  // error is a DownloadError here, not `any Error`
+  switch error {
+  case .unauthorized:
+    print("The user is not authorized to download this file.")
+  case .notEnoughSpace(let mbNeeded):
+    print("The user needs \(mbNeeded) MB to download this file.")
+  }
+}
+
+// Output: The user needs 1000 MB to download this file.
+```
+
+Untyped `throws` remains the right default for most code; typed throws is most useful in generic code and constrained environments like Embedded Swift.
 
 ### Further reading
 
