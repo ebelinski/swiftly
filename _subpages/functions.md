@@ -75,7 +75,7 @@ print(multiply(x: 5, y: 6)) // 30
 
 ### Function with a default parameter value
 
-This function takes two parameters, both `Ints`, and returns an `Int`.
+This function takes one optional parameter `String`.
 
 {% include opencol.html size=7 newrow=true %}
 
